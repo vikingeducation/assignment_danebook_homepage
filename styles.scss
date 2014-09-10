@@ -1,0 +1,70 @@
+/* Bootstrap Extensions for Danebook Homepage
+
+-----------------------------------------*/
+
+
+.btn-long {
+  padding: 2px;
+  font-size: 1.5em;
+  background-color: #0fa735;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 0;
+  box-shadow: 2px 3px 2px 2px #4c4b4b; 
+  }
+  
+  .friends {
+	  margin-top: 45px;
+	  
+	  li {
+		  font-size: 1em;
+		  color: #979797;
+		  margin-top: 20px;
+	  }
+  }
+  
+  .navbar-default {
+	  background-image: none;
+	  background-color: #2e75de;
+	  color: #fff;
+	  border-radius: 0;
+	  border: none;
+	  height: 100px;
+	  
+	  .navbar-form {
+		  margin-top: 15px;
+	  }
+  }
+  
+  
+  .navbar-header{
+	  
+	  a {
+		  font-size: 3em;
+		  line-height: normal;
+		  margin: 10px 0 0 20px;
+	  }
+	  
+	  a:link {
+		  color: #fff;
+	  }
+  }
+  
+  .btn-primary {
+	  background-color: #6caafa;
+	  color: #000;
+	  padding: 5px 15px;
+	  font-weight: bold;
+	  margin: 0 0 3px 7px;
+	  border-radius: 0;
+	  box-shadow: 1px 1px 1px 1px #000;
+  }
+  
+  .custom-form {
+	  border-radius: 0;
+	  border: 2px solid #000;
+  }
+  
+  main .custom-form {
+	  border: 2px solid #ccc;
+  }

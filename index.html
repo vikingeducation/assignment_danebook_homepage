@@ -4,23 +4,21 @@
 		<meta charset="utf-8">
 		<title>Danebook</title>
 		
-		<!-- additional css file -->
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+		<!-- Bootstrap Extensions -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		
 	</head>
 	
 	<body>
 	
 	<nav class="navbar navbar-default" role="navigation">
-<!--   	<div class="container"> -->
+  	  
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -34,23 +32,23 @@
         <form class="navbar-form navbar-right" role="form">
           <div class="form-group">
           	<p>Email</p>
-            <input type="text" class="form-control">
+            <input type="text" class="custom-form form-control">
           </div>
           <div class="form-group">
           	<p>Password</p>
-            <input type="password" class="form-control">
-            <button type="submit" class="btn btn-success">Log in</button>
+            <input type="password" class="custom-form form-control">
+            <button type="submit" class="btn btn-primary">Log In</button>
           </div>
           
         </form>
       </div><!--/.navbar-collapse -->
-<!--     </div> -->
+   
   </nav>
   
   <main class="container">
   
-	  <section class ="col-md-6">
-  		<h2>Connect with all your friends!</h2>
+	<section class ="col-md-6 friends">
+  		<h3>Connect with all your friends!</h3>
   			<ul>
   				<li>See photos and updates in your news feed</li>
   				<li>Post your status for the world to see from your profile</li>
@@ -63,25 +61,25 @@
   	  <h2>Sign Up</h2>
   	  	<form class="form-horizontal">
   	  	<div class="form-group">
-	  	  <div class="col-sm-6"><input type="text" class="form-control" placeholder="First Name"></div>
-	  	  <div class="col-md-6"><input type="text" class="form-control" placeholder="Last Name"></div>
+	  	  <div class="col-sm-6"><input type="text" class="custom-form form-control" placeholder="First Name"></div>
+	  	  <div class="col-md-6"><input type="text" class="custom-form form-control" placeholder="Last Name"></div>
   	  	</div>
   	  	
   	  	<div class="form-group">
-  	  	  <div class="col-sm-12"><input type="text" class="form-control" placeholder="Your Email"></div>	
+  	  	  <div class="col-sm-12"><input type="text" class="custom-form form-control" placeholder="Your Email"></div>	
   	  	</div>
    
   	  	<div class="form-group">
-  	  	  <div class="col-sm-12"><input type="text" class="form-control" placeholder="Your New Password"></div>	
+  	  	  <div class="col-sm-12"><input type="text" class="custom-form form-control" placeholder="Your New Password"></div>	
   	  	</div>
   	  	
   	  	<div class="form-group">
-  	  	  <div class="col-sm-12"><input type="text" class="form-control" placeholder="Confirm Your Password"></div>	
+  	  	  <div class="col-sm-12"><input type="text" class="custom-form form-control" placeholder="Confirm Your Password"></div>	
   	  	</div>
   	  	
   	  	<div><p>Birthday</p></div>
   	  	
-  	  	<div class="row">
+  	  	<div class="form-group">
   	  	<div class="col-sm-4">
   	  	  <select class="form-control">
 	        <option>Month</option>
@@ -243,25 +241,29 @@
             <option>2014</option>           
           </select>	
   	  	</div>
+  	  	
   	  	</div>
+  	  	
   	  	
   	  </form>
   	  
   	  <div>
   	  	  <label class="radio-inline">
-	  	    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Male
+	  	    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Female
 	  	  </label>
 	  	  <label class="radio-inline">
-		    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">Female
+		    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">Male
 		  </label>
   	  	</div>
   	  	
-  	  	<div class="col-sm-12">
-  	  	  <button type="button" class="btn btn-lg btn-primary">Sign Up!</button>
+  	  	<div class="form-group">
+  	  	  <button type="button" class="btn btn-long btn-success">Sign Up!</button>
   	  	</div>
-  	  
   	    
   	</section>
+  	
+  		
+  	  
   
   
   </main>
