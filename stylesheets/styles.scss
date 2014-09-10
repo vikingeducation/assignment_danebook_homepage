@@ -1,8 +1,72 @@
-a {
-	color:blue;
+.navbar {
+	background-color:#3B5998;
+	#logo {
+		color:#eee;
+		font-size:3em;
+		margin-top:10px;
+	} label {
+		color:#eee;
+		font-size:.8em;	
+	} button {
+		background-color:#617AAC;
+		border:1px solid #29447E;
+	} button:hover {
+		background-color:#88afff;
+		border:1px solid #29447E;
+	}
+
+}
+
+header {
+	.navInput{
+		float:left;
+		padding-left:5px;
+		padding-right:5px;
+	} .navLabel {
+		display:block;
+	} button {
+		margin-top:4.5%;
+	}
+}
+
+navbar-collapse {
+	padding-bottom:3px;
+}
+
+.home_left {
+	padding-left:5%;
+	h2 {
+		margin-top:18%;
+	}
+
+}
+
+h1, h2, p{  /* change default text from black on white to grey on white to avoid contrast */
+	color:#4a4a4a;
+}
+.home_left ul {
+	font-size:1.25em;
+	line-height:2;
+	padding-top:5px;
+	color:#818181;
 }
 
 body {
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom:20px;
+}
+#birthday {
+	font-size:1.5em;
+}
+
+#sign_up_button {
+	box-shadow:3px 3px 5px 1px #ccc;
+}
+
+.navbar-toggle .icon-bar { /* custom collapsed nav dropdown button (changed color scheme a bit */
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
 }
