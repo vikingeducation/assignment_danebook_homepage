@@ -1,35 +1,30 @@
-.navbar-inverse{
-	background-color: #3b5999;
-}
+#homepage .navbar-inverse {
+  background-color: #3b5999; }
+#homepage .black-border {
+  border-color: #000000;
+  border-width: 1px; }
+#homepage button {
+  color: #09f; }
+#homepage .login-button {
+  margin-top: 6%; }
+#homepage button p {
+  margin: 5%; }
+#homepage .container a {
+  padding-bottom: 0%;
+  padding-top: 3.5%; }
+#homepage div p, #homepage button p {
+  color: #fff; }
+#homepage div a p {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: #fff; }
+#homepage .float-left {
+  float: left; }
+#homepage .float-right {
+  float: right; }
+#homepage .height-100-percent {
+  height: 100%; }
+#homepage .input40 {
+  width: 40%; }
 
-.black-border{
-	border-color: #000000;
-	border-width: 1px;
-}
-
-button{
-	color: #09f;
-}
-
-.login-button{
-	margin-top: 6%;
-}
-
-button p{
-	margin: 5%;
-}
-
-.container a{
-	padding-bottom: 0%;
-	padding-top: 3.5%;
-}
-
-div p, button p{
-	color: #fff;
-}
-
-div a p{
-	font-weight: bold;
-	font-size: 1.8em;
-	color: #fff;
-}
+/*# sourceMappingURL=overrides.css.map */
