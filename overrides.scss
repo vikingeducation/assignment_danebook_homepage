@@ -51,6 +51,12 @@ main {
     }
 }
 
+
+/* These three fix the firstname lastname form alignment*/
+#signup-width {
+  width: 100%;
+}
+
 #firstName {
   width: 48%;
 }
@@ -59,5 +65,3 @@ main {
   width: 48%;
   float: right;
 }
-
-
