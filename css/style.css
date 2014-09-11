@@ -1,0 +1,32 @@
+body {
+  font-family: "Lucida sans";
+  padding-top: 60px; }
+
+.danish-navbar {
+  background-color: #C60C30;
+  border: #C60C30;
+  height: 80px; }
+
+.menu-btn {
+  margin-top: 20px; }
+
+.responsive-wrapper {
+  background-color: #C60C30;
+  border: #C60C30; }
+  .responsive-wrapper .sign-in-wrapper {
+    border-color: #C60C30; }
+
+.sign-in-label {
+  color: white !important; }
+  .sign-in-label p {
+    margin: 0; }
+
+.navbar-email-group {
+  display: block; }
+
+.sign-in-btn {
+  background-color: #940924;
+  color: white;
+  border: 1px solid #333; }
+
+/*# sourceMappingURL=style.css.map */
