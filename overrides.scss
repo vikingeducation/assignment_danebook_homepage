@@ -2,16 +2,15 @@
 $danebook: #2B78E4;
 
 #login-navbar {
-  vertical-align: middle;
+
 }
 
 .navbar-default {
     background-color: $danebook;
     color: #fff;
     border-bottom: 3px solid #333;
-    min-height: 6em;
-    vertical-align: middle;
-    padding-top: 1em;
+    min-height: 96px;
+    padding-top: 20px;
     .container-fluid {
       .navbar-header {
 
@@ -30,3 +29,18 @@ form button[type="submit"] {
   border: 2px solid black;
   box-shadow: 3px 3px 3px black;
 }
+
+#login-button-column {
+  height: 100%;
+  position: relative;
+  bottom: -24px;
+
+  button {
+    width: 100px;
+    font-weight: bold;
+    background-color: #9FC5F8;
+  }
+}
+
+
+
