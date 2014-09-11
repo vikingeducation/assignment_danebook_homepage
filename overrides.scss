@@ -1,9 +1,6 @@
 /* color of the main header background*/
 $danebook: #2B78E4;
 
-#login-navbar {
-
-}
 
 .navbar-default {
     background-color: $danebook;
@@ -30,6 +27,7 @@ form button[type="submit"] {
   box-shadow: 3px 3px 3px black;
 }
 
+/* hack to get login submit button inline with labeled text fields*/
 #login-button-column {
   height: 100%;
   position: relative;
@@ -42,5 +40,24 @@ form button[type="submit"] {
   }
 }
 
+
+
+/* pixel-perfect stuff on the signup portion*/
+main {
+    section {
+        input {
+            margin-bottom: 8px;
+        }
+    }
+}
+
+#firstName {
+  width: 48%;
+}
+
+#lastName {
+  width: 48%;
+  float: right;
+}
 
 
