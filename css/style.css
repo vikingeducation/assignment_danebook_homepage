@@ -27,6 +27,21 @@ body {
 .sign-in-btn {
   background-color: #940924;
   color: white;
-  border: 1px solid #333; }
+  border: 1px solid #333;
+  box-shadow: 2px 2px 2px 0 #333 inset; }
+
+.value-messages {
+  color: #555; }
+  .value-messages ul {
+    list-style-type: none;
+    padding: 0; }
+    .value-messages ul li {
+      margin: 10px 0; }
+      .value-messages ul li img {
+        padding: 10px; }
+      .value-messages ul li #like {
+        height: 70px;
+        width: auto;
+        opacity: 0.5; }
 
 /*# sourceMappingURL=style.css.map */

@@ -37,7 +37,27 @@ body {
 	background-color:#940924;
 	color:white;
 	border:1px solid #333;
+	box-shadow: 2px 2px 2px 0 #333 inset;
 
+}
+
+.value-messages {
+	color:#555;
+	ul {
+		list-style-type: none;
+		padding:0;
+		li {
+			margin: 10px 0;
+			img {
+				padding: 10px;
+			}
+			#like {
+				height:70px;
+				width:auto;
+				opacity: 0.5;
+			}
+		}
+	}
 }
 
 
