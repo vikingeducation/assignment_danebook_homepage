@@ -21,8 +21,8 @@
   font-size: 3em;
   margin-top: 20px;
   margin-left: 20px; }
-.navbar-header a:link {
-  color: #fff; }
+  .navbar-header p {
+	  color: #fff; }
 
 .navbar-collapse {
 	border: none; }
