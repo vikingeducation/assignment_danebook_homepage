@@ -10,6 +10,8 @@ body {
     border-color: white;
     margin-top: 36px; }
   #login-bar h1 {
+    color: white;
+    font-size: 48px;
     line-height: 64px; }
   #login-bar form {
     color: white; }
@@ -20,16 +22,17 @@ body {
       color: #222;
       vertical-align: bottom; }
 
-#logo {
-  color: white;
-  font-size: 48px; }
+#hero-text {
+  background-color: white; }
+  #hero-text ul {
+    line-height: 54px;
+    font-size: 16px;
+    color: #777; }
 
-#hero-text li {
-  line-height: 40px;
-  font-size: 20px;
-  color: #777; }
-
-#sign-up-button {
+#sign-up-form h3 {
+  font-size: 48px;
+  padding-bottom: 20px; }
+#sign-up-form button {
   width: 100%; }
 
 /*# sourceMappingURL=danebook.css.map */

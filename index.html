@@ -34,7 +34,7 @@
             <span class="icon-bar"></span>
           </button>
           <a>
-            <h1 id="logo">Danebook</h1>
+            <h1>Danebook</h1>
           </a>
         </header>
         <div class="navbar-collapse collapse">
@@ -55,7 +55,7 @@
 
     <main class="container">
       <div class="row">
-        <aside class="col-8-md" id="hero-text">
+        <aside class="col-md-6 jumbotron" id="hero-text">
           <h2>Connect with all your friends!</h2>
           <ul>
             <li>See photos and updates in your news feed.</li>
@@ -64,38 +64,48 @@
             <li>Like things because you're a positive person.</li>
           </ul>
         </aside>
-        <form class="col-4-md">
-          <h2>Sign Up</h2>
-          <div class="form-inline form-group">
-            <div class="form-group">
+        <form class="col-md-6 form-horizontal" id="sign-up-form">
+          <h3>Sign Up</h3>
+          <div class="form-group">
+            <div class="col-md-6">
               <input type="text" class="form-control" placeholder="First Name">
             </div>
-            <div class="form-group">
+            <div class="col-md-6">
               <input type="text" class="form-control" placeholder="Last Name">
             </div>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email">
+            <div class="col-md-12">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
           </div>
           <div class="form-group">
-            <input type="password" class="form-control" placeholder="Your New Password">
+            <div class="col-md-12">
+              <input type="password" class="form-control" placeholder="Your New Password">
+            </div>
           </div>
           <div class="form-group">
-            <input type="password" class="form-control" placeholder="Confirm Your Password">
-          </div>
-          <p><b>Birthday</b></p>
-          <div class="form-group">
-            <input type="date" class="form-control">
+            <div class="col-md-12">
+              <input type="password" class="form-control" placeholder="Confirm Your Password">
+            </div>
           </div>
           <div class="form-group">
-            <label class="radio-inline">
-              <input type="radio" name="inlineRadioOptions" value="female">Female
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="inlineRadioOptions" value="male">Male
-            </label>
+            <label class="col-md-12">Birthday</label>
+            <div class="col-md-12">
+              <input type="date" class="form-control">
+            </div>
           </div>
-          <button class="btn btn-success btn-lg" id="sign-up-button">Sign Up!</button>
+          <div class="form-group">
+            <div class="col-md-12">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" value="female">Female
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" value="male">Male
+              </label>
+            </div>
+          </div>
+          <button class="btn btn-success btn-lg">Sign Up!</button>
           </div>
         </form>
       </div>
