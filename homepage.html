@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="overrides.css">
+</head>
+  
+  
+  
+  
+<body>
+  <!-- navbar containing logo and logins-->
+  <nav id = "login-navbar" class = "navbar navbar-default navbar-static-top">
+    <div class = "container-fluid">
+      <!-- responsive mobile stuff -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <!--company brand link -->
+        <a class="navbar-brand" id = "brand-link" href="#">Danebook</a>
+      </div>
+      
+      <!-- wraps rest of links to collapse in mobile-->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+      <div class = "row">  
+        <form class="navbar-form navbar-right" role="login">
+          <div class = "col-md-4">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+          </div>
+
+          <div class = "col-md-4">
+            <div class= "form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+
+          <div class = "col-md-4">
+            <button type="submit" class="btn btn-info">Login</button>
+          </div>
+        </form>
+        
+
+      </div><!--row-->  
+      </div><!--navbar-collapse-->
+    </div><!--container-->
+  </nav>
+  
+  
+  
+<!--contains everything below the navbar-->
+  <main class = "container">
+    <div class = "row">
+
+      
+      <!--Promo copy-->
+      <section class = "col-md-7">
+        <h2>Connect with all your friends!</h2>
+        <ul>
+          <li><strong>See photos and updates</strong> in your news feed.</li>
+          <li><strong>Post your status for the world to see</strong> from your profile.</li>
+          <li><strong>Get in touch with your friends</strong> by "friending" them.</li>
+          <li><strong>Like things</strong> because you're a positive person!</li>
+        </ul>
+      </section>
+
+
+
+      <!--Signup form section-->
+      <section class = "col-md-5">
+        <h2>Sign Up</h2>
+        <form class="form-inline" role="signup">
+          <div class="form-group">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+          </div>
+        </form>
+        
+        <form role="signup">
+          <div class="form-group">
+            <input type="email" class="form-control" id="signup-email" placeholder="Your Email">
+            <input type="password" class="form-control" id="signup-password" placeholder="Enter Your Password">
+            <input type="password" class="form-control" id="signup-password-confirm" placeholder="Confirm Your Password">
+          </div>
+        </form>
+        
+        <form class="form-inline" role="signup">
+          <div id="birthday" class="form-group">
+            <label for="birthday">Birthday</label>
+            <select class="form-control" placeholder = "Month">
+              <option value="" default selected>Month</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+            <select class="form-control" placeholder = "Month">
+              <option value="" default selected>Day</option>
+             </select>
+             <select class="form-control">
+              <option value="" default selected>Year</option>
+             </select>
+                        
+          </div> <!--form-group-->
+        </form>
+
+        <form>
+          
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Female
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Male
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Another Identity
+          </label>
+        </form>
+        
+        <form>
+          <button type ="submit" id="btn-signup" class="form-control btn btn-success btn-block">Sign Up!</button>
+        </form>
+        
+      </section>
+      
+    </div><!--row-->
+  </main> <!--container-->
+  
+</body>
+</html>

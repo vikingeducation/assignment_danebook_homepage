@@ -1,0 +1,20 @@
+/* color of the main header background*/
+#login-navbar {
+  vertical-align: middle; }
+
+.navbar-default {
+  background-color: #2b78e4;
+  color: #fff;
+  border-bottom: 3px solid #333;
+  min-height: 6em;
+  vertical-align: middle;
+  padding-top: 1em; }
+  .navbar-default .container-fluid .navbar-header a {
+    color: #fff;
+    font-size: 36px; }
+
+/* square and shadowed like the mockup */
+form button[type="submit"] {
+  border-radius: 0;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px black; }
