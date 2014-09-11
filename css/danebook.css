@@ -1,4 +1,21 @@
 body {
-  padding-top: 50px; }
+  padding-top: 100px; }
+
+#login-bar {
+  height: 100px;
+  background: linear-gradient(#4C67A1, #3B5998);
+  border-bottom: 1px solid #21346B;
+  box-shadow: 1px 1px 1px #B9BABB; }
+  #login-bar form {
+    color: white; }
+    #login-bar form p {
+      margin-bottom: 0; }
+    #login-bar form button {
+      color: #222;
+      vertical-align: bottom; }
+
+#logo {
+  color: white;
+  font-size: 48px; }
 
 /*# sourceMappingURL=danebook.css.map */
