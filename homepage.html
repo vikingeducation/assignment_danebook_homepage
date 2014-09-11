@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+    <script src="js/konami.js"></script>
   </head>
   <body>
       <!--[if lt IE 7]>
@@ -25,13 +25,15 @@
       <div class="navbar-content-wrapper container">
 
         <div class="navbar-header">
+
           <button type="button" class="menu-btn navbar-toggle collapsed" data-toggle="collapse" data-target=".responsive-wrapper">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="logo navbar-brand" href="http://thechive.files.wordpress.com/2012/02/strange-stock-photos-funny-2.jpg"><img src="danebook.png"></a>
+
+          <a class="navbar-brand" href="http://i.dailymail.co.uk/i/pix/2014/09/09/1410296200098_wps_84_scarf_bro_7_png.jpg"><img class="logo" src="danebook.png"></a>
         </div>
 
         <div class="responsive-wrapper navbar-collapse collapse" style="height:1px;">
@@ -56,9 +58,9 @@
     <main class="jumbotron">
       <div class="homepage-content-wrapper container">
         <section class="messaging-sign-in-row row">
-          <div class="messaging col-xs-6">
+          <div class="messaging col-lg-offset-1 col-md-6">
             <header> 
-              <h2>Connect with friends</h2>
+              <h2><strong>Connect with friends</strong></h2>
             </header>
 
             <div class="value-messages">
@@ -89,11 +91,50 @@
             </div>
 
           </div>
-          <div class="sign-up-block col-xs-6">
+          <div class="sign-up-block col-md-5">
             <header> 
-              <h2><strong>Sign up</strong></h2>
+              <h2><strong>Sign Up</strong></h2>
+              <h4>It's free and always will be</h4>
             </header>
+            
+            <form class="sign-up-form-group" role="form">
+              <div class="sign-up-names row">
+                <div class="sign-up-first-name col-md-6 form-group" >
+                  <input type="text" class="input-lg form-control" id="sign-up-name-1" placeholder="First name">
+                </div>
 
+                <div class="sign-up-last-name col-md-6 form-group" >
+                  <input type="text" class="input-lg form-control" id="sign-up-name-2" placeholder="Last name">
+                </div>
+              </div>
+
+              <div class="sign-up-email form-group">
+                <input type="email" class="input-lg form-control" id="sign-up-email-1" placeholder="Email">
+              </div>
+
+              <div class="sign-up-email form-group">
+                <input type="email" class="input-lg form-control" id="sign-up-email-2" placeholder="Re-enter email">
+              </div>
+
+              <div class="form-group">
+                <input type="password" class="input-lg form-control" id="exampleInputPassword1" placeholder="New password">
+              </div>
+
+              <div class="birthday-block">
+              <h2>
+                
+              </h2>
+              </div>
+
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-default">Submit</button>
+
+            </form>
               
           </div>
 

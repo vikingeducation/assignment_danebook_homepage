@@ -1,13 +1,32 @@
 
 body {
 	font-family: "Lucida sans";
-	padding-top: 60px;
+	padding-top: 50px;
 }
-// NAVBAR STYLES
+
+header {
+	font-family: "Freight sans bold";
+}
+
+.konami {
+	opacity: 0;
+	background-image:url("http://antiekllc.com/wp-content/uploads/2014/07/cartoon-banana-dancing-5.jpg")
+}
+
+/* NAVBAR STYLES */
 .danish-navbar {
 	background-color: #C60C30;
 	border: #C60C30;
 	height: 80px;
+}
+.navbar-header{
+	padding-left: 80px;
+	a{
+		.logo {
+			width:170px;
+			height:auto;
+		}
+	}
 }
 
 .menu-btn {
@@ -37,15 +56,21 @@ body {
 	background-color:#940924;
 	color:white;
 	border:1px solid #333;
-	box-shadow: 2px 2px 2px 0 #333 inset;
+	box-shadow: 2px 2px 2px 0 #333;
 
+}
+/* MESSAGING STYLES  */
+.messaging {
+	h2 {
+		padding: 40px 0 24px;
+	}
 }
 
 .value-messages {
 	color:#555;
 	ul {
 		list-style-type: none;
-		padding:0;
+		padding:0 0 30px;
 		li {
 			margin: 10px 0;
 			img {
@@ -57,6 +82,16 @@ body {
 				opacity: 0.5;
 			}
 		}
+	}
+}
+
+/* SIGN UP BLOCK STYLES */
+.sign-up-block {
+	h2 {
+		font-size:36px;
+	}
+	h4 {
+		padding-bottom: 20px;
 	}
 }
 
