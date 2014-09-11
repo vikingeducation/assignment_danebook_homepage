@@ -1,7 +1,11 @@
 
 body {
 	font-family: "Lucida sans";
-	padding-top: 50px;
+	padding-top: 40px;
+}
+
+.homepage-content-wrapper {
+	margin-bottom: 0;
 }
 
 header {
@@ -33,7 +37,7 @@ header {
 	margin-top:20px;
 }
 
-.responsive-wrapper {
+.nav-responsive-wrapper {
 	background-color: #C60C30;
 	border: #C60C30;
 	.sign-in-wrapper {
@@ -56,7 +60,8 @@ header {
 	background-color:#940924;
 	color:white;
 	border:1px solid #333;
-	box-shadow: 2px 2px 2px 0 #333;
+	box-shadow: 1px 1px 1px 0 #333;
+
 
 }
 /* MESSAGING STYLES  */
@@ -90,9 +95,34 @@ header {
 	h2 {
 		font-size:36px;
 	}
-	h4 {
-		padding-bottom: 20px;
+	.for-lawyers {	
+	font-size: 10px;
 	}
 }
+
+.sign-up-gender {
+	li{
+		list-style: none;
+		display: inline-block;
+		padding-right: 20px;
+	}
+}
+
+.sign-up-btn {
+	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+hr {
+	padding:0;
+	margin:0;
+}
+
+footer {
+	margin: 20px;
+}
+
+
+
+
 
 
