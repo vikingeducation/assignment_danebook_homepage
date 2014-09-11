@@ -5,10 +5,16 @@ body {
   height: 100px;
   background: linear-gradient(#4C67A1, #3B5998);
   border-bottom: 1px solid #21346B;
-  box-shadow: 1px 1px 1px #B9BABB; }
+  box-shadow: 0px 2px 2px #B9BABB; }
+  #login-bar button.navbar-toggle {
+    border-color: white;
+    margin-top: 36px; }
+  #login-bar h1 {
+    line-height: 64px; }
   #login-bar form {
     color: white; }
     #login-bar form p {
+      padding-top: 10px;
       margin-bottom: 0; }
     #login-bar form button {
       color: #222;
@@ -17,6 +23,11 @@ body {
 #logo {
   color: white;
   font-size: 48px; }
+
+#hero-text li {
+  line-height: 40px;
+  font-size: 20px;
+  color: #777; }
 
 #sign-up-button {
   width: 100%; }
