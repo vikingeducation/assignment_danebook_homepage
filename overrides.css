@@ -15,6 +15,7 @@ form button[type="submit"] {
   border: 2px solid black;
   box-shadow: 3px 3px 3px black; }
 
+/* hack to get login submit button inline with labeled text fields*/
 #login-button-column {
   height: 100%;
   position: relative;
@@ -23,3 +24,25 @@ form button[type="submit"] {
     width: 100px;
     font-weight: bold;
     background-color: #9FC5F8; }
+
+/* pixel-perfect stuff on the signup portion*/
+main section input {
+  margin-bottom: 8px; }
+
+/* These three fix the firstname lastname form alignment*/
+#signup-width {
+  width: 100%; }
+
+#firstName {
+  width: 48%; }
+
+#lastName {
+  width: 48%;
+  float: right;
+  margin-top: 0; }
+
+form[role="signup"] {
+  margin-bottom: 8px; }
+
+#btn-signup {
+  font-weight: bold; }
