@@ -1,3 +1,6 @@
+/* Keep overrides minimal to avoid fighting Bootstrap */
+
+
 /* color of the main header background*/
 $danebook: #2B78E4;
 
@@ -8,8 +11,8 @@ $danebook: #2B78E4;
     border-bottom: 3px solid #333;
     min-height: 96px;
     padding-top: 20px;
+    
     .navbar-header {
-
       a {
         color: #fff;
         font-size: 36px;
@@ -18,44 +21,15 @@ $danebook: #2B78E4;
 }
 
 
-/* hack to get login submit button inline with labeled text fields*/
-#login-button-column {
-  height: 100%;
-  position: relative;
-  bottom: -24px;
 
-  button {
-    width: 100px;
-    font-weight: bold;
-    background-color: #9FC5F8;
+/* space out these forms
+Sometimes need deep specificity to override Bootstrap*/
+ 
+#sign-up-forms {
+  form {
+    input, select {
+      margin-bottom: 8px;
+    }
   }
 }
 
-
-
-/* pixel-perfect stuff on the signup portion*/
-main {
-    section {
-        input {
-            margin-bottom: 8px;
-        }
-        select {
-            margin-bottom: 8px;
-        }
-    }
-}
-
-
-/* These three fix the firstname lastname form alignment*/
-#signup-width {
-  width: 100%;
-}
-
-
-form[role="signup"] {
-    margin-bottom: 8px;
-}
-
-#btn-signup {
-    font-weight: bold;
-}

@@ -1,3 +1,4 @@
+/* Keep overrides minimal to avoid fighting Bootstrap */
 /* color of the main header background*/
 .navbar-default {
   background-color: #2b78e4;
@@ -9,28 +10,7 @@
     color: #fff;
     font-size: 36px; }
 
-/* hack to get login submit button inline with labeled text fields*/
-#login-button-column {
-  height: 100%;
-  position: relative;
-  bottom: -24px; }
-  #login-button-column button {
-    width: 100px;
-    font-weight: bold;
-    background-color: #9FC5F8; }
-
-/* pixel-perfect stuff on the signup portion*/
-main section input {
+/* space out these forms
+Sometimes need deep specificity to override Bootstrap*/
+#sign-up-forms form input, #sign-up-forms form select {
   margin-bottom: 8px; }
-main section select {
-  margin-bottom: 8px; }
-
-/* These three fix the firstname lastname form alignment*/
-#signup-width {
-  width: 100%; }
-
-form[role="signup"] {
-  margin-bottom: 8px; }
-
-#btn-signup {
-  font-weight: bold; }
