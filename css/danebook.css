@@ -1,0 +1,38 @@
+body {
+  padding-top: 100px; }
+
+#login-bar {
+  height: 100px;
+  background: linear-gradient(#4C67A1, #3B5998);
+  border-bottom: 1px solid #21346B;
+  box-shadow: 0px 2px 2px #B9BABB; }
+  #login-bar button.navbar-toggle {
+    border-color: white;
+    margin-top: 36px; }
+  #login-bar h1 {
+    color: white;
+    font-size: 48px;
+    line-height: 64px; }
+  #login-bar form {
+    color: white; }
+    #login-bar form p {
+      padding-top: 10px;
+      margin-bottom: 0; }
+    #login-bar form button {
+      color: #222;
+      vertical-align: bottom; }
+
+#hero-text {
+  background-color: white; }
+  #hero-text ul {
+    line-height: 54px;
+    font-size: 16px;
+    color: #777; }
+
+#sign-up-form h3 {
+  font-size: 48px;
+  padding-bottom: 20px; }
+#sign-up-form button {
+  width: 100%; }
+
+/*# sourceMappingURL=danebook.css.map */
