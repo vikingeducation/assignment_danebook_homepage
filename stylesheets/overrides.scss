@@ -1,0 +1,53 @@
+#homepage{
+	.navbar-inverse{
+		background-color: #3b5999;
+	}
+
+	.black-border{
+		border-color: #000000;
+		border-width: 1px;
+	}
+
+	button{
+		color: #09f;
+	}
+
+	.login-button{
+		margin-top: 6%;
+	}
+
+	button p{
+		margin: 5%;
+	}
+
+	.container a{
+		padding-bottom: 0%;
+		padding-top: 3.5%;
+	}
+
+	div p, button p{
+		color: #fff;
+	}
+
+	div a p{
+		font-weight: bold;
+		font-size: 1.8em;
+		color: #fff;
+	}
+
+	.float-left{
+		float: left;
+	}
+	.float-right{
+		float: right;
+	}
+
+	.height-100-percent{
+		height: 100%;
+	}
+
+	.input40{
+		width: 40%;
+	}
+
+}
