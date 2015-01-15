@@ -1,0 +1,15 @@
+nav {
+  background-color: #3b5998;
+  padding: 0; }
+  nav div div form button {
+    border: 2px solid black; }
+  nav div div a {
+    color: white;
+    margin: 0; }
+    nav div div a h1 {
+      font-weight: bold; }
+
+#homepage-left {
+  width: 65%; }
+
+/*# sourceMappingURL=styles.css.map */
