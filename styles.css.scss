@@ -31,23 +31,26 @@
   @media(max-width:992px) {
     padding-top: 50px;
   }
+
   .textfield {
     width: 100%;
   }
+
+  #first-name {
+    margin-bottom: 10px;
+    @media(min-width:992px) {
+      margin-bottom: 0;
+    }
+  }
+
   h4 {
     margin: 5px 0 0;
   }
+
   button {
     width: 100%;
     height: 3em;
     font-size: 1.5em;
-  }
-
-}
-#first-name {
-  margin-bottom: 10px;
-  @media(min-width:992px) {
-    margin-bottom: 0;
   }
 }
 
