@@ -7,4 +7,15 @@
 .navbar-inverse {
   background-color: #3b5998; }
 
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-size: 30px; }
+
+.spacer-custom-class {
+  padding-top: 20px;
+  line-height: 2; }
+
+.buttons-custom-class {
+  margin-right: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
