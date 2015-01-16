@@ -1,0 +1,28 @@
+.navbar {
+  color: white;
+  background-color: #2B78E4;
+  .navbar-brand {
+    font-size: 2.0em;
+    color: white;
+  }
+  .navbar-toggle {
+    .icon-bar {
+      background-color: #FFF;
+    }
+  }
+}
+
+.home-page-left {
+  padding-top: 150px;
+  font-size: 1.2em;
+}
+
+.sign-up-form {
+  padding-top: 100px;
+}
+.name-row input {
+  width: 40%;
+}
+
+.last-name {
+}
