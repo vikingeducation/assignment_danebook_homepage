@@ -1,7 +1,9 @@
 $border: 2px solid black;
+$nav-height: 65px;
 
 nav{
 	background-color: #3b5998;
+	height: $nav-height;
 	padding: 0;
 	div{
 		div{
@@ -22,8 +24,21 @@ nav{
 }
 
 #homepage-left{
-	width: 65%;
+	width: 70%;
 	
+}
+
+.nav-spacer{
+	height: 2*$nav-height;
+	width: 100%;
+}
+
+.inner-spacer{
+	height: .5*$nav-height;
+}
+
+.homepage-list{
+	margin-left: 3em;
 }
 // button{
 // 	border: 2px solid black;
