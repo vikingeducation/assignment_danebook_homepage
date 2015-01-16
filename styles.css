@@ -1,0 +1,98 @@
+nav {
+  background-color: #2B78E4;
+  border-bottom: 2px solid black
+}
+
+.pagetitle {
+  color: #FFFFFF;
+  font-family: "Comic Sans MS";
+  font-size: 300%;
+}
+
+.connection {
+  font-family: "Comic Sans MS";
+  font-size: 200%;
+  margin-top: 70px;
+  margin-left: 40px
+}
+
+.bullets {
+  color: gray;
+  font-family: "Comic Sans MS";
+  margin-left: 55px;
+  margin-top: 11px;
+  font-size: 115%
+}
+
+.signup {
+  height: 84px;
+/  border: 1px solid black;
+  padding-top: 14px;
+  font-size: 250%;
+  font-family: "Comic Sans MS"
+}
+
+.names {
+  height: 25px
+}
+
+.email {
+  margin-top: 7px
+}
+
+.birthday {
+  margin-top: 20px;
+  font-family: "Comic Sans MS";
+  font-size: 120%
+}
+
+.bday {
+  height: 53px;
+  margin-top: 9px
+}
+
+.year {
+  margin-left: -15px
+}
+
+.signupclick {
+  background-color: #009E0F;
+  height:40px;
+  width: 360px;
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Comic Sans MS";
+  font-size: 140%;
+  padding-top: 3px;
+  box-shadow: 4px 4px 5px #888888;
+  border: 2px solid black
+}
+
+.passwordhighlight {
+  margin-left: 90px
+}
+
+.emailhighlight, .passwordhighlight {
+  font-family: "Comic Sans MS";
+  color: white;
+  font-size: 120%;
+  padding-top: 12px
+}
+
+.emailinz {
+  margin-left: -12px
+}
+
+.loginbutton {
+  border: 2px solid black;
+  width: 70px;
+  margin-left: -20px;
+  height: 31px;
+  font-family: "Comic Sans MS";
+  background-color: #9FC5F8;
+  text-align: center;
+  font-size: 119%;
+  padding-top: 1px;
+  box-shadow: 2px 2px 2px #000000;
+}
