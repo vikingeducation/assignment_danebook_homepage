@@ -1,0 +1,74 @@
+$border: 2px solid black;
+$nav-height: 65px;
+
+nav{
+	background-color: #3b5998;
+	height: $nav-height;
+	padding: 0;
+	div{
+		div{
+			form{
+				button{
+					border: $border;
+				}
+			}
+			a{
+				color: white;
+				margin: 0;
+				h1{
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+label{
+	display: inline-block;
+}
+input{
+	border: $border;
+}
+
+.left-padding{
+	padding-left: 15px;
+}
+
+.full-input{
+	width: 100%;
+}
+
+.half-input{
+	width: 50%;
+}
+
+#homepage-left{
+	float: left;
+	width: 30%;
+	margin-left: 20%;
+	padding-right: 0%;
+}
+
+#homepage-right{
+	float: right;
+	width: 30%;
+	margin-right: 15%;
+	margin-top: $nav-height;
+	margin-left: 0;
+}
+
+.nav-spacer{
+	height: 2*$nav-height;
+	width: 100%;
+}
+
+.inner-spacer{
+	height: .5*$nav-height;
+}
+
+.homepage-list{
+	margin-left: 3em;
+}
+
+.bordered{
+	border: 2px solid black;
+}
