@@ -10,8 +10,33 @@ nav {
     nav div div a h1 {
       font-weight: bold; }
 
+label {
+  display: inline-block; }
+
+input {
+  border: 2px solid black; }
+
+.left-padding {
+  padding-left: 15px; }
+
+.full-input {
+  width: 100%; }
+
+.half-input {
+  width: 50%; }
+
 #homepage-left {
-  width: 70%; }
+  float: left;
+  width: 30%;
+  margin-left: 20%;
+  padding-right: 0%; }
+
+#homepage-right {
+  float: right;
+  width: 30%;
+  margin-right: 15%;
+  margin-top: 65px;
+  margin-left: 0; }
 
 .nav-spacer {
   height: 130px;
@@ -22,5 +47,8 @@ nav {
 
 .homepage-list {
   margin-left: 3em; }
+
+.bordered {
+  border: 2px solid black; }
 
 /*# sourceMappingURL=styles.css.map */

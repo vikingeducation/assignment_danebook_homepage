@@ -22,10 +22,38 @@ nav{
 		}
 	}
 }
+label{
+	display: inline-block;
+}
+input{
+	border: $border;
+}
+
+.left-padding{
+	padding-left: 15px;
+}
+
+.full-input{
+	width: 100%;
+}
+
+.half-input{
+	width: 50%;
+}
 
 #homepage-left{
-	width: 70%;
-	
+	float: left;
+	width: 30%;
+	margin-left: 20%;
+	padding-right: 0%;
+}
+
+#homepage-right{
+	float: right;
+	width: 30%;
+	margin-right: 15%;
+	margin-top: $nav-height;
+	margin-left: 0;
 }
 
 .nav-spacer{
@@ -40,6 +68,7 @@ nav{
 .homepage-list{
 	margin-left: 3em;
 }
-// button{
-// 	border: 2px solid black;
-// }
+
+.bordered{
+	border: 2px solid black;
+}
