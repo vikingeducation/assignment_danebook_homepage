@@ -1,0 +1,77 @@
+//**navbar styling**//
+
+.navbar {
+	.navbar-brand {
+	color: white;
+	margin-top: 20px;
+	}
+	#edit-nav {
+	font-size: 40px;
+	}
+	.navbar-form p {
+	color: white;
+	font-size: 16px;
+	margin-bottom: 5px;
+	}
+	#log-in-button {
+	margin-top: 26.5px;
+	}
+	background: #337ab7;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/** main section pushing below navbar **/
+
+main {
+	margin-top: 120px;
+}
+
+
+/** content section on the left **/
+
+.content { 
+	li {
+		padding-top: 20px;
+		font-size: 20px;
+	}
+	h1 {
+		font-weight: bold;
+	}
+	padding-top: 80px;
+	padding-left: 50px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/** signup form section on the right **/
+
+.sign-up-form {
+	h1 {
+		padding-bottom: 25px;
+		padding-left: 15px;
+	}
+	h3 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.birthday {
+		.col-md-3 {
+			padding-left: 0px;
+		}
+	padding-bottom: 20px;
+	}
+	.checkbox {
+		padding-left: 15px;
+	}
+	.btn {
+		margin-left: 15px;
+		margin-top: 15px;
+		font-size: 20px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
