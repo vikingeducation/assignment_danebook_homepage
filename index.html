@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Viking Blogger Bootstrapped</title>
+    <title>Welcome to Danebook</title>
 
     <!-- Meta Stuff -->
     <meta charset="utf-8">
@@ -23,7 +23,6 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -37,83 +36,118 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse">
-          <form class="navbar-form navbar-right">
+          <form class="navbar-form navbar-right form-vertical">
             <div class="form-group">
-              <input type="email" placeholder="Email" class="form-control">
+            <p class="email">Email</p>
+              <input type="email" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+            <p class="password">Password</p>
+              <input type="password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-info">Sign in</button>
+            <button type="submit" class="btn btn-info">Log in</button>
           </form>
         </div>
-
-      </div><!-- closes container for navbar -->
+      </div>
     </nav>
 
-    <!-- jumbotron/banner section -->
-    <div class="jumbotron">
-      <section id="banner" class="container">
-        <h1>Hello, world!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </section>
-    </div>
+    <!-- container for all content below nav -->
+    <main class="container">
 
-    <!-- all posts within a container -->
-    <section id="posts" class="container">
+    <!-- all content goes into this one row below nav -->
+      <div class="row">
 
-      <div class="post-wrapper row">
+      <!-- col where landing message lives, left side -->
+        <section class="col-sm-7 content">
+          <h2>Connect with all your friends!</h2>
+          <ul>
+            <li>See photos and updates in your news feed.</li>
+            <br/>
+            <li>Post your status for the world to see from your profile.</li>
+            <br/>
+            <li>Get in touch with your friends by "friending" them.</li>
+            <br/>
+            <li>Like things because you're a positive person!</li>
+          </ul>
+        </section>
 
-        <article class="article-one col-md-4">
-          <header>
-            <h2>
-              Heading
-            </h2>
-          </header>
-          <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a class="btn btn-default btn-md" href="#" role="button">
-            View details &raquo;
-          </a>
-        </article>
+        <!-- col where signup form lives, right side -->
+        <div class="col-sm-5 signup-wrapper">
+          <!-- container-fluid to keep size 5 units -->
+          <div class="container-fluid">
+            <div class="row">
 
-       <article class="article-two col-md-4">
-          <header>
-            <h2>
-              Heading
-            </h2>
-          </header>
-          <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a class="btn btn-default btn-md" href="#" role="button">
-            View details &raquo;
-          </a>
-        </article>
+              <h1>Sign Up</h1>
 
-       <article class="article-three col-md-4">
-          <header>
-            <h2>
-              Heading
-            </h2>
-          </header>
-          <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a class="btn btn-default btn-md" href="#" role="button">
-            View details &raquo;
-          </a>
-        </article>
+              <form class="form">
 
+              <!-- text entry fields -->
+                <div class="col-sm-6 form-group">
+                  <input type="name" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input type="name" class="form-control" placeholder="Last Name">
+                </div>
+                <div class="col-sm-12 form-group">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-sm-12 form-group">
+                  <input type="password" class="form-control" placeholder="Your New Password">
+                </div>
+                <div class="col-sm-12 form-group">
+                  <input type="password" class="form-control" placeholder="Confirm Your Password">
+                </div>
+
+                <!-- birthdate selectors -->
+                <div class="birthdate">
+                  <h3 class="col-sm-12">Birthday</h3>
+                  <div class="col-sm-4">
+                    <select class="form-control">
+                      <option value="one">Month</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-4">
+                    <select class="form-control">
+                      <option value="one">Day</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-4">
+                    <select class="form-control">
+                      <option value="one">Year</option>
+                    </select>
+                  </div>
+                </div>
+
+            </div> <!-- i don't know what this is, but things break without it -->
+
+                <!-- gender selection -->
+                <div class="radio">
+                  <label class="col-sm-4">
+                    <input type="radio" name="optradio">Female
+                  </label>
+                  <label class="col-sm-8">
+                    <input type="radio" name="optradio">Male
+                  </label>
+                </div>
+
+                <!-- signup button -->
+                <div class="signup-button">
+                  <button type="button" class="btn btn-success col-sm-12">Sign Up!</button>
+                </div>
+
+            </form>
+
+          </div>
+        </div>
       </div>
 
-    </section>
+      <!-- and finally, the footer -->
+      <footer class="col-sm-12 copyright">
+        <hr>
+        &copy; Company 2015
+      </footer>
 
-    <footer class="copyright container">
-      <hr>
-      &copy; Company 2015
-    </footer>
+    </main>
 
   </body>
 </html>
