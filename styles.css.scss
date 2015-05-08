@@ -1,0 +1,49 @@
+/*Colors*/
+$nav-color: #2b78e4;
+$button-color: #9fc5f8;
+
+
+/*Bootstrap Overrides*/
+.navbar {
+  min-height: 100px;
+  background-color: $nav-color;
+}
+#navbar-brand {
+  font-size: 3em;
+  color: #fff;
+  line-height: 65px;
+
+  &:hover {
+    color: #fff;
+  };
+}
+
+
+
+
+/*Main Styles*/
+body {
+  margin-top: 100px;
+}
+
+nav {
+  padding: 0 20px;
+  color: white;
+  input {
+  margin-right: 15px;
+  }
+  button {
+    position: relative;
+    top: 12px;
+    
+  }
+}
+main {
+  article:first-of-type {
+    margin-top: 50px;
+    font-size: 1.3em;
+    li {
+      line-height: 2.5em;
+    }
+  };
+}
