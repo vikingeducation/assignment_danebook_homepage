@@ -24,6 +24,9 @@ nav {
     position: relative;
     top: 12px; }
 
+article .btn {
+  width: 100%; }
+
 main article:first-of-type {
   margin-top: 50px;
   font-size: 1.3em; }
