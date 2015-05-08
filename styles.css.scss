@@ -1,6 +1,8 @@
 /*Colors*/
 $nav-color: #2b78e4;
 $button-color: #9fc5f8;
+ 
+
 
 
 /*Bootstrap Overrides*/
@@ -16,6 +18,12 @@ $button-color: #9fc5f8;
   &:hover {
     color: #fff;
   };
+}
+.form-inline {
+  .name-adjust {
+    width: 49.5%;
+    margin-bottom: 15px;
+  }
 }
 
 
@@ -53,4 +61,16 @@ main {
       line-height: 2.5em;
     }
   };
+}
+
+
+
+
+/*Responsive Styles*/
+@media screen and (max-width: 1199px) {
+  .form-inline {
+    .name-adjust {
+      width: 100%;
+    }
+  }
 }
