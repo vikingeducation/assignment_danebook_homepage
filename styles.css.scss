@@ -37,10 +37,13 @@ $brand-primary: #2b78e4;
 
 // Text of features listed on left side
 
+.text-spacer {
+	height: 80px;
+}
+
 .home-text-wrapper {
 
 	h2 {
-		margin-top: 80px;
 		margin-bottom: 40px;
 	}
 
