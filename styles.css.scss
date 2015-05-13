@@ -1,11 +1,19 @@
 // Bootstrap colors
 $brand-primary: #2b78e4;
 
+
+// customized button formatting in navbar and sign-up
+
 .custom-button {
 	font-weight: bold;
 	border: 2px solid #333;
 	box-shadow: 2px 2px #333;
 }
+
+
+
+
+// Navbar
 
 .navbar-inverse {
 	background-color: $brand-primary;
@@ -22,9 +30,31 @@ $brand-primary: #2b78e4;
 		background-color: #9fc5f8;
 		color: #333;
 	}
-
-
 }
+
+
+
+
+// Text of features listed on left side
+
+.home-text-wrapper {
+
+	h2 {
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+
+	li {
+		font-size: 16px;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+	}
+}
+
+
+
+
+// New User Sign Up
 
 .sign-up-wrapper {
 	.user-input-row {
