@@ -1,3 +1,8 @@
+.custom-button {
+  font-weight: bold;
+  border: 2px solid #333;
+  box-shadow: 2px 2px #333; }
+
 .navbar-inverse {
   background-color: #2b78e4;
   color: #fff; }
@@ -6,12 +11,9 @@
     font-weight: bold;
     height: 75px;
     line-height: 75px; }
-  .navbar-inverse button {
+  .navbar-inverse .custom-button {
     background-color: #9fc5f8;
-    color: #333;
-    font-weight: bold;
-    border: 2px solid #333;
-    box-shadow: 2px 2px #333; }
+    color: #333; }
 
 .sign-up-wrapper .user-input-row {
   margin-bottom: 1.5em; }
@@ -19,5 +21,11 @@
 .sign-up-section h1 {
   font-size: 40px;
   margin-bottom: 24px; }
+.sign-up-section .submit-wrapper {
+  height: 2em;
+  line-height: 2em; }
+.sign-up-section .custom-button {
+  font-size: 20px;
+  color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */

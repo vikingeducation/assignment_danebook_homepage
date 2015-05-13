@@ -74,7 +74,7 @@
               </div>
 
               <div class="col-md-2">
-                <button type="submit" class="btn btn-primary input-sm">
+                <button type="submit" class="btn btn-primary input-sm custom-button">
                   Log In
                 </button>
               </div>
@@ -96,6 +96,8 @@
 
     <main class="container">
 
+
+<!-- Text of features listed on left side -->
       <div class="row">
 
         <div class="col-md-7 feature-list-section">
@@ -114,7 +116,6 @@
           </header>
 
         </div>
-
 
 
 
@@ -341,17 +342,44 @@
 
 
 
-            <!-- Gender  -->
-            </div class="row user-input-row">
-              
+            <!-- Gender radio buttons -->
+            <div class="row user-input-row">
+              <div class="col-md-12">
+
+                <label class="radio-inline">
+                  <input type="radio" name="gender" id="gender_female" value="female">
+                  Female
+                </label>
+
+                <label class="radio-inline">
+                  <input type="radio" name="gender" id="gender_male" value="male">
+                  Male
+                </label>
+
+              </div> <!-- column for radio buttons-->
+
+            </div> <!-- radio button row -->
+
+
+            <!-- Submit button -->
+            <div class="row submit-wrapper">
+              <button type="submit" class="col-md-12 btn btn-success btn-lg custom-button">
+                Sign Up!
+              </button>
             </div>
+
 
           </form>
 
-        </div>
 
-      </div>
+
+        </div> <!-- sign-up section -->
+
+      </div> <!-- row for all content -->
+
     </main>
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
