@@ -1,3 +1,16 @@
-
+.navbar-inverse {
+  background-color: #2b78e4;
+  color: #fff; }
+  .navbar-inverse header {
+    font-size: 40px;
+    font-weight: bold;
+    height: 75px;
+    line-height: 75px; }
+  .navbar-inverse button {
+    background-color: #9fc5f8;
+    color: #333;
+    font-weight: bold;
+    border: 2px solid #333;
+    box-shadow: 2px 2px #333; }
 
 /*# sourceMappingURL=styles.css.map */
