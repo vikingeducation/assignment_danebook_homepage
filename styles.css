@@ -13,4 +13,11 @@
     border: 2px solid #333;
     box-shadow: 2px 2px #333; }
 
+.sign-up-wrapper .user-input-row {
+  margin-bottom: 1.5em; }
+
+.sign-up-section h1 {
+  font-size: 40px;
+  margin-bottom: 24px; }
+
 /*# sourceMappingURL=styles.css.map */
