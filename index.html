@@ -23,10 +23,22 @@
 <body>
 
   <!-- Full width navbar with brand text and log in form-->
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse" id="top-bar">
     <div class="container-fluid">
       
       <span class="navbar-brand">Danebook</span>
+
+      <form class="navbar-form navbar-right" role="login">
+        <div class="form-group form-group-sm">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        <div class="form-group form-group-sm">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+        <button type="submit" class="btn btn-sm btn-primary">Login</button>
+      </form>
 
     </div>
   </nav>
