@@ -1,6 +1,7 @@
 #top-bar {
   background-color: blue;
-  color: white; }
+  color: white;
+  border-radius: 0; }
   #top-bar h1 {
     color: white;
     font-size: 30px; }
