@@ -20,34 +20,38 @@
     
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-      <a class="navbar-brand" href="">Danebook</a>  
-
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <label for="exampleInputEmail3">Email address</label>
+          <div class="col-md-6">  
+            <a class="navbar-brand" href="">Danebook</a> 
+          </div> 
+        <div class="col-md-5 col-md-offset-1">  
+          <table style="width:100%">
+            <tr>
+              <td><label for="exampleInputEmail3">Email address</label></td>
+              <td><label for="exampleInputPassword3">Password</label></td> 
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="email" class="form-control" id="exampleInputEmail3" ></td>
+              <td><input type="password" class="form-control" id="exampleInputPassword3" ></td> 
+              <td>
+                
+                <button type="submit" class="btn btn-default">Log in</button>
+                
+              </td>
+            </tr>
+          </table>
           
-          <input type="email" class="form-control" id="exampleInputEmail3" >
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword3">Password</label>
-          
-          <input type="password" class="form-control" id="exampleInputPassword3" >
-        </div>
-        
-        <button type="submit" class="btn btn-success">Log in</button>
-        
-      </form>
-
       </div>
     </nav> 
     
     </header>
-    
+
 <main>
 <div class="container">
   <div class="row">
 
-    
+        <!-- Left text column--> 
         <div class="col-md-6">  
           <article>
               <h3>Connect with all your friends</h3>
@@ -60,84 +64,85 @@
           </article>
         </div>
       
-
+        <!-- Right SingUp column--> 
         <div class="col-md-5 col-md-offset-1">  
               <h3>Sign Up</h3>
+        
+        
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputFirstName">First Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputLastName">Last Name</label>
+            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Last Name">
+          </div>
+
+        </form>
+        <br>
+
+        <form class="form-horizontal"> 
+            <!-- Text forms-->   
+            <div class="form-group col-sm-12" style="margin-top: -5px">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Your Email">
+            </div>
+
+            <div class="form-group col-sm-12">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Your New Password">
+            </div>
+           
+            <div class="form-group col-sm-12">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Your Password">
+            </div>
+            
+            <!-- Birthday Date--> 
+            <p>
+              Birthday
+            </p>
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Month <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                ...
+              </ul>
+
+              <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Day <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                ...
+              </ul>
+
+              <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Year <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                ...
+              </ul>
+            </div>
+            
+
+            <!-- Radiobuttons--> 
+            <div style="margin-top: 10px">
+            <label class="radio-inline">
+             <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Female
+            </label>
+            </div>
+            <!-- SignUp button--> 
+            
               
-<form class="form-inline">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputFirstName">First Name</label>
-    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputLastName">Last Name</label>
-    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-  </div>
-
-</form>
-<br>
-
-<form class="form-horizontal"> 
-    <!-- Text forms-->   
-    <div class="form-group col-sm-12">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Your Email">
-    </div>
-
-    <div class="form-group col-sm-12">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Your New Password">
-    </div>
-   
-    <div class="form-group col-sm-12">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Your Password">
-    </div>
-    
-    <!-- Birthday Date--> 
-    <p>
-      Birthday
-    </p>
-    <div class="btn-group">
-      <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-        Month <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" role="menu">
-        ...
-      </ul>
-
-      <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-        Day <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" role="menu">
-        ...
-      </ul>
-
-      <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-        Year <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" role="menu">
-        ...
-      </ul>
-    </div>
-    <br>
-
-    <!-- Radiobuttons--> 
-    <label class="radio-inline">
-     <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
-    </label>
-    <label class="radio-inline">
-      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Female
-    </label>
-
-    <!-- SignUp button--> 
-    
-      <br>
-      <div class="form-group col-sm-12">
-      <button type="submit" class="btn btn-default">Sign Up</button>
-      </div>
-    
-  </div>
-
-</form>
-        </div>
+              <button type="submit" class="btn btn-success col-md-11" style="margin-top: 20px">Sign Up</button>
+              
+            
+          </div>
+        </div>  
+        </form>
+        
     
     
    </div> 
