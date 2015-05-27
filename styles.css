@@ -1,0 +1,54 @@
+@navbar-inverse-bg : blue;
+.navbar-brand {
+  margin-top: 17px; }
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+.navbar-inverse {
+  background-color: #2B78E4;
+  border-color: black; }
+
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-size: 28px; }
+
+td {
+  padding: 0 10px 10px 0;
+  line-height: 10px;
+  color: white; }
+
+table {
+  margin-top: 15px;
+  border-spacing: 10px 10px; }
+
+#User-login-button {
+  background-color: grey; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+main {
+  margin-top: 50px; }
+
+article {
+  padding-top: 40px;
+  padding-left: 30px; }
+  article h3 {
+    padding-bottom: 10px; }
+  article li {
+    color: grey;
+    padding-bottom: 5px; }
+
+.dropdown-toggle {
+  margin-right: 10px; }
+
+.radio-inline {
+  margin: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

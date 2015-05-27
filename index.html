@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+
+<html>
+  <head>
+    <!--Bootstrap CSS and JavaScript-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!--jQuery library-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+  </head>
+  
+  <body>
+    <header>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+          <div class="col-md-6">  
+            <a class="navbar-brand" href="">Danebook</a> 
+          </div> 
+        <div class="col-md-5 col-md-offset-1">  
+          <table style="width:100%">
+            <tr>
+              <td><label for="exampleInputEmail3">Email address</label></td>
+              <td><label for="exampleInputPassword3">Password</label></td> 
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="email" class="form-control" id="exampleInputEmail3" ></td>
+              <td><input type="password" class="form-control" id="exampleInputPassword3" ></td> 
+              <td>
+                
+                <button type="submit" class="btn btn-default">Log in</button>
+                
+              </td>
+            </tr>
+          </table>
+          
+        </div>
+      </div>
+    </nav> 
+    
+    </header>
+
+<main>
+<div class="container">
+  <div class="row">
+
+        <!-- Left text column--> 
+        <div class="col-md-6">  
+          <article>
+              <h3>Connect with all your friends</h3>
+                <ul style="list-style-type:disk">
+                  <li>See photos and updates in your news feed.</li>
+                  <li>Post your status for the world to see from your profile.</li>
+                  <li>Get in touch with your friends by "friending them.</li>
+                  <li>Like things because you're a positive person!</li>
+                </ul>
+          </article>
+        </div>
+      
+        <!-- Right SingUp column--> 
+        <div class="col-md-5 col-md-offset-1">  
+              <h3>Sign Up</h3>
+        
+        
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputFirstName">First Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputLastName">Last Name</label>
+            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Last Name">
+          </div>
+
+        </form>
+        <br>
+
+        <form class="form-horizontal"> 
+            <!-- Text forms-->   
+            <div class="form-group col-sm-12" style="margin-top: -5px">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Your Email">
+            </div>
+
+            <div class="form-group col-sm-12">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Your New Password">
+            </div>
+           
+            <div class="form-group col-sm-12">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Your Password">
+            </div>
+            
+            <!-- Birthday Date--> 
+            <p>
+              Birthday
+            </p>
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Month <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                ...
+              </ul>
+
+              <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Day <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                ...
+              </ul>
+
+              <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Year <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                ...
+              </ul>
+            </div>
+            
+
+            <!-- Radiobuttons--> 
+            <div style="margin-top: 10px">
+            <label class="radio-inline">
+             <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Female
+            </label>
+            </div>
+            <!-- SignUp button--> 
+            
+              
+              <button type="submit" class="btn btn-success col-md-11" style="margin-top: 20px">Sign Up</button>
+              
+            
+          </div>
+        </div>  
+        </form>
+        
+    
+    
+   </div> 
+</div>
+</main>
+
+</body>
+
+</html>
