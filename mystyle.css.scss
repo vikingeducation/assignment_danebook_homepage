@@ -1,0 +1,55 @@
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  background-color: #2B78E4;
+  color: white;
+
+  a {
+    color: white;
+    font-size: 40px;
+  }
+
+  label {
+    display: block;
+  }
+
+  button {
+    margin-top: 25px;
+  }
+
+  .navbar-toggle {
+    border: solid 1px white;
+  }
+
+  .icon-bar{
+    background-color: white;
+    // border: solid 1px white;
+  }
+}
+
+.container {
+
+  .row {
+
+    .col-md-7 {
+
+      padding-top: 50px;
+
+      h2 {
+        padding-bottom: 20px;
+      }
+
+      ul li {
+        padding-bottom: 10px;
+
+        p {
+          font-size: 16px;
+          color: grey;
+        }
+      }
+    }
+  }
+}
