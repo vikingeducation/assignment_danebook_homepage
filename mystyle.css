@@ -1,0 +1,30 @@
+body {
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+.navbar {
+  background-color: #2B78E4;
+  color: white; }
+  .navbar a {
+    color: white;
+    font-size: 40px; }
+  .navbar label {
+    display: block; }
+  .navbar button {
+    margin-top: 25px; }
+  .navbar .navbar-toggle {
+    border: solid 1px white; }
+  .navbar .icon-bar {
+    background-color: white; }
+
+.container .row .col-md-7 {
+  padding-top: 50px; }
+  .container .row .col-md-7 h2 {
+    padding-bottom: 20px; }
+  .container .row .col-md-7 ul li {
+    padding-bottom: 10px; }
+    .container .row .col-md-7 ul li p {
+      font-size: 16px;
+      color: grey; }
+
+/*# sourceMappingURL=mystyle.css.map */
