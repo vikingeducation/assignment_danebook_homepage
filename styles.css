@@ -1,0 +1,23 @@
+/* Changes/additions to Bootstrap defaults */
+.navbar {
+  min-height: 100px; }
+
+.form-group, .form-inline {
+  margin: 15px; }
+
+/* other navbar changes (not overrides) */
+.btn-shadow {
+  color: black;
+  border: 1px solid black;
+  box-shadow: 3px 3px; }
+
+.btn-login {
+  background-color: #9FC5F8; }
+
+#logo {
+  background-color: #2B78E4;
+  color: white; }
+  #logo h1 {
+    font-size: 36px; }
+
+/*# sourceMappingURL=styles.css.map */
