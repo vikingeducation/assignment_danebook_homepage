@@ -1,0 +1,17 @@
+.navbar{
+    background-color: dodgerblue;
+    height: 95px;
+    padding: 17px;
+}
+
+.navbar .navbar-brand {
+  color: #FFF;
+  font-size: 271%%;}
+
+.main-page{
+    margin-top: 107px;
+}
+
+.navbar-label{
+  color:#FFF;
+}
