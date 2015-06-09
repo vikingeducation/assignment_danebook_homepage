@@ -1,7 +1,7 @@
 .navbar{
     background-color: dodgerblue;
     height: 95px;
-    padding: 25px;
+    padding: 17px;
 }
 
 .navbar .navbar-brand {
@@ -10,4 +10,8 @@
 
 .main-page{
     margin-top: 107px;
+}
+
+.navbar-label{
+  color:#FFF;
 }

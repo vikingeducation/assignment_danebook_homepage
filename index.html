@@ -21,30 +21,41 @@
     <body>
 
       <!-- Navigation Bar with collapse feature -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header col-sm-3">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
+          <!-- Company Branding -->
           <a class="navbar-brand" href="#">Danebook</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control" id="loginEmail">
+
+        <!-- wrapper for stuff that collapses -->
+        <div id="navbar" class="navbar-collapse collapse col-sm-9 navbar-right">
+          
+          <!--control button placement -->  
+          <form class="navbar-form" role="login">
+            <div class="form-group col-sm-4">
+              <label for="email" class="navbar-label">Email</label>
+              <input type="email" placeholder="Email" class="form-control">
             </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control" id="loginPassword">
+            <div class="form-group col-sm-4">
+              <label for="password" class="navbar-label">Password</label>
+              <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Log in</button>
+            <div class = "col-md-4 col-sm-4 form-group" >
+              <!-- empty label to line up submit button -->
+              <label for="submit">&nbsp;</label><br>
+              <!-- unless you really need it, use basic Bootstrap button styles -->
+              <button type="submit" class="btn btn-info">Login</button>
+            </div>
           </form>
         </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+      </nav>
 
       <div class="container main-page">
         <div class="row">
