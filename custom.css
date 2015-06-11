@@ -19,9 +19,6 @@
 label {
   display: block; }
 
-.form-group {
-  display: inline-block; }
-
 .inline-form {
   margin-top: 15px;
   line-height: 5px;
@@ -29,3 +26,6 @@ label {
 
 .inline-form > button {
   margin-top: 1.1em; }
+
+.test {
+  vertical-align: middle; }
