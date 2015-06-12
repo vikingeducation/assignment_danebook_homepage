@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> </title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Bootstrap Javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and hamburger icon for mobile -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Danebook</a>
+        </div>
+
+        <!-- Nav links that will toggle in mobile display -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="SignInEmail1">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="SignInPassword">
+            </div>
+            <button type="submit" class="btn btn-info">Log In</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <main class="container">
+      <div class="row">
+
+        <!-- Left of main -->
+        <div class="col-md-6">
+          <h2>Connect with all your friends</h2>
+          <ul>
+            <li><span>See photos and updates</span> in your news feed</li>
+            <li><span>Post your status for the world to see</span> from your profile</li>
+            <li><span>Get in touch with your friends</span> by "friending" them</li>
+            <li><span>Like things</span> because you are a positive person</li>
+          </ul>
+        </div>
+
+        <!-- Right part of main - Sign up form -->
+        <div class="col-md-5 col-md-offset-1">
+          <h1>Sign Up</h1>
+          <form>
+            <div class="form-group full-name">
+              <input type="text" class="form-control" id="InputFirstName" placeholder="First Name">
+              <input type="text" class="form-control" id="InputLastName" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="InputEmail1" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="InputPassword1" placeholder="Your New Password">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="InputPassword2" placeholder="Confirm Your Password">
+            </div>
+
+            <p>Birthday </p>
+            <div class="birthday-wrapper">
+              <select class="form-control birthday-month">
+                <option value="" disabled selected>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+              </select>
+              <select class="form-control birthday-day">
+                <option value="" disabled selected>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+              <select class="form-control birthday-year">
+                <option value="" disabled selected>Year</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+              </select>              
+            </div>
+
+            <div class="gender-wrapper">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                  Female
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Male
+                </label>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-success btn-lg">
+              Sign Up!
+            </button>
+
+          </form>
+        </div><!--  End of right secion -->
+
+      </div>
+    </main>
+
+  </body>
+</html>
