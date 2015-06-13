@@ -1,3 +1,25 @@
+nav #brand-color {
+  color: #fff;
+  font-size: 40px;
+  padding: 30px 0; }
+nav .navbar-form h6 {
+  color: #fff; }
+nav .navbar-form .btn {
+  position: relative;
+  top: 17px; }
 
+.navbar-default {
+  background-color: #4c67a1; }
+
+main .col-sm-12 h2 {
+  padding: 40px 0 20px; }
+main .col-sm-12 ul li {
+  padding: 8px 0; }
+main form input, main form select {
+  margin: 8px 0; }
+main form .top-bottom-margin {
+  margin: 10px 0; }
+main form .large-width {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

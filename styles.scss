@@ -1,0 +1,51 @@
+nav {
+
+  #brand-color {
+    color: #fff;
+    font-size: 40px;
+    padding: 30px 0;
+  }
+
+  .navbar-form {
+
+    h6 {
+      color: #fff;
+    }
+
+    .btn {
+      position: relative;
+      top: 17px;
+    }
+  }
+}
+
+
+.navbar-default {
+  background-color: #4c67a1;
+  }
+
+main {
+  .col-sm-12 {
+    h2 {
+      padding: 40px 0 20px;
+    }
+
+    ul li {
+      padding: 8px 0;
+    }
+  }
+
+  form {
+    input, select {
+      margin: 8px 0;
+    }
+
+    .top-bottom-margin {
+      margin: 10px 0;
+    }
+
+    .large-width {
+      width: 100%;
+    }
+  }
+}
