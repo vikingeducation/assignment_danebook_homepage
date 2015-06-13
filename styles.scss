@@ -12,16 +12,32 @@ nav {
       color: #fff;
     }
 
+    .form-group {
+      margin: auto 7px;
+    }
+
     .btn {
       position: relative;
       top: 17px;
+      background-color: #5E77AA;
+      border: 1px solid #2A457D;
+    }
+  }
+
+  #toggle-colors {
+    border: 1px solid #8ca7e1;
+    position: relative;
+    top: 5px;
+
+    .icon-bar {
+      border: 1px solid #8ca7e1;
     }
   }
 }
 
 
 .navbar-default {
-  background-color: #4c67a1;
+  background-color: #3A5795;
   }
 
 main {
