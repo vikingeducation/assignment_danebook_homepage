@@ -4,4 +4,4 @@
 
 Donald Kelsey
 
-[View it live, here!](http://shadefinale.github.io/assignment_danebook_homepage/)
+[View it live, here!](http://shadefinale.github.io/assignment_danebook_homepage/home.html)
