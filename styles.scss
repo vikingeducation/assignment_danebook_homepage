@@ -5,11 +5,22 @@
 	.navbar-brand {
 		color:#fff;
 		font-size: 30px;
+		line-height: 50px;
+	}
+
+	.form-group {
+		height: 70px;
+	}
+
+	label {
+		color:#fff;
 	}
 }
 
-.test {
+.jumbotron {
 	//border: 1px solid red;
+	padding-top:80px;
+	background-color: transparent;
 }
 
 .foot {
@@ -18,5 +29,9 @@
 }
 
 .sign-up-form {
-	padding-bottom:50px;
+	padding-bottom:15px;
 }
+
+//Spacing between form lines
+
+
