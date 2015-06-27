@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="/Users/apdev/Documents/Coding/Bootstrap/bootstrap-3.3.5-dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/Users/apdev/Documents/Coding/viking_education/assignment_danebook_homepage/styles.css">
+	</head>
+
+	<body>
+		<!-- Navigation bar -->
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Danebook</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <form class="navbar-form navbar-right" role="login">
+		        <div class="form-group">
+		        	<label for = "email">Email</label><br>
+		          	<input type="text" class="form-control" id="email">
+		        </div>
+		        <div class="form-group">
+		          	<label for = "Password">Password</label><br>
+		          	<input type="text" class="form-control" id="Password">
+		        </div>
+		        <div class = "form-group">
+		        	<!-- &nbsp; a non-breaking space -->
+		        	<label for = "non-working">&nbsp;</label><br>
+		        	<button type="submit" class="btn btn-primary form-control">Log In</button>
+		        </div>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<!-- Main content on the page -->
+		<main class = "container">
+			<div class = "row">
+				<!-- Text on left -->
+				<div class = "col-sm-6 col-sm-offset-0 jumbotron">
+					<h2>Connect with all your friends!</h2>
+					<ul>
+						<li><h5><b>See photos and updates </b> in your news feed</h5></li>
+						<li><h5><b>Post your status for the world to see </b> from your profile<h5></li>
+						<li><h5><b>Get in touch with your friends </b> by "friending" them<h5></li>
+						<li><h5><b>Like things </b> because you are a positive person<h5></li>
+					</ul>
+
+				</div>
+				<!-- Form on right -->
+				<div class = "col-sm-4 col-sm-offset-0 test sign-up">
+					<div class = "row sign-up-form">
+						<div class = "col-sm-12"><h1>Sign Up</h1></div>
+					</div>
+					<div class = "row sign-up-form">
+						<div class = "col-sm-6">
+							<input type="text" class="form-control" placeholder="First Name">
+						</div>
+						<div class = "col-sm-6">
+							<input type="text" class="form-control" placeholder="Last Name">
+						</div>
+					</div>
+					<div class = "row sign-up-form">
+						<div class = "col-sm-12">
+							<input type="text" class="form-control" placeholder="Your Email">
+						</div>
+					</div>
+					<div class = "row sign-up-form">
+						<div class = "col-sm-12">
+							<input type="text" class="form-control" placeholder="Your New Password">
+						</div>
+					</div>
+					<div class = "row sign-up-form">
+						<div class = "col-sm-12">
+							<input type="text" class="form-control" placeholder="Confirm Your Password">
+						</div>
+					</div>
+					<div class = "row sign-up-form">
+						<div class = "col-sm-12">
+							<!-- <input type="date" class="form-control" placeholder="Birthday"> -->
+							<!-- Split button -->
+							<h4>Birthday</h4>
+							<div class="btn-group">
+							  <button type="button" class="btn btn-default">Month</button>
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <span class="caret"></span>
+							    <span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">January</a></li>
+							    <li><a href="#">February</a></li>
+							    <li><a href="#">March</a></li>
+							    <li><a href="#">April</a></li>
+							    <li><a href="#">May</a></li>
+							    <li><a href="#">June</a></li>
+							    <li><a href="#">July</a></li>
+							    <li><a href="#">August</a></li>
+							    <li><a href="#">September</a></li>
+							    <li><a href="#">October</a></li>
+							    <li><a href="#">November</a></li>
+							    <li><a href="#">December</a></li>
+							  </ul>
+							</div>
+
+							<div class="btn-group">
+							  <button type="button" class="btn btn-default">Day</button>
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <span class="caret"></span>
+							    <span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li><a href="#">6</a></li>
+							    <li><a href="#">7</a></li>
+							    <li><a href="#">8</a></li>
+							    <li><a href="#">9</a></li>
+							    <li><a href="#">10</a></li>
+							    <li><a href="#">11</a></li>
+							    <li><a href="#">12</a></li>
+							  </ul>
+							</div>
+
+							<div class="btn-group">
+							  <button type="button" class="btn btn-default">Year</button>
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <span class="caret"></span>
+							    <span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">2000</a></li>
+							    <li><a href="#">2001</a></li>
+							    <li><a href="#">2002</a></li>
+							    <li><a href="#">2003</a></li>
+							    <li><a href="#">2004</a></li>
+							    <li><a href="#">2005</a></li>
+							    <li><a href="#">2006</a></li>
+							    <li><a href="#">2007</a></li>
+							    <li><a href="#">2008</a></li>
+							    <li><a href="#">2009</a></li>
+							    <li><a href="#">2010</a></li>
+							    <li><a href="#">2011</a></li>
+							  </ul>
+							</div>
+						</div>
+					</div>
+					<div class = "row sign-up-form">
+						<div class = "col-sm-12">
+							<label class="radio-inline">
+							  	<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
+							</label>
+							<label class="radio-inline">
+							  	<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Female
+							</label>
+						</div>
+					</div>
+					<div class = "row sign-up-form">
+						<div class = "col-sm-12">
+							<button type="button" class="btn btn-success btn-block">Sign Up!</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</main>
+
+		<!-- Gray bar on bottom of page -->
+		<footer class = "container-fluid foot">
+			<div class = "row">
+				<div class = "col-sm-12 "> </div>
+			</div>
+		</footer>
+
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src = "/Users/apdev/Documents/Coding/Bootstrap/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+	</body>
+</html>

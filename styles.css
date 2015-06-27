@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #6699FF; }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px; }
+  .navbar .form-group {
+    height: 70px; }
+  .navbar label {
+    color: #fff; }
+
+.jumbotron {
+  padding-top: 80px;
+  background-color: transparent; }
+
+.foot {
+  background-color: #E6E6E6;
+  height: 20px; }
+
+.sign-up-form {
+  padding-bottom: 15px; }
+
+/*# sourceMappingURL=styles.css.map */
