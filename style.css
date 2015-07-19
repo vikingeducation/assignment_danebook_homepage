@@ -1,0 +1,73 @@
+/* Navbar styling */
+.navbar {
+  background-color: #3b5998; }
+
+.navbar-header {
+  margin-top: 20px; }
+
+.navbar-brand {
+  font-size: 34pt;
+  letter-spacing: -3px;
+  font-weight: bold;
+  vertical-align: bottom;
+  color: white !important; }
+
+p {
+  padding: 0;
+  margin: 2px;
+  color: white; }
+
+.navbar-form .form-group {
+  padding: 0 10px; }
+
+.navbar-form button {
+  vertical-align: bottom;
+  background-color: #dfe3ee; }
+
+/* Body styling */
+body {
+  background-color: #f7f7f7; }
+
+/* Description Jumbotron styling */
+.description-wrapper {
+  padding-top: 75px; }
+
+.description-wrapper li {
+  padding: 10px 0;
+  font-size: 14pt; }
+
+.signup-wrapper {
+  width: 75%;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+/* Sign-up Form styling */
+.sign-wrapper {
+  padding: 0 30px; }
+
+h1 {
+  margin-bottom: 30px; }
+
+h3 {
+  margin-left: -15px;
+  padding-bottom: 5px; }
+
+.select-group {
+  margin-left: -30px; }
+
+.radio-group {
+  margin-top: 5px; }
+
+.button-group {
+  margin: 25px -15px; }
+
+/* Footer styling */
+footer {
+  background-color: #dfe3ee;
+  margin-top: 35px;
+  width: 100%;
+  height: 20px; }
+
+/*# sourceMappingURL=style.css.map */
