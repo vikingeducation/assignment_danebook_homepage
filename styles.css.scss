@@ -1,5 +1,7 @@
+// Navbar Styling
+
 nav {
-  background-color: #2B78E4;
+  background-color: #3A5795;
   color: white;
 
   .navbar-brand {
@@ -10,9 +12,18 @@ nav {
     margin-top: 20px;
   }
 
+  label {
+    display: block;
+  }
+
   .form-control {
     border-radius: 0;
     border: 1px solid black;
+  }
+
+  button {
+    margin-top: 24px;
+    margin-left: 5px;
   }
 
   .form-control,
@@ -21,7 +32,7 @@ nav {
   }
 
   .btn-info {
-    background-color: #9EC4F7;
+    background-color: #5972A7;
     border-radius: 0;
     color: black;
     box-shadow: 1px 1px 5px black;
@@ -38,4 +49,79 @@ nav {
   min-height: 75px;
   border-radius: 0;
   border-bottom: 2px solid black;
+}
+
+// Set container to fixed width of 1250px
+
+.container {
+  width: 1250px;
+}
+
+// Connect
+
+#connect {
+  margin-top: 130px;
+
+  h1 {
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+
+  li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    display: inline-block;
+    font-weight: bold;
+    color: gray;
+  }
+
+
+}
+
+// Sign Up
+
+#signup {
+  margin-left: 145px;
+  margin-top: 50px;
+
+  .form-inline {
+    width: 100%;
+
+    select {
+      margin-right: 10px;
+      margin-bottom: 15px;
+    }
+
+    .form-group {
+      width: 49.5%;
+      margin-bottom: 15px;
+
+      .form-control {
+        width: 100%;
+      }
+    }
+  }
+
+  h1 {
+    margin-bottom: 45px;
+    font-weight: bold;
+  }
+
+  h3 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin-top: 15px;
+  }
+
+  input,
+  button {
+    border: 1px solid black;
+  }
+
 }
