@@ -1,0 +1,29 @@
+nav {
+  background-color: #2B78E4;
+  color: white; }
+  nav .navbar-brand {
+    font-size: 36px; }
+  nav .navbar-header {
+    margin-top: 20px; }
+  nav .form-control {
+    border-radius: 0;
+    border: 1px solid black; }
+  nav .form-control,
+  nav .btn {
+    margin-bottom: 10px; }
+  nav .btn-info {
+    background-color: #9EC4F7;
+    border-radius: 0;
+    color: black;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black; }
+  nav #form-id {
+    word-spacing: 145px;
+    padding-bottom: 5px; }
+
+.navbar {
+  min-height: 75px;
+  border-radius: 0;
+  border-bottom: 2px solid black; }
+
+/*# sourceMappingURL=styles.css.map */
