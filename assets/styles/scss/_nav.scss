@@ -1,10 +1,13 @@
 // nav
 
 #navbar {
+	vertical-align: middle;
 	background: #2B78E4;
 
 	.navbar-brand {
-		font-size: 32px;
+		display: block;
+		height: 100%;
+		font-size: 48px;
 	}
 
 	.navbar-brand,
@@ -40,4 +43,9 @@
 	.navbar-form {
 		border-color: darken(#2B78E4, 10%);
 	}
+}
+
+#navbar,
+#navbar .navbar-brand {
+	line-height: 96px;
 }
