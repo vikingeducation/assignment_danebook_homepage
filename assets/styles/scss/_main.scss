@@ -1,0 +1,17 @@
+// main
+
+#main-content {
+	#signup {
+		.btn-default {
+			background: #009E0F;
+			border: none;
+			color: #eee;
+			width: 100%;
+
+			&:hover,
+			&:focus {
+				background: darken(#009E0F, 10%);
+			}
+		}
+	}
+}

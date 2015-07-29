@@ -21,4 +21,12 @@
   #navbar .navbar-form {
     border-color: #1960c3; }
 
+#main-content #signup .btn-default {
+  background: #009E0F;
+  border: none;
+  color: #eee;
+  width: 100%; }
+  #main-content #signup .btn-default:hover, #main-content #signup .btn-default:focus {
+    background: #006b0a; }
+
 /*# sourceMappingURL=style.css.map */
