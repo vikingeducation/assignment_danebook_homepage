@@ -1,0 +1,24 @@
+/* style */
+#navbar {
+  background: #2B78E4; }
+  #navbar .navbar-brand {
+    font-size: 32px; }
+  #navbar .navbar-brand,
+  #navbar #navbar-signin label {
+    color: #fff; }
+  #navbar #navbar-signin .btn-default {
+    color: #eee;
+    background: #9FC5F8; }
+    #navbar #navbar-signin .btn-default:hover {
+      background: #6fa8f5; }
+  #navbar .navbar-toggle {
+    background: #9FC5F8; }
+    #navbar .navbar-toggle .icon-bar {
+      background: #eee; }
+    #navbar .navbar-toggle:hover, #navbar .navbar-toggle:focus {
+      background: #6fa8f5; }
+  #navbar .navbar-collapse,
+  #navbar .navbar-form {
+    border-color: #1960c3; }
+
+/*# sourceMappingURL=style.css.map */
