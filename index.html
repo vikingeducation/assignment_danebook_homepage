@@ -3,9 +3,6 @@
 	<head>
 		<title>Danebook Home</title>
 	<meta charset="utf-8">
-		<!-- My CSS -->
-		<link rel="stylesheet" href="styles.css">
-
 		<!-- Bootstrap -->
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -13,60 +10,88 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<!-- JS -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- My CSS -->
+		<link rel="stylesheet" href="styles.css">
 	</head>
 
 	<body>
 	<!-- Nav -->
-	<nav id="topnav" class="navbar navbar-inverse">
-	</nav>
+	<nav id="topnav" class="navbar navbar-inverse navbar-fixed-top primary-nav">
+		<div class="container-fluid">
+			<!-- Navbar Header + Collapse Button -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a id="logo" class="navbar-brand" href="#">Danebook</a>
+  	  </div>
 
+    <!-- Navbar and Collapse Content -->
+    <div class="collapse navbar-collapse" id="nav-collapse">
+    	<form class="navbar-form navbar-right" role="login" method="post">
+    		<div class="form-group">
+    			<label for="email">Email</label>
+    			<input type="email" class="form-control" name="email">
+  			</div>
+  			<div class="form-group">
+  				<label for="password">Password</label>
+  				<input type="password" class="form-control" name="password">
+				</div>
+				<button type="submit" class="btn btn-primary">Log In</button>
+			</form>
+		</div>
+	</nav>
 	<!-- Hero -->
 	<main class="hero container">
 		<section class="row">
 			<!-- Facebook Text Pitch -->
-			<section class="main-left col-md-8">
+			<section class="main-left col-sm-8">
 			<p>poop</p>
 			</section>
 
 			<!-- Main-Right -->
-			<section class="main-right col-md-4">
+			<section class="main-right col-sm-4">
 				<form role="signup" method="post">
 					<div class="row">
-						<div class="form-group col-md-5">
+						<div class="form-group col-sm-5">
 							<input type="text" name="first name" placeholder="First Name">
 						</div>
-						<div class="form-group col-md-5 col-offset-2">
+						<div class="form-group col-sm-5 col-offset-2">
 							<input type="text" name="last name" placeholder="Last Name">
 						</div>
 					</div>
 					<div class="row">
-						<div class="form-group col-md-12">
+						<div class="form-group col-sm-12">
 							<input type="email" name="email" placeholder="Your Email">
 						</div>
 					</div>
 					<div class="row">
-						<div class="form-group col-md-12">
+						<div class="form-group col-sm-12">
 							<input type="password" name="password confirmation" placeholder="Confirm Your Password">
 						</div>
 					</div>
 					<div class="row">
 						<h3>Birthday</h3>
-						<div class="form-group col-md-8">
+						<div class="form-group col-sm-8">
 							<input type="date" name="birthday">
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group">
-							<div class="col-md-2">
+							<div class="col-sm-2">
 								<input type="radio" name="sex" value="male">Male
 							</div>
-							<div class="col-md-2">
+							<div class="col-sm-2">
 								<input type="radio" name="sex" value="female">Female
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-sm-12">
 							<button class="btn btn-success" type="submit" name="signup" value="Sign Up!">
 						</div>
 					</div>
