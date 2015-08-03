@@ -2,10 +2,22 @@
   background-color: #3b5998;
   color: #fff; }
 
+.pitch {
+  padding-left: 30px; }
+  .pitch h3 {
+    color: #888;
+    font-size: 20px; }
+    .pitch h3 strong {
+      font-weight: 400; }
+
+.main-left h2 {
+  font-size: 40px; }
+
 #logo {
   color: #fff; }
 
 #btn-signup {
-  width: 100%; }
+  width: 100%;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
