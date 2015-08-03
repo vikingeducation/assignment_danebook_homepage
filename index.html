@@ -17,7 +17,7 @@
 
 	<body>
 	<!-- Nav -->
-	<nav id="topnav" class="navbar navbar-inverse navbar-fixed-top primary-nav">
+	<nav id="topnav" class="navbar navbar-inverse primary-nav">
 		<div class="container-fluid">
 			<!-- Navbar Header + Collapse Button -->
 			<div class="navbar-header">
@@ -49,50 +49,59 @@
 	<main class="hero container">
 		<section class="row">
 			<!-- Facebook Text Pitch -->
-			<section class="main-left col-sm-8">
-			<p>poop</p>
+			<section class="main-left col-sm-7">
+			<h2>Connect with all your friends!</h2>
+			
+				<div class="col-sm-9 col-offset-3">
+					<h3><strong>See photos and updates</strong> in your news feed.</h3>
+					<h3><strong>Post your status for the world to see</strong> from your profile.</h3>
+					<h3><strong>Get in touch with your friends</strong> by "friending" them.</h3>
+					<h3><strong>Like things</strong> because you're a positive person!</h3>
+				</div>
+
 			</section>
 
 			<!-- Main-Right -->
-			<section class="main-right col-sm-4">
+			<section class="main-right col-sm-5">
+				<h3>Sign Up</h3>
 				<form role="signup" method="post">
 					<div class="row">
-						<div class="form-group col-sm-5">
-							<input type="text" name="first name" placeholder="First Name">
+						<div class="form-group col-sm-6">
+							<input type="text" class="form-control"name="first name" placeholder="First Name">
 						</div>
-						<div class="form-group col-sm-5 col-offset-2">
-							<input type="text" name="last name" placeholder="Last Name">
-						</div>
-					</div>
-					<div class="row">
-						<div class="form-group col-sm-12">
-							<input type="email" name="email" placeholder="Your Email">
+						<div class="col-sm-6">
+							<input type="text" class="form-control" name="last name" placeholder="Last Name">
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group col-sm-12">
-							<input type="password" name="password confirmation" placeholder="Confirm Your Password">
+							<input type="email" class="form-control" name="email" placeholder="Your Email">
 						</div>
 					</div>
 					<div class="row">
-						<h3>Birthday</h3>
+						<div class="form-group col-sm-12">
+							<input type="password" class="form-control" name="password confirmation" placeholder="Confirm Your Password">
+						</div>
+					</div>
+					<div class="row">
 						<div class="form-group col-sm-8">
+							<h3>Birthday</h3>
 							<input type="date" name="birthday">
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group">
-							<div class="col-sm-2">
-								<input type="radio" name="sex" value="male">Male
+							<div class="col-sm-3">
+								<input type="radio"  name="sex" value="male">Male
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-3">
 								<input type="radio" name="sex" value="female">Female
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<button class="btn btn-success" type="submit" name="signup" value="Sign Up!">
+							<button id="btn-signup" class="btn btn-success" type="submit" name="signup">Sign Up!</button>
 						</div>
 					</div>
 				</form>
