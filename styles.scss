@@ -19,6 +19,18 @@ body {
   margin-top: 15px;
 }
 
+.market {
+  h3 {
+    margin-top: 30px;
+    line-height: 50px;
+    font-size: 28px;
+  }
+  ul li {
+    line-height: 50px;
+    font-size: 20px;
+  }
+}
+
 .form .login-form-wrapper {
   float: left;
 
@@ -39,7 +51,7 @@ body {
 
 }
 
-.btn-primary {
+.login-cta {
   background-color: #9FC5F8;
   color: black;
   margin-top: 23px;
