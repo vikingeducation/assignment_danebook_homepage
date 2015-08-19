@@ -1,0 +1,54 @@
+body {
+  padding-top: 75px;
+  padding-bottom: 20px; }
+
+.navbar-default {
+  background-color: #2B78E4;
+  border: 0 0 1px 0;
+  border-color: black;
+  box-shadow: 0px 4px 2px -3px gray; }
+
+.navbar-default .navbar-header .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px; }
+
+.market h3 {
+  margin-top: 30px;
+  line-height: 50px;
+  font-size: 28px; }
+.market ul li {
+  line-height: 50px;
+  font-size: 20px; }
+
+.form .login-form-wrapper {
+  float: left; }
+  .form .login-form-wrapper .form-group {
+    float: left;
+    margin-left: 10px; }
+    .form .login-form-wrapper .form-group .input-sm {
+      border-radius: 0px; }
+  .form .login-form-wrapper label {
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal; }
+
+.login-cta {
+  background-color: #9FC5F8;
+  color: black;
+  margin-top: 23px;
+  margin-left: 10px;
+  border-radius: 0px;
+  box-shadow: 1px 1px 2px rgba(4, 4, 4, 0.3); }
+
+.signup-forms {
+  margin: 30px 0 0 0; }
+
+.signup-gender {
+  margin: 15px 0 0 0; }
+
+.signup-cta {
+  margin: 15px 0 0 0; }
+
+/*# sourceMappingURL=styles.css.map */
