@@ -46,7 +46,9 @@
 
   <main class="container">
     <div class="row">
-      <section class="info col-sm-8">
+
+      <!-- About olympusbook -->
+      <section class="info col-sm-7">
         <h2>Connect with all your friends!</h2>
         <ul>
           <li>See photos and updates in your news feed.</li>
@@ -55,7 +57,48 @@
           <li>Like things because you're a positive person!</li>
         </ul>
       </section>
-      <section class="sign-up col-sm-4"></section>
+
+      <!-- Sign-up form -->
+      <section class="sign-up col-sm-5">
+        <h1>Sign Up</h1>
+        <form>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label class="sr-only" for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="First name">
+            </div>
+            <div class="form-group col-sm-6">
+              <label class="sr-only" for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your email">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Your new password">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="passwordConfirm">Password Confirm</label>
+            <input type="password" class="form-control" id="passwordConfirm" placeholder="Confirm your password">
+          </div>
+          <div class="form-group">
+            <label>Birthday</label>
+            <input type="date" class="form-control">
+          </div>
+          <div class="form-group">
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Female
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Male
+            </label>
+          </div>
+          <button type="submit" class="btn btn-success btn-block">Sign up!</button>
+        </form>
+      </section>
     </div>
   </main>
 
