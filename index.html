@@ -79,14 +79,10 @@ Consider getting this to work an extra credit assignment only because it relies 
         <!--collapsing login form-->
         <section id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
-            <div class="row">
-              <div class="col-xs-5"><p>Email</p></div>
-              <div class="col-xs-5"><p>Password</p></div>
-            </div>
-            <div class="row form-group">
-              <div class="col-xs-5"><input type="email" class="form-control"></div>
-              <div class="col-xs-5"><input type="password" class="form-control"></div>
-              <div class="col-xs-2"><button type="submit" class="btn btn-info">Log In</button></div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email">
+              <input type="password" class="form-control" placeholder="Password">
+              <button type="submit" class="form-control btn btn-info">Log In</button>
             </div>
           </form>
         </section><!--/.navbar-collapse -->
@@ -109,7 +105,7 @@ Consider getting this to work an extra credit assignment only because it relies 
         <!--each article is a column which takes up one third of the space-->
         <article class="jumbotron col-md-8">
           <h2>Connect with all your friends!</h2>
-          <ul>
+          <ul id="bullet-points">
             <li><strong>See photos and updates</strong> in your newsfeed</li>
             <li><strong>Post your status for the world to see</strong> from your profile</li>
             <li><strong>Get in touch with your friends</strong> by "friending" them</li>
@@ -154,29 +150,17 @@ Consider getting this to work an extra credit assignment only because it relies 
 
             <div class="row form-group">
               <div class="col-xs-12">
-                <input type="radio" name="sex" value="male" checked> Male
                 <input type="radio" name="sex" value="female"> Female
+                <input type="radio" name="sex" value="male"> Male
               </div>
             </div>
 
-            <div class="row form-group">
+            <div id="signup-button" class="row form-group">
               <button type="submit" class="btn btn-success col-xs-12">Sign Up!</button>
             </div>
           </form>
         </article>
       </section><!--end row of articles-->
     </main><!--end main container-->
-
-    <!--a "horizontal rule" break to match the example-->
-    <hr>
-
-    <!--the footer for copyright info-->
-    <footer id="danebook-footer">
-      <section class="container">
-      <p></p>
-      </section>
-    </footer>
-
   </body>
 </html>
-

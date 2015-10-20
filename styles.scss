@@ -11,15 +11,27 @@ body {
 }
 
 #danebook-navbar {
-	background-color:$danebook-brand-color;
+  background-color:$danebook-brand-color;
+  height:90px;
 }
 
 #danebook-footer {
-	background-color:$danebook-neutral-color;
-	height:20px;
+  background-color:$danebook-neutral-color;
+  height:20px;
+}
+
+#signup-button {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px black;
 }
 
 #brand-text {
-	font-size: 48px;
-	color:white;
+  font-size: 48px;
+  color:white;
+}
+
+#bullet-points {
+  color:#7A7A75;
+  margin:5px auto;
+  font-size:16px;
 }
