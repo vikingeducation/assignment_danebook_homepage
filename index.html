@@ -66,7 +66,7 @@ Consider getting this to work an extra credit assignment only because it relies 
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Danebook</a>
+          <a id="brand-text" class="navbar-brand h1" href="#">Danebook</a>
         </section>
 
         <!--DESCRIPTION
@@ -78,17 +78,16 @@ Consider getting this to work an extra credit assignment only because it relies 
 
         <!--collapsing login form-->
         <section id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
+          <form class="navbar-form navbar-right row">
+            <div class="form-group col-md-5">
               <p>Email</p>
               <input type="email" class="form-control">
             </div>
-            <div class="form-group">
+            <div class="form-group col-md-5">
               <p>Password</p>
               <input type="password" class="form-control">
             </div>
-            <div class="form-group">
-              <p></p>
+            <div class="form-group col-md-2">
               <button type="submit" class="btn btn-info">Log In</button>
             </div>
           </form>
@@ -96,7 +95,16 @@ Consider getting this to work an extra credit assignment only because it relies 
       </div><!--end container-->
     </nav><!--end navbar-->
 
-    <!--The main container which holds the columns and rows of the three articles-->
+    <!--DESCRIPTION
+    As a new visitor to Danebook,
+    I want to sign up for an account
+    So I can join the community and start posting.
+    TASKS
+    Potential users can sign up after entering their email, username, password, birthday and gender
+    The birthday fields include separate drop-downs for day, month, and year
+    Birthday dropdown fields are pre-populated with data (e.g. 31 days, 12 months and ~100 years)-->
+
+    <!--The main container which holds the welcome list and sign up form for new users-->
     <main class="container">
       <!--row holds the three articles-->
       <section class="row">
@@ -112,8 +120,50 @@ Consider getting this to work an extra credit assignment only because it relies 
         </article>
         <article class="col-md-4">
           <h2>Sign Up</h2>
-          <form>
-            
+          <form class="form">
+            <div class="row form-group">
+              <div class="col-xs-6">
+                <input class="form-control" type="text" placeholder="First Name">
+              </div>
+              <div class="col-xs-6">
+                <input class="form-control" type="text" placeholder="Last Name">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="email" placeholder="Email">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="password" placeholder="Your New Password">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="password" placeholder="Confirm Your Password">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="date">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-xs-12">
+                <input type="radio" name="sex" value="male" checked> Male
+                <input type="radio" name="sex" value="female"> Female
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <button type="submit" class="btn btn-success col-xs-12">Sign Up!</button>
+            </div>
           </form>
         </article>
       </section><!--end row of articles-->
