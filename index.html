@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<!--
+Your job is to use Bootstrap to bring the mockup to reality using the Agile Development approach we covered in the prep work. You will use the User Stories listed in the Tracker (and the attached mockup) to guide your development. The three stories are:
+
+Home Page The basic structure of the page
+Sign In The signin form in the navbar
+Sign Up The larger signup form in the main page area
+Once you've finished each story in the Pivotal Tracker (you don't need to manually check off the Acceptance Criteria / Tasks for this project), be sure to Git commit it.
+
+Tips
+
+Build each story first by using just Bootstrap classes (no additional styles). Only once you've exhausted the options provided by the framework should you look to start overriding things on your own. It's okay if it doesn't look exact at this point.
+
+Extra Credit
+
+When Bootstrap navbars collapse on narrower screens/browsers, they turn into a single clickable-and-expandable button (one of those ones you commonly see on mobile menus):
+
+Consider getting this to work an extra credit assignment only because it relies on JavaScript. It should work out of the box as long as you include jQuery ABOVE your Bootstrap JavaScript load, but it's not worth your time right now to go debugging JavaScript issues. Use the developer tools 'console' tab if you must...
+-->
+
+<html>
+  <head>
+    <title>Danebook</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!--The navbar/sign in form at the very top of the screen-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav><!--end navbar-->
+
+    <!--the header/jumbotron-had to place a container inside to get the right width-->
+    <header class="jumbotron">
+      <section class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p>
+          <input class="btn btn-primary btn-lg" type="button" value="Learn more »">
+        </p>
+      </section>
+    </header>
+
+    <!--The main container which holds the columns and rows of the three articles-->
+    <main class="container">
+      <!--row holds the three articles-->
+      <section class="row">
+        <!--each article is a column which takes up one third of the space-->
+        <article class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <input class="btn btn-default" type="button" value="View details »">
+          </p>
+        </article>
+        <article class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <input class="btn btn-default" type="button" value="View details »">
+          </p>
+        </article>
+        <article class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p>
+            <input class="btn btn-default" type="button" value="View details »">
+          </p>
+        </article>
+      </section><!--end row of articles-->
+    </main><!--end main container-->
+
+    <!--a "horizontal rule" break to match the example-->
+    <hr>
+
+    <!--the footer for copyright info-->
+    <footer>
+      <section class="container">
+        <p>&#169; Company 2014</p>
+      </section>
+    </footer>
+
+  </body>
+</html>
+
