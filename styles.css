@@ -2,7 +2,14 @@
 Extra styles on top of Bootstrap
 */
 body {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 20px; }
+
+#danebook-navbar {
+  background-color: #2B78E4; }
+
+#danebook-footer {
+  background-color: #C1C1C1;
+  height: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

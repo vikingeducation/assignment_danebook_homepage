@@ -2,7 +2,19 @@
 Extra styles on top of Bootstrap
 */
 
+$danebook-brand-color: #2B78E4;
+$danebook-neutral-color: #C1C1C1;
+
 body {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 20px;
+}
+
+#danebook-navbar {
+	background-color:$danebook-brand-color;
+}
+
+#danebook-footer {
+	background-color:$danebook-neutral-color;
+	height:20px;
 }

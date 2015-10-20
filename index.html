@@ -48,68 +48,73 @@ Consider getting this to work an extra credit assignment only because it relies 
   </head>
 
   <body>
+
+    <!--DESCRIPTION
+    As a visitor to the Danebook site
+    I want to see a branded home page
+    So I know where I have landed
+    TASKS
+    Set up the basic homepage (e.g. navbar, main content area) without any of the submission forms-->
+
     <!--The navbar/sign in form at the very top of the screen-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="danebook-navbar" class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+        <section class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
+          <a class="navbar-brand" href="#">Danebook</a>
+        </section>
+
+        <!--DESCRIPTION
+        As a visitor to the site
+        I want to sign in to my account
+        So I can use the site
+        TASKS
+        The visitor can enter email and password to sign in-->
+
+        <!--collapsing login form-->
+        <section id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <p>Email</p>
+              <input type="email" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <p>Password</p>
+              <input type="password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <div class="form-group">
+              <p></p>
+              <button type="submit" class="btn btn-info">Log In</button>
+            </div>
           </form>
-        </div><!--/.navbar-collapse -->
-      </div>
+        </section><!--/.navbar-collapse -->
+      </div><!--end container-->
     </nav><!--end navbar-->
-
-    <!--the header/jumbotron-had to place a container inside to get the right width-->
-    <header class="jumbotron">
-      <section class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p>
-          <input class="btn btn-primary btn-lg" type="button" value="Learn more »">
-        </p>
-      </section>
-    </header>
 
     <!--The main container which holds the columns and rows of the three articles-->
     <main class="container">
       <!--row holds the three articles-->
       <section class="row">
         <!--each article is a column which takes up one third of the space-->
-        <article class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <input class="btn btn-default" type="button" value="View details »">
-          </p>
+        <article class="jumbotron col-md-8">
+          <h2>Connect with all your friends!</h2>
+          <ul>
+            <li><strong>See photos and updates</strong> in your newsfeed</li>
+            <li><strong>Post your status for the world to see</strong> from your profile</li>
+            <li><strong>Get in touch with your friends</strong> by "friending" them</li>
+            <li><strong>Like things</strong> because you're a positive person!</li>
+          </ul>
         </article>
         <article class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <input class="btn btn-default" type="button" value="View details »">
-          </p>
-        </article>
-        <article class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <input class="btn btn-default" type="button" value="View details »">
-          </p>
+          <h2>Sign Up</h2>
+          <form>
+            
+          </form>
         </article>
       </section><!--end row of articles-->
     </main><!--end main container-->
@@ -118,9 +123,9 @@ Consider getting this to work an extra credit assignment only because it relies 
     <hr>
 
     <!--the footer for copyright info-->
-    <footer>
+    <footer id="danebook-footer">
       <section class="container">
-        <p>&#169; Company 2014</p>
+      <p></p>
       </section>
     </footer>
 
