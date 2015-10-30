@@ -1,0 +1,32 @@
+.navbar-default {
+  background-color: #3B5998;
+  color: white; }
+  .navbar-default .navbar-header h1 {
+    font-size: 50px; }
+
+.login {
+  margin: 25px 0 0 5px;
+  background-color: #758AB6;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 5px #000; }
+
+.col-sm-6 {
+  padding-top: 70px; }
+  .col-sm-6 ul {
+    color: #aaa; }
+
+.header {
+  padding-bottom: 30px; }
+  .header h1 {
+    font-size: 45px; }
+
+.radio-group {
+  margin-top: 20px; }
+
+.btn-success {
+  margin-top: 10px;
+  box-shadow: 5px 5px 2px #000;
+  font-size: 28px; }
+
+/*# sourceMappingURL=main.css.map */
