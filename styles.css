@@ -1,0 +1,94 @@
+body {
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+.navbar {
+  background-color: blue;
+  border-bottom: 1px solid black;
+  height: 80px; }
+  .navbar .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .navbar .container .navbar-header {
+      display: block;
+      float: left; }
+      .navbar .container .navbar-header .navbar-brand {
+        color: white;
+        font-size: 40px;
+        height: 40px;
+        vertical-align: middle; }
+    .navbar .container .btn-success {
+      background-color: #9fc5f8;
+      border: 2px solid black;
+      height: 27px;
+      margin-left: 9px;
+      vertical-align: bottom;
+      width: 61px; }
+      .navbar .container .btn-success .log-in {
+        line-height: 13px;
+        color: black;
+        font-size: 13px;
+        font-weight: bold; }
+
+.form-group label {
+  display: block;
+  color: white;
+  font-size: 13px;
+  font-weight: normal; }
+.form-group .form-control {
+  display: block;
+  height: 27px; }
+
+#password-and-label-container {
+  margin-left: 21px; }
+
+.left-side-of-page {
+  margin-top: 50px; }
+  .left-side-of-page header h1 {
+    color: black;
+    font-size: 28px; }
+  .left-side-of-page ul {
+    color: #666;
+    font-size: 16px; }
+    .left-side-of-page ul li {
+      margin-top: 16px; }
+    .left-side-of-page ul span {
+      font-weight: bold; }
+
+.right-side-of-page header h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: normal; }
+
+form h4 {
+  color: black; }
+form .dropdown {
+  display: inline-block;
+  margin-right: 13px; }
+  form .dropdown .btn {
+    background-color: white;
+    border: 1px solid black;
+    color: #999;
+    padding: 0; }
+    form .dropdown .btn .button-text-container {
+      border-right: 1px solid black;
+      display: inline-block;
+      min-height: 100%;
+      padding: 3px 4px; }
+    form .dropdown .btn .caret {
+      color: black;
+      margin-right: 4px; }
+
+label.radio-inline {
+  color: black;
+  display: inline-block; }
+
+#sign-up {
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=styles.css.map */
