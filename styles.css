@@ -83,4 +83,8 @@ form .dropdown {
       color: black;
       margin-right: 4px; }
 
+label.radio-inline {
+  color: black;
+  display: inline-block; }
+
 /*# sourceMappingURL=styles.css.map */
