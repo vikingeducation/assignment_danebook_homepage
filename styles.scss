@@ -102,3 +102,34 @@ body {
     }
   }
 }
+
+form {
+
+  h4 {
+    color: black;
+  }
+
+  .dropdown {
+    display: inline-block;
+    margin-right: 13px;
+
+    .btn {
+      background-color: white;
+      border: 1px solid black;
+      color: #999;
+      padding: 0;
+
+      .button-text-container {
+        border-right: 1px solid black;
+        display: inline-block;
+        min-height: 100%;
+        padding: 3px 4px;
+      }
+
+      .caret {
+        color: black;
+        margin-right: 4px;
+      }
+    }
+  }
+}

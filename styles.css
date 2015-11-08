@@ -64,4 +64,23 @@ body {
   font-size: 40px;
   font-weight: normal; }
 
+form h4 {
+  color: black; }
+form .dropdown {
+  display: inline-block;
+  margin-right: 13px; }
+  form .dropdown .btn {
+    background-color: white;
+    border: 1px solid black;
+    color: #999;
+    padding: 0; }
+    form .dropdown .btn .button-text-container {
+      border-right: 1px solid black;
+      display: inline-block;
+      min-height: 100%;
+      padding: 3px 4px; }
+    form .dropdown .btn .caret {
+      color: black;
+      margin-right: 4px; }
+
 /*# sourceMappingURL=styles.css.map */
