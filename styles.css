@@ -20,6 +20,18 @@ body {
         font-size: 40px;
         height: 40px;
         vertical-align: middle; }
+    .navbar .container .btn-success {
+      background-color: #9fc5f8;
+      border: 2px solid black;
+      height: 27px;
+      margin-left: 9px;
+      vertical-align: bottom;
+      width: 61px; }
+      .navbar .container .btn-success .log-in {
+        line-height: 13px;
+        color: black;
+        font-size: 13px;
+        font-weight: bold; }
 
 .form-group label {
   display: block;
@@ -32,19 +44,6 @@ body {
 
 #password-and-label-container {
   margin-left: 21px; }
-
-.btn-success {
-  background-color: #9fc5f8;
-  border: 2px solid black;
-  height: 27px;
-  margin-left: 9px;
-  vertical-align: bottom;
-  width: 61px; }
-  .btn-success .log-in {
-    line-height: 13px;
-    color: black;
-    font-size: 13px;
-    font-weight: bold; }
 
 .left-side-of-page {
   margin-top: 50px; }
@@ -86,5 +85,10 @@ form .dropdown {
 label.radio-inline {
   color: black;
   display: inline-block; }
+
+#sign-up {
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */

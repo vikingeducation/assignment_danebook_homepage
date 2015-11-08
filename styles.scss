@@ -31,6 +31,22 @@ body {
         vertical-align: middle;
       }
     }
+
+    .btn-success {
+      background-color: #9fc5f8;
+      border: 2px solid black;
+      height: 27px;
+      margin-left: 9px;
+      vertical-align: bottom;
+      width: 61px;
+
+      .log-in {
+        line-height: 13px;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+      }
+    }
   }
 }
 
@@ -50,22 +66,6 @@ body {
 
 #password-and-label-container {
   margin-left: 21px;
-}
-
-.btn-success {
-  background-color: #9fc5f8;
-  border: 2px solid black;
-  height: 27px;
-  margin-left: 9px;
-  vertical-align: bottom;
-  width: 61px;
-
-  .log-in {
-    line-height: 13px;
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
-  }
 }
 
 .left-side-of-page {
@@ -137,4 +137,10 @@ form {
 label.radio-inline {
   color: black;
   display: inline-block;
+}
+
+#sign-up {
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
 }
