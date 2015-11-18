@@ -1,0 +1,54 @@
+.danebook-navbar {
+  background-color: #2b7ae6;
+  color: white;
+  border: none;
+  border-radius: 0;
+  border-color: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-collapse,.navbar-form,.navbar-default, .danebook-navhome {
+  border: none;
+}
+
+.danebook-navhome {
+  padding: 10px 0;
+}
+
+.danebook-brand {
+  color: white;
+
+  &.danebook-homepage {
+    font-size: 2.5em;
+    position: relative;
+    top: 13px;
+  }
+}
+
+.danebook-ul {
+  font-size: 1.3em;
+  color: grey;
+  line-height: 40px;
+}
+
+.danebook-sign-in {
+  .form-group {
+    padding-right: 20px;
+  }
+
+  button {
+    position: relative;
+    top: 13px;
+    background-color: #a0c6f9;
+    border-color: #a0c6f9;
+  }
+}
+
+.danebook-form-stack {
+  label {
+    display: block;
+  }
+}
