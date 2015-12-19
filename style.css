@@ -24,6 +24,12 @@ main {
   main section:nth-child(1) li {
     line-height: 50px; }
   main section:nth-child(1) h2 {
-    font-style: bold; }
+    font-weight: bold;
+    font-size: 2em; }
+  main section:nth-child(2) h1 {
+    font-size: 3em;
+    font-weight: bold; }
+  main section:nth-child(2) form input {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
