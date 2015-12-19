@@ -1,0 +1,29 @@
+.navbar-default {
+  border: 2px solid #000;
+  height: 100px;
+  padding-top: 20px;
+  background-color: #2B78E4;
+  color: #fff; }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 3em; }
+  .navbar-default form {
+    position: relative;
+    top: -10px; }
+    .navbar-default form input {
+      border: 1px solid #000; }
+    .navbar-default form button {
+      position: relative;
+      vertical-align: bottom;
+      border: 1px solid #000;
+      background-color: #9FC5F8;
+      color: #000; }
+
+main {
+  margin: 50px; }
+  main section:nth-child(1) li {
+    line-height: 50px; }
+  main section:nth-child(1) h2 {
+    font-style: bold; }
+
+/*# sourceMappingURL=style.css.map */
