@@ -21,8 +21,6 @@
 
 main {
   margin: 50px; }
-  main .navbar-form .form-control {
-    width: 400px; }
   main section:nth-child(1) li {
     line-height: 50px; }
   main section:nth-child(1) h2 {
@@ -38,8 +36,10 @@ main {
   main section:nth-child(2) .dropdown {
     display: inline-block;
     margin: 0 10px; }
+  main section:nth-child(2) .full-width input {
+    width: 100%; }
   main section:nth-child(2) .input-group {
-    margin: 10px 20px 10px 0; }
+    margin: 10px 20px; }
   main section:nth-child(2) #sign-up {
     width: 100%; }
 
