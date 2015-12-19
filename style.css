@@ -21,6 +21,8 @@
 
 main {
   margin: 50px; }
+  main .navbar-form .form-control {
+    width: 400px; }
   main section:nth-child(1) li {
     line-height: 50px; }
   main section:nth-child(1) h2 {
@@ -28,8 +30,17 @@ main {
     font-size: 2em; }
   main section:nth-child(2) h1 {
     font-size: 3em;
-    font-weight: bold; }
-  main section:nth-child(2) form input {
+    font-weight: bold;
+    position: relative;
+    top: -25px; }
+  main section:nth-child(2) input {
+    margin: 10px 0; }
+  main section:nth-child(2) .dropdown {
+    display: inline-block;
+    margin: 0 10px; }
+  main section:nth-child(2) .input-group {
+    margin: 10px 20px 10px 0; }
+  main section:nth-child(2) #sign-up {
     width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

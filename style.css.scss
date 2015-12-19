@@ -28,6 +28,12 @@
 
 main {
 	margin: 50px;
+	.navbar-form {
+		.form-control {
+			width: 400px;
+		}
+	}
+
 	section:nth-child(1) {
 		li {
 			line-height: 50px;
@@ -37,15 +43,29 @@ main {
 			font-size: 2em;
 		}
 	}
+
 	section:nth-child(2) {
 		h1 {
 			font-size: 3em;
 			font-weight: bold;
+			position: relative;
+			top: -25px;
 		}
-		form {
-			input {
-				width: 100%;
-			}
+
+		input {
+			margin: 10px 0;
+		}
+		.dropdown {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		.input-group {
+			margin: 10px 20px 10px 0;
+		}
+
+		#sign-up {
+			width: 100%;
 		}
 	}
 }
