@@ -1,0 +1,22 @@
+.topnav {
+  background: #02e;
+  border: none;
+  border-radius: 0; }
+  .topnav .navbar-brand {
+    color: #fff;
+    font-weight: 700; }
+  .topnav li {
+    padding: 8px 5px 0 5px; }
+  .topnav ul {
+    padding-right: 20px; }
+
+main header {
+  font-size: 36px;
+  margin: 50px 0 20px 0; }
+main li {
+  margin: 10px 0; }
+
+form .form-group {
+  margin: 15px 0; }
+
+/*# sourceMappingURL=styles.css.map */
