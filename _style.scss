@@ -1,0 +1,79 @@
+$small-screen: "screen and (max-width: 767px)";
+
+.navbar-form {
+	@media #{$small-screen} {
+		background-color: #2B78E4;
+	}
+}
+
+.navbar-default {
+	border: 2px solid #000;
+	height: 100px;
+	padding-top: 20px;
+	background-color: #2B78E4;
+	color: $navbar-font-color;
+
+	.navbar-brand {
+		color: $navbar-font-color;
+		font-size: 3em;
+	}
+
+	form {
+		position: relative;
+		top: -10px;
+		input {
+			border: 1px solid #000;
+		}
+		button {
+			position: relative;
+			vertical-align: bottom;
+			border: 1px solid #000;
+			background-color: #9FC5F8;
+			color: #000;
+		}
+	}
+}
+
+main {
+	margin: 50px;
+	section:nth-child(1) {
+		li {
+			line-height: 50px;
+		}
+		h2 {
+			font-weight: bold;
+			font-size: 2em;
+		}
+	}
+
+	section:nth-child(2) {
+		h1 {
+			font-size: 3em;
+			font-weight: bold;
+			position: relative;
+			top: -25px;
+		}
+
+		input {
+			margin: 10px 0;
+		}
+		
+		.dropdown {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		.full-width {
+			input {
+				width: 100%;
+			}
+		}
+		.input-group {
+			margin: 10px 20px;
+		}
+
+		#sign-up {
+			width: 100%;
+		}
+	}
+}
