@@ -4,7 +4,7 @@
 
 .navbar-default {
   border: 2px solid #000;
-  height: 100px;
+  height: 15%;
   padding-top: 20px;
   background-color: #2B78E4;
   color: #fff; }
@@ -24,7 +24,13 @@
       color: #000; }
 
 main {
-  margin: 50px; }
+  margin: 10% 0 0; }
+  @media screen and (max-width: 767px) {
+    main {
+      margin: 10% 0 10%; } }
+  @media screen and (max-width: 767px) {
+    main section:nth-child(1) {
+      margin: 100px 0; } }
   main section:nth-child(1) li {
     line-height: 50px; }
   main section:nth-child(1) h2 {
@@ -43,7 +49,8 @@ main {
   main section:nth-child(2) .full-width input {
     width: 100%; }
   main section:nth-child(2) .input-group {
-    margin: 10px 20px; }
+    margin: 10px 20px;
+    display: inline-block; }
   main section:nth-child(2) #sign-up {
     width: 100%; }
 
