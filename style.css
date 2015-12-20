@@ -1,3 +1,7 @@
+@media screen and (max-width: 767px) {
+  .navbar-form {
+    background-color: #2B78E4; } }
+
 .navbar-default {
   border: 2px solid #000;
   height: 100px;

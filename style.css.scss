@@ -1,12 +1,18 @@
+.navbar-form {
+	@include mobile {
+		background-color: $navbar-color;
+	}
+}
+
 .navbar-default {
 	border: 2px solid #000;
 	height: 100px;
 	padding-top: 20px;
-	background-color: #2B78E4;
-	color: #fff;
+	background-color: $navbar-color;
+	color: $navbar-font-color;
 
 	.navbar-brand {
-		color: #fff;
+		color: $navbar-font-color;
 		font-size: 3em;
 	}
 
@@ -14,12 +20,12 @@
 		position: relative;
 		top: -10px;
 		input {
-			border: 1px solid #000;
+			border: $border-outline;
 		}
 		button {
 			position: relative;
 			vertical-align: bottom;
-			border: 1px solid #000;
+			border: $border-outline;
 			background-color: #9FC5F8;
 			color: #000;
 		}
@@ -29,6 +35,7 @@
 main {
 	margin: 50px;
 	section:nth-child(1) {
+		z-index: -1;
 		li {
 			line-height: 50px;
 		}
