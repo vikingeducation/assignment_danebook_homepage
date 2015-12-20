@@ -1,0 +1,57 @@
+@media screen and (max-width: 767px) {
+  .navbar-form {
+    background-color: #2B78E4; } }
+
+.navbar-default {
+  border: 2px solid #000;
+  height: 15%;
+  padding-top: 20px;
+  background-color: #2B78E4;
+  color: #fff; }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 3em; }
+  .navbar-default form {
+    position: relative;
+    top: -10px; }
+    .navbar-default form input {
+      border: 1px solid #000; }
+    .navbar-default form button {
+      position: relative;
+      vertical-align: bottom;
+      border: 1px solid #000;
+      background-color: #9FC5F8;
+      color: #000; }
+
+main {
+  margin: 10% 0 0; }
+  @media screen and (max-width: 767px) {
+    main {
+      margin: 10% 0 10%; } }
+  @media screen and (max-width: 767px) {
+    main section:nth-child(1) {
+      margin: 100px 0; } }
+  main section:nth-child(1) li {
+    line-height: 50px; }
+  main section:nth-child(1) h2 {
+    font-weight: bold;
+    font-size: 2em; }
+  main section:nth-child(2) h1 {
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    top: -25px; }
+  main section:nth-child(2) input {
+    margin: 10px 0; }
+  main section:nth-child(2) .dropdown {
+    display: inline-block;
+    margin: 0 10px; }
+  main section:nth-child(2) .full-width input {
+    width: 100%; }
+  main section:nth-child(2) .input-group {
+    margin: 10px 20px;
+    display: inline-block; }
+  main section:nth-child(2) #sign-up {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

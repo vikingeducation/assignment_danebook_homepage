@@ -1,0 +1,86 @@
+.navbar-form {
+	@include mobile {
+		background-color: $navbar-color;
+	}
+}
+
+.navbar-default {
+	border: 2px solid #000;
+	height: 15%;
+	padding-top: 20px;
+	background-color: $navbar-color;
+	color: $navbar-font-color;
+
+	.navbar-brand {
+		color: $navbar-font-color;
+		font-size: 3em;
+	}
+
+	form {
+		position: relative;
+		top: -10px;
+		input {
+			border: $border-outline;
+		}
+		button {
+			position: relative;
+			vertical-align: bottom;
+			border: $border-outline;
+			background-color: #9FC5F8;
+			color: #000;
+		}
+	}
+}
+
+main {
+	@include mobile {
+		margin: 10% 0 10%;
+	}
+
+	margin: 10% 0 0;
+
+	section:nth-child(1) {
+		@include mobile {
+			margin: 100px 0;
+		}
+		li {
+			line-height: 50px;
+		}
+		h2 {
+			font-weight: bold;
+			font-size: 2em;
+		}
+	}
+
+	section:nth-child(2) {
+		h1 {
+			font-size: 3em;
+			font-weight: bold;
+			position: relative;
+			top: -25px;
+		}
+
+		input {
+			margin: 10px 0;
+		}
+		
+		.dropdown {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		.full-width {
+			input {
+				width: 100%;
+			}
+		}
+		.input-group {
+			margin: 10px 20px;
+			display: inline-block;
+		}
+
+		#sign-up {
+			width: 100%;
+		}
+	}
+}

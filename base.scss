@@ -1,0 +1,13 @@
+$navbar-color: #2B78E4;
+$navbar-font-color: #fff;
+$border-outline: 1px solid #000;
+
+$small-screen: "screen and (max-width: 767px)";
+
+@mixin mobile {
+	@media #{$small-screen} {
+		@content;
+	}
+}
+
+@import 'style';
