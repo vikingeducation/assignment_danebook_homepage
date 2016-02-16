@@ -1,0 +1,26 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.navbar {
+	background-color: #2B78E4;
+	background-image: none;
+
+	.navbar-brand {
+		color: #FFF;
+		font-size: 50px;
+		@media (min-width: 768px) {
+			margin-top: calc(25% - 50px);
+		}
+	}
+	.form-group{
+		label {
+			color: #FFF;
+		}
+	}
+	.btn {
+		@media (min-width: 768px) {
+			margin-top: 6%;
+		}
+	}
+}
