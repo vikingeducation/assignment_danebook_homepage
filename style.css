@@ -1,3 +1,35 @@
+body {
+  font-family: Helvetica; }
+  body .navbar {
+    background: #428bca;
+    border: 1px solid #428bca;
+    border-radius: 0; }
+    body .navbar .navbar-brand {
+      color: white;
+      font-size: 30px; }
+  @media (min-width: 762px) {
+    body .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
 
+.marketing h1 {
+  padding-top: 50px;
+  padding-bottom: 30px; }
+.marketing li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #777; }
+
+.sign-up h2 {
+  font-size: 40px; }
+.sign-up input, .sign-up button, .sign-up label[for="birthdate"] {
+  margin-top: 15px; }
+.sign-up label {
+  padding-right: 35px; }
+.sign-up button[type=submit] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
