@@ -1,0 +1,25 @@
+body {
+  padding-top: 70px; }
+
+.navbar-custom {
+  background: #2B78E4; }
+  .navbar-custom .navbar-brand {
+    color: white;
+    padding-top: 30px;
+    font-size: 40px; }
+  @media screen and (max-width: 776px) {
+    .navbar-custom .navbar-brand {
+      padding-top: 20px;
+      font-size: 30px; } }
+  .navbar-custom .navbar-toggle .icon-bar {
+    background-color: white; }
+
+.form-group td {
+  padding-right: 10px; }
+.form-group span {
+  color: white; }
+
+.signup .form-group .row {
+  padding-top: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
