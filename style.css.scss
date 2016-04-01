@@ -1,4 +1,15 @@
+$danebook-blue: #3385ff;
+
+
 body {
 	padding-top: 50px;
 	padding-bottom: 20px;
+}
+
+.navbar-default {
+	background-color: $danebook-blue;
+
+	.navbar-brand {
+		color: #fff;
+	}
 }
