@@ -3,7 +3,8 @@ body {
   padding-bottom: 20px; }
 
 .navbar-default {
-  background-color: #3385ff; }
+  background-color: #3385ff;
+  color: #fff; }
   .navbar-default .navbar-brand {
     color: #fff; }
 

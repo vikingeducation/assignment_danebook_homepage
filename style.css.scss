@@ -9,6 +9,10 @@ body {
 .navbar-default {
 	background-color: $danebook-blue;
 	color: #fff;
+
+	.navbar-brand {
+		color: #fff;
+	}
 }
 
 .col-middle {
