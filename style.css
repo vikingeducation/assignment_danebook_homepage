@@ -7,6 +7,8 @@ body {
   color: #fff; }
   .navbar-default .navbar-brand {
     color: #fff; }
+  .navbar-default .form-group {
+    margin: 10px; }
 
 .col-middle {
   padding-top: 10%; }
