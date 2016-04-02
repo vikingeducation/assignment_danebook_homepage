@@ -6,9 +6,18 @@ body {
   background-color: #3385ff;
   color: #fff; }
   .navbar-default .navbar-brand {
+    font-size: 250%;
+    font-weight: bold;
     color: #fff; }
+    @media screen and (min-width: 768px) {
+      .navbar-default .navbar-brand {
+        margin-top: 5%; } }
   .navbar-default .form-group {
-    margin: 10px; }
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  @media screen and (min-width: 768px) {
+    .navbar-default .btn-info {
+      margin-top: 5%; } }
 
 .col-middle {
   padding-top: 10%; }
