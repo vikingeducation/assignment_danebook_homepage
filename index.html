@@ -13,25 +13,30 @@
   	<nav class="nav navbar-default navbar-fixed-top">
   		<div class="container">
   			<div class="navbar-header">
+          <button class="navbar-toggle" data-toggle="collapse" data-target="#sign-in-form">
+            SIGN-IN
+          </button>
   				<a class="navbar-brand" href="#">Danebook</a>
   			</div>
 
-        <div class="nav navbar-right">
-          <form role="form" class="form-inline">
-            <div class="row">
-              <div class="form-group col-md-4">
-                <label>Email</label>
-                <input>
+        <div id="sign-in-form" class="collapse navbar-collapse">
+          <div class="nav navbar-right">
+            <form role="form" class="form-inline">
+              <div class="row">
+                <div class="form-group col-md-4">
+                  <label>Email</label>
+                  <input>
+                </div>
+                <div class="form-group col-md-4">
+                  <label>Password</label>
+                  <input>
+                </div>
+                <div class="form-group col-md-4">
+                  <button type="submit" class="btn btn-info">Sign in</button>
+                </div>
               </div>
-              <div class="form-group col-md-4">
-                <label>Password</label>
-                <input>
-              </div>
-              <div class="form-group col-md-4">
-                <button type="submit" class="btn btn-info">Sign in</button>
-              </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
   		</div>
   	</nav>
