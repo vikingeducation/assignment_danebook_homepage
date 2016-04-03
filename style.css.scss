@@ -13,10 +13,7 @@ body {
 	.navbar-brand {
 		font-size: 250%;
 		font-weight: bold;
-		color: #fff;
-		@media screen and (min-width: 768px) {
-			margin-top: 5%;
-		}
+		color: #fff
 	}
 
 	.form-group {
@@ -24,6 +21,7 @@ body {
 		padding-bottom: 10px;
 	}
 
+	.navbar-brand,
 	.btn-info {
 		@media screen and (min-width: 768px) {
 			margin-top: 5%;
