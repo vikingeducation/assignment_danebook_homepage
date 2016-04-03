@@ -2,6 +2,12 @@ body {
   padding-top: 70px;
   padding-bottom: 20px; }
 
+aside h3 {
+  font-weight: bold; }
+aside li {
+  font-size: 130%;
+  color: gray; }
+
 .navbar-default {
   background-color: #3385ff;
   color: #fff; }
@@ -9,13 +15,11 @@ body {
     font-size: 250%;
     font-weight: bold;
     color: #fff; }
-    @media screen and (min-width: 768px) {
-      .navbar-default .navbar-brand {
-        margin-top: 5%; } }
   .navbar-default .form-group {
     padding-top: 10px;
     padding-bottom: 10px; }
   @media screen and (min-width: 768px) {
+    .navbar-default .navbar-brand,
     .navbar-default .btn-info {
       margin-top: 5%; } }
 

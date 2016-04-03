@@ -6,6 +6,18 @@ body {
 	padding-bottom: 20px;
 }
 
+aside {
+	h3 {
+		font-weight: bold
+	}
+
+	li {
+		font-size: 130%;
+		color: gray;
+	}
+}
+
+
 .navbar-default {
 	background-color: $danebook-blue;
 	color: #fff;
