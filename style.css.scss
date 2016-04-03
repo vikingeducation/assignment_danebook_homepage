@@ -1,0 +1,50 @@
+$danebook-blue: #3385ff;
+
+
+body {
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+aside {
+	h3 {
+		font-weight: bold
+	}
+
+	li {
+		font-size: 130%;
+		color: gray;
+	}
+}
+
+
+.navbar-default {
+	background-color: $danebook-blue;
+	color: #fff;
+
+	.navbar-brand {
+		font-size: 250%;
+		font-weight: bold;
+		color: #fff
+	}
+
+	.form-group {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.navbar-brand,
+	.btn-info {
+		@media screen and (min-width: 768px) {
+			margin-top: 5%;
+		}
+	}
+}
+
+.col-middle {
+	padding-top: 10%;
+}
+
+#sign-up {
+	width: 100%;
+}
