@@ -29,10 +29,12 @@
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
             <div class="form-group">
-              <input type="email" placeholder="Email" class="form-control">
+              <label for="userEmail">Email</label>
+              <input type="email" id="userEmail" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <label for="userPassword">Password</label>
+              <input type="password" id="userPassword" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Log In</button>
           </form>
@@ -69,6 +71,21 @@
           <div class="row">
             <div class="col-xs-12">
               <input type="password" class="form-control" placeholder="Confirm Your Password">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOption" value="male"> Male
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOption" value="male"> Female
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button type="button" name="signup" class="btn btn-success btn-lg center-block">Sign Up!</button>
             </div>
           </div>
         </section>
