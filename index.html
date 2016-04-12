@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Danebook Homepage</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Custom style that adjusts for navbar -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Danebook</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="email" id="userEmail" class="form-control" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <input type="password" id="userPassword" class="form-control" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-success">Log In</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div class="row">
+        <section class="col-md-6 col-md-push-6 signup">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Sign Up</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <input type="text" class="form-control" placeholder="First Name">
+            </div>
+            <div class="col-xs-6">
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="password" class="form-control" placeholder="Your New Password">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="password" class="form-control" placeholder="Confirm Your Password">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="lead">Birthday</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="form-group">
+                <select class="selectpicker form-control" id="month">
+                  <option value="" disabled selected>Month</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="form-group">
+                <select class="selectpicker form-control" id="day">
+                  <option value="" disabled selected>Day</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="form-group">
+                <select class="selectpicker form-control" id="year">
+                  <option value="" disabled selected>Year</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOption" value="male"> Male
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOption" value="male"> Female
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button type="button" name="signup" class="btn btn-success btn-lg center-block">Sign Up!</button>
+            </div>
+          </div>
+        </section>
+        <section class="col-md-6 col-md-pull-6 information">
+          <div class="row spacer">
+            <div class="col-md-12">
+              <h2>Connect with all your friends!</h2>
+              <ul>
+                <li><strong>See photos and updates</strong> in your news feed</li>
+                <li><strong>Post your status for the world to see</strong> from your profile</li>
+                <li><strong>Get in touch with your friends</strong> by "friending" them</li>
+                <li><strong>Like things</strong> because you're a positive person!</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- jQuery loaded before Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="birthday.js"></script>
+  </body>
+</html>
