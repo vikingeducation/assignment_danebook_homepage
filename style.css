@@ -1,15 +1,26 @@
 .navbar {
-  min-height: 75px; }
-
-.navbar-brand {
-  height: 75px;
-  font-size: 32px; }
+  min-height: 50px; }
 
 body {
-  padding-top: 75px;
+  padding-top: 85px;
   padding-bottom: 20px; }
 
 .navbar-inverse {
   background-color: #2B78E4; }
+  .navbar-inverse .navbar-brand {
+    color: #fff;
+    height: 50px;
+    font-size: 32px;
+    margin: 10px 0; }
+
+.spacer {
+  margin-top: 40px; }
+
+li {
+  font-size: 18px;
+  margin: 10px 0; }
+
+input {
+  margin: 10px 0; }
 
 /*# sourceMappingURL=style.css.map */
