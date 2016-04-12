@@ -1,5 +1,16 @@
+$control-height: 75px;
+
+.navbar {
+  min-height: $control-height;
+}
+
+.navbar-brand {
+  height: $control-height;
+  font-size: 32px;
+}
+
 body {
-  padding-top: 50px;
+  padding-top: $control-height;
   padding-bottom: 20px;
 }
 

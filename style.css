@@ -1,5 +1,12 @@
+.navbar {
+  min-height: 75px; }
+
+.navbar-brand {
+  height: 75px;
+  font-size: 32px; }
+
 body {
-  padding-top: 50px;
+  padding-top: 75px;
   padding-bottom: 20px; }
 
 .navbar-inverse {
