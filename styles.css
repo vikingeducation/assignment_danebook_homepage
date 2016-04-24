@@ -1,12 +1,15 @@
 .navbar-fixed-top {
   background-color: #3B5998;
+  background: linear-gradient(#4e69a2, #3a5795);
   color: white;
-  border: none; }
+  border-bottom: 1px solid #1a316d;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
 
 #navbar-signin label {
-  display: block; }
+  display: block;
+  font-size: .8em; }
 #navbar-signin button {
-  margin-top: 25px;
+  margin-top: 18px;
   background-color: #5973a8;
   border-color: #1a356e; }
 
