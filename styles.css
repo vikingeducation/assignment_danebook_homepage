@@ -24,7 +24,7 @@ main {
   line-height: 2em;
   margin-top: 50px; }
 
-#signup-form div {
+#signup-form .spacer {
   margin-bottom: 15px; }
 #signup-form button {
   border-color: #3b6e22; }
