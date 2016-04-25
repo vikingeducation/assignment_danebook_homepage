@@ -13,7 +13,20 @@
   background-color: #5973a8;
   border-color: #1a356e; }
 
+body {
+  background-color: #edf0f5; }
+
 main {
   margin-top: 100px; }
+
+#benefits {
+  font-size: 1.3em;
+  line-height: 2em;
+  margin-top: 50px; }
+
+#signup-form div {
+  margin-bottom: 15px; }
+#signup-form button {
+  border-color: #3b6e22; }
 
 /*# sourceMappingURL=styles.css.map */
