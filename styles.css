@@ -1,3 +1,22 @@
+.navbar {
+  background: linear-gradient(#46A, #359);
+  height: 80px; }
+  .navbar .navbar-brand {
+    color: white;
+    font-size: 3em;
+    margin-top: 10px;
+    font-weight: bold; }
+    .navbar .navbar-brand:hover {
+      color: white; }
 
+.about-info {
+  margin-top: 100px; }
+  .about-info h1 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 30px; }
+  .about-info li {
+    margin-top: 30px;
+    font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
