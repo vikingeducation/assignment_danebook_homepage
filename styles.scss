@@ -10,18 +10,39 @@
             color: white;
         }
     }
+    .sign-in-form{
+        margin-top: 10px;
+        .password{
+            margin-left: 10px;
+        }
+        .form-text{ margin-bottom: 0;
+                     font-weight: bold;
+                     color: white;}
+        .email-form{ margin-left: 0;}
+        .password-form{ margin-left: 0;}
+    }
+}
+.btn-primary{ margin-top: 20px;
+              margin-left: 10px;
+              background-color: #57A;
+              border: none;
+              &:hover{ background-color: #57A;
+                       border: 1px solid black;}}
+body{
+    background-color: #EFF;
 }
 
 .about-info{
-    margin-top: 100px;
+    margin-top: 70px;
 
     h1{
         margin-bottom: 40px;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 26px;
     }
     li{
         margin-top: 30px;
-        font-size: 20px;
+        font-size: 16px;
+        .bold-text{ font-weight: bold; }
     }
 }

@@ -8,15 +8,41 @@
     font-weight: bold; }
     .navbar .navbar-brand:hover {
       color: white; }
+  .navbar .sign-in-form {
+    margin-top: 10px; }
+    .navbar .sign-in-form .password {
+      margin-left: 10px; }
+    .navbar .sign-in-form .form-text {
+      margin-bottom: 0;
+      font-weight: bold;
+      color: white; }
+    .navbar .sign-in-form .email-form {
+      margin-left: 0; }
+    .navbar .sign-in-form .password-form {
+      margin-left: 0; }
+
+.btn-primary {
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #57A;
+  border: none; }
+  .btn-primary:hover {
+    background-color: #57A;
+    border: 1px solid black; }
+
+body {
+  background-color: #EFF; }
 
 .about-info {
-  margin-top: 100px; }
+  margin-top: 70px; }
   .about-info h1 {
     margin-bottom: 40px;
     font-weight: bold;
-    font-size: 30px; }
+    font-size: 26px; }
   .about-info li {
     margin-top: 30px;
-    font-size: 20px; }
+    font-size: 16px; }
+    .about-info li .bold-text {
+      font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
