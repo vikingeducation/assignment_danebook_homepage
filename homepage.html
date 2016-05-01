@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+     <!-- Jquery CDN -->
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+              crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Danebook</a>
+        </div>
+        <div class="sign-in-form col-xs-offset-7">
+          <div class="email col-xs-4">
+            <div class="row">
+              <p class="col-xs-12 form-text">Email</p>
+            </div>
+
+            <div class="row email-form">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+
+          <div class="password col-xs-4">
+            <div class="row">
+              <p class="col-xs-12 form-text">Password</p>
+            </div>
+
+            <div class="row password-form">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+
+        </div>
+         <button type="button" class="btn btn-primary navbar-btn log-in-btn">Log in</button>
+      </div>
+    </nav>
+    <main>
+      <section class="main-content">
+        <div class="container">
+          <div class="row">
+            <div class="about-info col-xs-6 col-xs-offset-1">
+              <h1>Connect with all your friends!</h1>
+              <ul>
+                <li><span class="bold-text">See photos and updates</span> in your news feed.</li>
+                <li><span class="bold-text">Post your status for the world</span> to see from your profile</li>
+                <li><span class="bold-text">Get in touch with your friends</span> by "friending" them</li>
+                <li><span class="bold-text">Like things</span> because you're a positive person!</li>
+              </ul>
+            </div>
+            <div class="sign-up-container col-xs-4">
+              <header class="row">
+                <h1 class="sign-up-header">Sign Up</h1>
+              </header>
+
+              <div class="row">
+                <div class="col-xs-6 form-container">
+                   <input type="text" class="form-control" placeholder="First Name">
+                </div>
+
+                <div class="col-xs-6 form-container">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+
+              <div class="row">
+                 <div class="col-xs-12 form-container">
+                   <input type="text" class="form-control" placeholder="Your Email">
+                </div>
+              </div>
+
+              <div class="row">
+                 <div class="col-xs-12 form-container">
+                   <input type="text" class="form-control" placeholder="Your New Password">
+                </div>
+              </div>
+
+              <div class="row">
+                 <div class="col-xs-12 form-container">
+                   <input type="text" class="form-control" placeholder="Confirm Your Password">
+                </div>
+              </div>
+
+              <div class="row">
+                <h2 id="birthday-header">Birthday</h2>
+              </div>
+
+              <div class="row">
+                <div class="datepicker">
+                  <input type="text" id="date" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="09-01-2013">
+                  <script>
+                    $(function(){
+                    $('#date').combodate();
+                    });
+                  </script>
+               </div>
+              </div>
+
+              <div class="row">
+                <div class="radio-button col-xs-4">
+                  <input type="radio" name="gender">  Female
+                </div>
+                <div class="radio-button col-xs-3">
+                  <input type="radio" name="gender">  Male
+                </div>
+              </div>
+
+              <div class="row">
+                <button type="button" class="btn btn-success sign-up-btn">Sign Up!</button>
+              </div>
+            </div> <!--close sign-up-container -->
+          </div> <!-- close row -->
+        </div> <!-- close container -->
+      </section> <!-- close main-content section -->
+    </main> <!-- close main -->
+
+
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- moment.js for datepicker -->
+    <script src="js/moment.min.js"></script>
+    <!-- combodate.js for datepicker -->
+    <script src="js/combodate.js"></script>
+  </body>
+</html>
