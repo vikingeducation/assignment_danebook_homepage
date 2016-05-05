@@ -54,12 +54,12 @@ nav {
 }
 
 main {
-	border: 1px dashed black;
+	min-height: calc(100vh - 95px);
+}
 
-	section[class^=col-md-] {
-		border: 1px dashed red;
-		@extend .center-vertical;
-	}
+.benefits {
+
+	margin-top: 7.5%;
 
 	h1 {
 		font-weight: bold;
@@ -68,10 +68,50 @@ main {
 	ul {
 		font-size: 18px;
 		line-height: 3em;
+		color: #666;
 	}
 
 	span {
 		font-weight: bold;
 	}
 
+}
+
+.sign-up-section {
+
+	margin-top: 1%;
+
+	h1 {
+		font-size: 48px;
+		font-weight: bold;
+	}
+
+	input {
+		width: 100%;
+		text-indent: 5px;
+		font-size: 18px;
+		line-height: 1.5em;
+	}
+
+	p {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+}
+
+.sign-up-form {
+
+	margin-bottom: 35px;
+
+	div[class=row] {
+		margin-top: 30px;
+	}
+}
+
+.birthday-form {
+	select {
+		font-size: 18px;
+		line-height: 1.5em;
+	}
 }

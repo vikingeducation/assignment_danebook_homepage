@@ -16,18 +16,22 @@
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
+	<!-- Custom JS -->
+	<script type="text/javascript" src="scripts/main.js"></script>
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="container">
+		<!-- Sign in nav -->
 		<nav class="row">
 			<div class="col-md-2">
 				<h1>Danebook</h1>
 			</div>
 			<div class="col-md-2 col-md-offset-4">
 				<label>Email</label>
-				<input type="email" placeholder="you@email.com"></input>
+				<input type="email"></input>
 			</div>
 			<div class="col-md-2">
 				<label>Password</label>
@@ -37,8 +41,10 @@
 				<button value="Log In">Log In</button>
 			</div>
 		</nav>
+		<!-- Sub-header content -->
 		<main class="row">
-			<section class="col-md-5 col-md-offset-1">
+			<!-- Benefits list -->
+			<section class="col-md-5 col-md-offset-1 benefits">
 				<h1>Connect with all your friends!</h1>
 				<ul>
 					<li> <span>See photos and updates</span> in your news feed</li>
@@ -47,7 +53,35 @@
 					<li><span>Like things</span> because you're a positive person!</li>
 				</ul>
 			</section>
-			<section class="col-md-5"></section>
+			<!-- Sign-up form -->
+			<section class="col-md-5 sign-up-section">
+				<h1>Sign Up</h1>
+				<form class="sign-up-form">
+					<div class="row">
+						<div class="col-md-6">
+							<input type="text" placeholder="First Name"></input>
+						</div>
+						<div class="col-md-6">
+							<input type="text" placeholder="Last Name"></input>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="email" placeholder="Your Email"></input>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="password" placeholder="Your New Password"></input>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="email" placeholder="Confirm Your New PW"></input>
+						</div>
+					</div>
+				</form>
+			</section>
 		</main>
 	</div>
 </body>
