@@ -59,7 +59,7 @@ main {
 
 .benefits {
 
-	margin-top: 7.5%;
+	margin-top: 6%;
 
 	h1 {
 		font-weight: bold;
@@ -86,14 +86,7 @@ main {
 		font-weight: bold;
 	}
 
-	input {
-		width: 100%;
-		text-indent: 5px;
-		font-size: 18px;
-		line-height: 1.5em;
-	}
-
-	p {
+	label[for=month] {
 		font-size: 24px;
 		font-weight: bold;
 	}
@@ -104,14 +97,54 @@ main {
 
 	margin-bottom: 35px;
 
+	input {
+		width: 100%;
+		text-indent: 5px;
+		font-size: 18px;
+		line-height: 1.5em;
+	}
+
 	div[class=row] {
 		margin-top: 30px;
 	}
+
 }
 
 .birthday-form {
+
+	margin-top: 5px;
+
 	select {
 		font-size: 18px;
 		line-height: 1.5em;
 	}
+}
+
+.gender-radio {
+
+	margin-top: 25px;
+
+	label {
+		font-size: 18px;
+	}
+
+	label:nth-child(n+2) {
+		margin-left: 15px;
+	}
+
+}
+
+.cta-wrapper {
+	margin-top: 10px;
+
+	button {
+		width: 100%;
+		font-size: 36px;
+		font-weight: bold;
+		background: #009E0F;
+		color: white;
+		box-shadow: 2px 2px 2px black;
+		@extend .standard-border;
+	}
+
 }
