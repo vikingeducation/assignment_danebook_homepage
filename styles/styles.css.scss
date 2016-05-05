@@ -52,3 +52,26 @@ nav {
 		@extend .standard-border;
 	}
 }
+
+main {
+	border: 1px dashed black;
+
+	section[class^=col-md-] {
+		border: 1px dashed red;
+		@extend .center-vertical;
+	}
+
+	h1 {
+		font-weight: bold;
+	}
+
+	ul {
+		font-size: 18px;
+		line-height: 3em;
+	}
+
+	span {
+		font-weight: bold;
+	}
+
+}
