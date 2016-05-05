@@ -1,0 +1,54 @@
+
+.center-vertical {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+.standard-border {
+	border: 2px solid black;
+}
+
+.container {
+	width: 100%;
+}
+
+nav {
+	height: 95px;
+	background: #2B78E4;
+	border-bottom: 2px solid black;
+
+	div[class^="col-md"] {
+		@extend .center-vertical;
+	}
+
+	h1 {
+		margin-left: 25px;
+		font-size: 48px;
+		font-weight: bold;
+		color: white;
+	}
+
+	label {
+		font-size: 18px;
+		color: white;
+		display: block;
+	}
+
+	input {
+		text-indent: 5px;
+		font-size: 18px;
+		line-height: 1.5em;
+		@extend .standard-border;
+	}
+
+	button {
+		margin-top: 27px;
+		font-size: 18px;
+		line-height: 1.5em;
+		font-weight: bold;
+		background: #9FC5F8;
+		box-shadow: 2px 2px 2px black;
+		@extend .standard-border;
+	}
+}
