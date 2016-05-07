@@ -47,38 +47,121 @@
 </nav>
 
 <div class="container main-content">
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-7">
-        <h1>Sign Up</h1>
-      </div>
+
     <main class="row">
       <!--Connect with friends copy-->
-      <div class="col-sm-6">
-        <h2>Connect with all your friends!</h2>
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Connect with all your friends!</h2>
+            </div>
+          <!--bullet points-->
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <p>
+                  &#9679 See photos and updates in your news feed
+                </p>
+              </div>
+              <div class="col-sm-10 col-sm-offset-1">
+                <p>
+                  &#9679 See photos and updates in your news feed
+                </p>
+              </div>
+              <div class="col-sm-10 col-sm-offset-1">
+                <p>
+                  &#9679 See photos and updates in your news feed
+                </p>
+              </div>
+              <div class="col-sm-10 col-sm-offset-1">
+                <p>
+                  &#9679 See photos and updates in your news feed
+                </p>
+              </div>
+            </div> <!--/.row for bullet points-->
+        </div>
+      </div>
 
-        <!--bullet points-->
-        <div class="row">
-          <div class="col-sm-11 col-sm-offset-2">
-            <p>
-              &#9679 See photos and updates in your news feed
-            </p>
+      <!--Sign up-->
+      <div class="col-sm-6">
+        <h1>Sign Up</h1>
+
+        <!--begin form group-->
+        <form>
+
+          <!--first and last name inputs-->
+          <div class="row">
+              <fieldset class="form-group col-sm-6">
+                <input type="text" class="form-control" id="first-name" placeholder="First Name">
+               </fieldset> 
+               <fieldset class="form-group col-sm-6">
+                <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+              </fieldset>
           </div>
-          <div class="col-sm-11 col-sm-offset-2">
-            <p>
-              &#9679 See photos and updates in your news feed
-            </p>
+
+          <!--email field-->
+          <div class="row">
+              <fieldset class="form-group col-sm-12">
+                <input type="text" class="form-control" id="email" placeholder="Email">
+               </fieldset> 
           </div>
-          <div class="col-sm-11 col-sm-offset-2">
-            <p>
-              &#9679 See photos and updates in your news feed
-            </p>
+
+          <!--password field-->
+          <div class="row">
+              <fieldset class="form-group col-sm-12">
+                <input type="password" class="form-control" id="password" placeholder="Enter Password">
+               </fieldset> 
           </div>
-          <div class="col-sm-11 col-sm-offset-2">
-            <p>
-              &#9679 See photos and updates in your news feed
-            </p>
+
+          <!--confirm password field-->
+          <div class="row">
+              <fieldset class="form-group col-sm-12">
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+               </fieldset> 
           </div>
-        </div> <!--/.row for bullet points-->
+
+          <!--Birthday Split Button Fields-->
+          <div class="row">
+            <div class="col-sm-12">
+              <p>Birthday</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="btn-group col-sm-3">
+              <button type="button" class="btn btn-default">Month</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">January</a>
+                <div class="dropdown-divider"></div>
+              </div>
+            </div>
+
+          <div class="btn-group col-sm-3">
+              <button type="button" class="btn btn-default">Day</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">1</a>
+                <div class="dropdown-divider"></div>
+              </div>
+            </div>
+
+          <div class="btn-group col-sm-3">
+              <button type="button" class="btn btn-default">Year</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">2001</a>
+                <div class="dropdown-divider"></div>
+              </div>
+            </div>
+          </div>
+        </form>
+
+
       </div>
     </main>
 
