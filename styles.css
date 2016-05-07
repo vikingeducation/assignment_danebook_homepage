@@ -1,3 +1,10 @@
+.navbar {
+  background-color: #2B78E4; }
 
+.navbar-default .navbar-brand {
+  color: #FFF; }
+
+.main-content {
+  margin-top: 40px; }
 
 /*# sourceMappingURL=styles.css.map */
