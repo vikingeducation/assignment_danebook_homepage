@@ -1,3 +1,19 @@
+nav {
+  height: 70px; }
 
+.navbar {
+  background: none;
+  color: white;
+  background-color: #2b78e4; }
+  .navbar .navbar-brand {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    color: #fff; }
+  .navbar .signin-inputs {
+    display: block; }
+
+main input {
+  border: 1px solid #cacaca; }
 
 /*# sourceMappingURL=style.css.map */

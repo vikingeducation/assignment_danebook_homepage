@@ -1,0 +1,32 @@
+$header-color: #2b78e4;
+$nav-height: 70px;
+
+nav {
+	height: $nav-height;
+}
+
+.navbar {
+	background: none;
+	color: white;
+
+	background-color: $header-color;
+
+	.navbar-brand {
+		position: absolute;
+		top: 50%;
+
+		font-size: 30px;
+		// line-height: $nav-height;
+		color: #fff;
+	}
+
+	.signin-inputs {
+		display: block;
+	}
+}
+
+main {
+	input {
+		border: 1px solid #cacaca;
+	}
+}
