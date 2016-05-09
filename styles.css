@@ -1,6 +1,9 @@
 .navbar {
   background-color: #2B78E4; }
 
+a {
+  text-decoration: none; }
+
 .navbar-default .navbar-brand {
   color: #FFF; }
 
