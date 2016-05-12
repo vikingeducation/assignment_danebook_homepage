@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Danebook</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link href="styles.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#danebook-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand brand-white" href="#">Danebook</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <!--Form with search and Submit button -->
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Email">
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Log In</button>
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+  </div> <!--container for nav-->
+</nav>
+
+<div class="container main-content">
+
+    <main class="row">
+      <!--Connect with friends copy-->
+        <div class="col-xs-6">
+          <div class="row">
+            <div class="col-xs-12 connect-copy">
+              <h2>Connect with all your friends!</h2>
+            </div>
+          <!--bullet points-->
+            <div class="row">
+              <div class="col-xs-10 col-xs-offset-1">
+                <p>
+                  &#9679 See photos and updates in your news feed
+                </p>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1">
+                <p>
+                  &#9679 Post your status for the world to see from your profile
+                </p>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1">
+                <p>
+                  &#9679 Get in touch with your friends by "friending" them
+                </p>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1">
+                <p>
+                  &#9679 Like things because you're a positive person!
+                </p>
+              </div>
+            </div> <!--/.row for bullet points-->
+        </div>
+      </div>
+
+      <!--Sign up-->
+      <div class="col-xs-6 sign-up-form">
+        <h1>Sign Up</h1>
+
+        <!--begin form group-->
+        <form>
+
+          <!--first and last name inputs-->
+          <div class="row">
+              <fieldset class="form-group col-xs-6">
+                <input type="text" class="form-control" id="first-name" placeholder="First Name">
+               </fieldset> 
+               <fieldset class="form-group col-xs-6">
+                <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+              </fieldset>
+          </div>
+
+          <!--email field-->
+          <div class="row">
+              <fieldset class="form-group col-xs-12">
+                <input type="text" class="form-control" id="email" placeholder="Email">
+               </fieldset> 
+          </div>
+
+          <!--password field-->
+          <div class="row">
+              <fieldset class="form-group col-xs-12">
+                <input type="password" class="form-control" id="password" placeholder="Enter Password">
+               </fieldset> 
+          </div>
+
+          <!--confirm password field-->
+          <div class="row">
+              <fieldset class="form-group col-xs-12">
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+               </fieldset> 
+          </div>
+
+          <!--Birthday Split Button Fields-->
+          <div class="row">
+            <div class="col-xs-12">
+              <p>Birthday</p>
+            </div>
+          </div>
+          <div class="row">
+
+            <!--Month Selection-->
+            <div class="btn-group col-xs-offset-1">
+              <button type="button" class="btn btn-default">January</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">January</a></li>
+                  <li><a href="#">February</a></li>
+                  <li><a href="#">March</a></li>
+                  <li><a href="#">April</a></li>
+                  <li><a href="#">May</a></li>
+                  <li><a href="#">June</a></li>
+                  <li><a href="#">July</a></li>
+                  <li><a href="#">August</a></li>
+                  <li><a href="#">September</a></li>
+                  <li><a href="#">October</a></li>
+                  <li><a href="#">November</a></li>
+                  <li><a href="#">December</a></li>
+                </ul>
+            </div>
+          
+          <!--Day Selection-->
+          <div class="btn-group col-xs-offset-1">
+              <button type="button" class="btn btn-default">01</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">01</a></li>
+                  <li><a href="#">02</a></li>
+                  <li><a href="#">03</a></li>
+                  <li><a href="#">04</a></li>
+                  <li><a href="#">05</a></li>
+                  <li><a href="#">06</a></li>
+                  <li><a href="#">07</a></li>
+                  <li><a href="#">08</a></li>
+                  <li><a href="#">09</a></li>
+                  <li><a href="#">10</a></li>
+                  <li><a href="#">11</a></li>
+                  <li><a href="#">12</a></li>
+                  <li><a href="#">13</a></li>
+                  <li><a href="#">14</a></li>
+                  <li><a href="#">15</a></li>
+                  <li><a href="#">16</a></li>
+                  <li><a href="#">17</a></li>
+                  <li><a href="#">18</a></li>
+                  <li><a href="#">19</a></li>
+                  <li><a href="#">20</a></li>
+                  <li><a href="#">21</a></li>
+                  <li><a href="#">22</a></li>
+                  <li><a href="#">23</a></li>
+                  <li><a href="#">24</a></li>
+                  <li><a href="#">25</a></li>
+                  <li><a href="#">26</a></li>
+                  <li><a href="#">27</a></li>
+                  <li><a href="#">28</a></li>
+                  <li><a href="#">29</a></li>   
+                  <li><a href="#">30</a></li>                  
+                </ul>
+          </div>
+            
+          <!--Year Selection-->
+          <div class="btn-group col-xs-offset-1">
+              <button type="button" class="btn btn-default">2001</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">2001</a></li>
+                  <li><a href="#">2002</a></li>
+                  <li><a href="#">2003</a></li>
+                  <li><a href="#">2004</a></li>
+                  <li><a href="#">2005</a></li>
+                  <li><a href="#">2006</a></li>
+                  <li><a href="#">2007</a></li>
+                  <li><a href="#">2008</a></li>
+                  <li><a href="#">2009</a></li>
+                  <li><a href="#">2010</a></li>
+                  <li><a href="#">2011</a></li>
+                  <li><a href="#">2012</a></li>
+                  <li><a href="#">2001</a></li>
+                  <li><a href="#">2002</a></li>
+                  <li><a href="#">2003</a></li>
+                  <li><a href="#">2004</a></li>
+                  <li><a href="#">2005</a></li>
+                  <li><a href="#">2006</a></li>
+                  <li><a href="#">2007</a></li>
+                  <li><a href="#">2008</a></li>
+                  <li><a href="#">2009</a></li>
+                  <li><a href="#">2010</a></li>
+                  <li><a href="#">2011</a></li>
+                  <li><a href="#">2012</a></li>
+                  <li><a href="#">2001</a></li>
+                  <li><a href="#">2002</a></li>
+                  <li><a href="#">2003</a></li>
+                  <li><a href="#">2004</a></li>
+                  <li><a href="#">2005</a></li>
+                  <li><a href="#">2006</a></li>
+                  <li><a href="#">2007</a></li>
+                  <li><a href="#">2008</a></li>
+                  <li><a href="#">2009</a></li>
+                  <li><a href="#">2010</a></li>
+                  <li><a href="#">2011</a></li>
+                  <li><a href="#">2012</a></li>       
+                </ul>
+            </div>
+          </div>
+
+        <!--Female Male radio buttons-->
+        <div class="row">
+          <div class="radio">
+            <div class="col-xs-4 col-xs-offset-1">
+              <label><input type="radio" name="female">Female</label>
+            </div>
+            
+            <div class="col-xs-4">
+              <label><input type="radio" name="male">Male</label>
+            </div>
+          </div>          
+        </div>
+        
+        <!--Submit Button-->
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-block btn-success">Sign Up!</button>
+          </div>
+        </div>
+
+        </form>
+      </div>
+    </main>
+
+</div>
+
+
+</body>
+
+</html>
+
+
+

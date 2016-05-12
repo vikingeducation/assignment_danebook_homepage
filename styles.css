@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #2B78E4; }
+
+a {
+  text-decoration: none; }
+
+.navbar-default .navbar-brand {
+  color: #FFF; }
+
+.main-content {
+  margin-top: 40px; }
+
+.dropdown-toggle {
+  height: 34px;
+  width: 30px; }
+
+.connect-copy {
+  margin-top: 50px; }
+
+.btn .btn-primary {
+  background-color: #9FC5F8; }
+
+.btn-block {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2em; }
+
+.sign-up-form {
+  margin-top: 15px; }
+  .sign-up-form * {
+    margin-bottom: 5px; }
+
+.sign-up-form h1 {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
