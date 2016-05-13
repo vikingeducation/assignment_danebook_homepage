@@ -1,7 +1,13 @@
 nav {
   height: 100px; }
-  nav button {
-    transform: translateX(50%); }
+  nav #btn-login {
+    position: absolute;
+    background-color: #95c5f8;
+    width: 120px;
+    height: 30px;
+    padding: 5px 12px; }
+  nav .col-sm-10:first-child {
+    margin-top: 10px; }
 
 .navbar {
   background: none;
@@ -10,8 +16,6 @@ nav {
   .navbar .navbar-brand {
     font-size: 36px;
     color: #fff; }
-  .navbar .signin-inputs {
-    margin-bottom: 0; }
 
 main input {
   border: 1px solid #cacaca; }

@@ -15,10 +15,12 @@
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
 
 	<!-- Jquery CDN -->
-	<script href="js/jquery-1.12.3.min.js"></script>
+	<!-- <script href="js/jquery-1.12.3.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
-	<script href="js/bootstrap.min.js"></script>
+	<!-- <script href="js/bootstrap.min.js"></script> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -38,24 +40,23 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	        <form class="navbar-form navbar-right">
-		        <div class="row">
+		        <div class="col-sm-9">
 					<div class="col-sm-5">
-						<!-- <label class="signin-inputs" for="email-entry"><p>Email</p></label> -->
 						<label class="signin-inputs" for="email-entry">Email</label>
 					</div>
 					<div class="col-sm-5">
-						<label class="signin-inputs" for="pw-entry"><p>Password</p></label>
+						<label class="signin-inputs" for="pw-entry">Password</label>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-sm-4">
+				<div class="col-sm-9">
+					<div class="col-sm-5">
 						<input type="text" class="form-control input-sm" id="email-entry">
 					</div>
-					<div class="col-sm-4 col-sm-offset-1">
+					<div class="col-sm-5">
 						<input type="text" class="form-control input-sm" id="pw-entry">
 					</div>
-					<div class="col-sm-3">
-						<button type="submit" class="btn btn-primary">Login</button>
+					<div class="col-sm-2">
+						<button type="submit" id="btn-login" class="btn btn-primary">Login</button>
 					</div>
 				</div>
 		    </form>
