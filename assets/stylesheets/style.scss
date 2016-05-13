@@ -1,8 +1,14 @@
 $header-color: #2b78e4;
-$nav-height: 70px;
+$nav-height: 100px;
 
 nav {
 	height: $nav-height;
+
+	button {
+		transform: translateX(50%);
+		// position: absolute;
+		// right: 0%;
+	}
 }
 
 .navbar {
@@ -12,16 +18,14 @@ nav {
 	background-color: $header-color;
 
 	.navbar-brand {
-		position: absolute;
-		top: 50%;
-
-		font-size: 30px;
+		font-size: 36px;
 		// line-height: $nav-height;
 		color: #fff;
 	}
 
 	.signin-inputs {
-		display: block;
+	// 	display: block;
+		margin-bottom: 0;
 	}
 }
 
@@ -29,4 +33,16 @@ main {
 	input {
 		border: 1px solid #cacaca;
 	}
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+ 
+.div-center {
+	height: $nav-height;
 }

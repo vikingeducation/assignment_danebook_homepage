@@ -1,19 +1,29 @@
 nav {
-  height: 70px; }
+  height: 100px; }
+  nav button {
+    transform: translateX(50%); }
 
 .navbar {
   background: none;
   color: white;
   background-color: #2b78e4; }
   .navbar .navbar-brand {
-    position: absolute;
-    top: 50%;
-    font-size: 30px;
+    font-size: 36px;
     color: #fff; }
   .navbar .signin-inputs {
-    display: block; }
+    margin-bottom: 0; }
 
 main input {
   border: 1px solid #cacaca; }
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.div-center {
+  height: 100px; }
 
 /*# sourceMappingURL=style.css.map */
