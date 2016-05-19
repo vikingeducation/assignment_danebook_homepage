@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 20px; }
+
 .navbar-default {
   background-color: #2679E8;
   border: 2px solid black;
@@ -19,5 +22,22 @@
     border: 2px solid black; }
   .navbar-default .collapse {
     background-color: #2679E8; }
+
+main #connect {
+  margin-top: 50px; }
+  main #connect h5 {
+    color: #555;
+    line-height: 30px; }
+main #sign-up input {
+  margin: 10px 0px; }
+main #sign-up .dropdown {
+  display: inline-block;
+  margin-right: 10px; }
+main #sign-up label {
+  margin-top: 7px;
+  margin-right: 10px; }
+main #sign-up #sign-up-button {
+  background-color: #009E0F;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
