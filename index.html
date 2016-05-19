@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome to Danebook</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=#>Danebook</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-4">
+            <div class="row">
+              <div class="col-sm-5">
+                <p>Email</p>
+                <input type="text" class="form-control">
+              </div>
+              <div class="col-sm-5">
+                <p>Password</p>
+                <input type="text" class="form-control">
+              </div>
+              <div class="col-sm-2" id="log-in-button">
+                <button type="submit" class="btn">Log In</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7" id="connect">
+            <h2>Connect with all your friends!</h2>
+            <h5>
+              <ul>
+                <li><b>See photos and updates</b> in your news feed.</li>
+                <li><b>Post your status for the world to see</b> from your profile</li>
+                <li><b>Get in touch with your friends</b> by "friending" them</li>
+                <li><b>Like things</b> because you're a positive person!</li>
+              </ul>
+            </h4>
+          </div>
+          <div class="col-sm-5" id="sign-up">
+            <h1>Sign Up</h1>
+            <div class="row">
+              <div class="col-sm-6" id="first-name">
+                <input type="text" class="form-control" placeholder="First Name">
+              </div>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="row" id="sign-up-row">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" placeholder="Your New Password">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" placeholder="Confirm Your Password">
+              </div>
+            </div>
+            <h4>Birthday</h4>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="month" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Month
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" aria-labelledby="month">
+                    <!--would add in months here-->
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="day" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Day
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" aria-labelledby="month">
+                    <!--would add in days here-->
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="year" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Year
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" aria-labelledby="month">
+                    <!--would add in years here-->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="radio">
+                  <input type="radio" name="Gender" id="Female" value="Female">
+                  <label>
+                    Female
+                  </label>
+                  <input type="radio" name="Gender" id="Male" value="Male">
+                  <label>
+                    Male
+                  </label> 
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <button type="button" class="btn btn-primary btn-lg" id="sign-up-button">Sign Up!</button>
+              </div>
+            </div>
+              
+
+        </div>
+
+      </div>
+    </main>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
