@@ -2,6 +2,9 @@ body{
   padding-bottom: 20px;
 }
 
+main{
+  transition: padding 500;
+}
 .navbar-default{
   background-color: #2679E8;
   border: 2px solid black;
@@ -15,9 +18,13 @@ body{
     line-height: 40px;
   }
   button {
-    margin-top: 25px;
     background-color: #9FC5F8;
     border: 2px solid black;
+  }
+
+  #log-in-button{
+    padding-top: 24px;
+    padding-bottom: 10px;
   }
 
   p{
@@ -27,7 +34,6 @@ body{
 
   input{
     margin-top: -10px;
-    margin-bottom: 10px; 
     border: 2px solid black;
 
   }
@@ -47,6 +53,7 @@ main {
     input{
       margin: 10px 0px;
     }
+
     .dropdown{
       display: inline-block;
       margin-right: 10px
@@ -58,6 +65,7 @@ main {
     #sign-up-button{
       background-color: #009E0F;
       width: 100%;
+      border: 2px solid black; 
     }
   }
   

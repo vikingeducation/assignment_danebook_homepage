@@ -1,6 +1,9 @@
 body {
   padding-bottom: 20px; }
 
+main {
+  transition: padding 500; }
+
 .navbar-default {
   background-color: #2679E8;
   border: 2px solid black;
@@ -10,15 +13,16 @@ body {
     font-size: 35px;
     line-height: 40px; }
   .navbar-default button {
-    margin-top: 25px;
     background-color: #9FC5F8;
     border: 2px solid black; }
+  .navbar-default #log-in-button {
+    padding-top: 24px;
+    padding-bottom: 10px; }
   .navbar-default p {
     margin-top: 5px;
     color: white; }
   .navbar-default input {
     margin-top: -10px;
-    margin-bottom: 10px;
     border: 2px solid black; }
   .navbar-default .collapse {
     background-color: #2679E8; }
@@ -38,6 +42,7 @@ main #sign-up label {
   margin-right: 10px; }
 main #sign-up #sign-up-button {
   background-color: #009E0F;
-  width: 100%; }
+  width: 100%;
+  border: 2px solid black; }
 
 /*# sourceMappingURL=styles.css.map */
