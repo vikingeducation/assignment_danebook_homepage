@@ -1,0 +1,23 @@
+.navbar-default {
+  background-color: #2679E8;
+  border: 2px solid black;
+  height: 80px; }
+  .navbar-default .navbar-brand {
+    color: white;
+    font-size: 35px;
+    line-height: 40px; }
+  .navbar-default button {
+    margin-top: 25px;
+    background-color: #9FC5F8;
+    border: 2px solid black; }
+  .navbar-default p {
+    margin-top: 5px;
+    color: white; }
+  .navbar-default input {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border: 2px solid black; }
+  .navbar-default .collapse {
+    background-color: #2679E8; }
+
+/*# sourceMappingURL=styles.css.map */
