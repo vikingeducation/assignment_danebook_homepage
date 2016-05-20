@@ -36,6 +36,8 @@ main h2 {
   margin-bottom: 25px; }
 main h3 {
   font-size: 32px; }
+main section select.full-width-input {
+  color: #cacaca; }
 main section .full-width-input {
   min-width: 100%;
   max-width: 100%;
