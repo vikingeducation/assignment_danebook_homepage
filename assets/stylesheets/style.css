@@ -1,20 +1,18 @@
 nav {
-  height: 100px; }
+  height: 90px; }
   nav #btn-login {
     position: absolute;
     background-color: #95c5f8;
     width: 120px;
     height: 30px;
     padding: 5px 12px; }
-  nav .col-sm-10:first-child {
-    margin-top: 10px; }
 
 .navbar {
   background: none;
   color: white;
   background-color: #2b78e4; }
   .navbar .navbar-brand {
-    font-size: 36px;
+    font-size: 40px;
     color: #fff; }
 
 main input {
@@ -28,6 +26,6 @@ main input {
   transform: translateY(-50%); }
 
 .div-center {
-  height: 100px; }
+  height: 90px; }
 
 /*# sourceMappingURL=style.css.map */
