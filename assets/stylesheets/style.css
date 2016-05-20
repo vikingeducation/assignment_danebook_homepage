@@ -1,11 +1,18 @@
 nav {
   height: 90px; }
   nav #btn-login {
+    color: black;
     position: absolute;
+    background-image: none;
     background-color: #95c5f8;
-    width: 120px;
+    width: 100px;
     height: 30px;
-    padding: 5px 12px; }
+    padding: 5px 12px;
+    border-radius: 0; }
+  nav input {
+    border-radius: 0;
+    border: 1px solid black;
+    box-shadow: 1px 1px black; }
 
 .navbar {
   background: none;
@@ -16,7 +23,33 @@ nav {
     color: #fff; }
 
 main input {
-  border: 1px solid #cacaca; }
+  border: 2px solid #cacaca; }
+main .top-buffer {
+  margin-top: 100px; }
+main .catch-phrase {
+  margin-bottom: 20px; }
+main li {
+  margin: 10px 10px;
+  font-size: 16px; }
+main h2 {
+  font-size: 50px;
+  margin-bottom: 25px; }
+main h3 {
+  font-size: 32px; }
+main section .full-width-input {
+  min-width: 100%;
+  max-width: 100%;
+  height: 2.5em;
+  padding: 2px 0 2px 5px; }
+main section .birthday-forms {
+  margin-bottom: 10px; }
+main section .radio-inline:first-child {
+  margin-left: 10px; }
+main section #sign-up-btn {
+  min-width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 3px; }
 
 .vertical-align {
   position: absolute;
@@ -24,8 +57,5 @@ main input {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
-
-.div-center {
-  height: 90px; }
 
 /*# sourceMappingURL=style.css.map */
