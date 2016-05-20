@@ -1,0 +1,77 @@
+body {
+  font-family: helvetica;
+  padding: 100px 100px 0 100px;
+}
+
+.navbar {
+  background-color: LightSkyBlue;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  a.navbar-brand {
+    margin-top: 12px;
+    font-size: 30px;
+    color: white;
+  }
+  div.collapse {
+    p {
+      margin-bottom: 0;
+    }
+    button {
+      margin-top: 18px;
+    }
+  }
+}
+
+main {
+  div:nth-child(1) {
+    margin-top: 60px;
+    h1 {
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    li {
+      margin-bottom: 20px;
+      word-spacing: 2;
+    }
+  }
+
+  div:nth-child(2) {
+    h1 {
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    form {
+      padding-left: 0;
+      .form-inline {
+        padding-left: 0;
+      }
+      input[type=text] {
+        margin-bottom: 20px;
+        height: 40px;
+      }
+      p {
+        font-weight: bold;
+      }
+      .form-inline {
+        select {
+          margin-right: 15px;
+          margin-bottom: 15px;
+          width: 120px;
+        }
+      }
+
+      label {
+        margin-bottom: 15px;
+      }
+      .btn {
+        height: 45px;
+        background-color: YellowGreen;
+        color: white;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        width: 100%;
+      }
+    }
+  }
+}
+

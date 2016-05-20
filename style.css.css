@@ -1,0 +1,52 @@
+body {
+  font-family: helvetica;
+  padding: 100px 100px 0 100px; }
+
+.navbar {
+  background-color: LightSkyBlue;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .navbar a.navbar-brand {
+    margin-top: 12px;
+    font-size: 30px;
+    color: white; }
+  .navbar div.collapse p {
+    margin-bottom: 0; }
+  .navbar div.collapse button {
+    margin-top: 18px; }
+
+main div:nth-child(1) {
+  margin-top: 60px; }
+  main div:nth-child(1) h1 {
+    margin-bottom: 30px;
+    font-weight: bold; }
+  main div:nth-child(1) li {
+    margin-bottom: 20px;
+    word-spacing: 2; }
+main div:nth-child(2) h1 {
+  margin-bottom: 30px;
+  font-weight: bold; }
+main div:nth-child(2) form {
+  padding-left: 0; }
+  main div:nth-child(2) form .form-inline {
+    padding-left: 0; }
+  main div:nth-child(2) form input[type=text] {
+    margin-bottom: 20px;
+    height: 40px; }
+  main div:nth-child(2) form p {
+    font-weight: bold; }
+  main div:nth-child(2) form .form-inline select {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 120px; }
+  main div:nth-child(2) form label {
+    margin-bottom: 15px; }
+  main div:nth-child(2) form .btn {
+    height: 45px;
+    background-color: YellowGreen;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.css.map */
