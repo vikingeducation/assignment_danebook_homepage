@@ -2,9 +2,13 @@ $prime-blue: #2B78E4;
 
 $secondary-blue: #9FC5F8;
 
+$dark-blue: #2d5b9b;
+
 $prime-black: #000;
 
 $prime-white: #fff;
+
+$prime-gray: #E6E6E6;
 
 
 .navbar-default {
@@ -46,6 +50,16 @@ $prime-white: #fff;
 			background-color: $prime-black;
 
 		}
+	}
+
+	.navbar-collapse{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
+	}
+
+	.navbar-form{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
 	}
 
 	#main-navbar-collapse{
