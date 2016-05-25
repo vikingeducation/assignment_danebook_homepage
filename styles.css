@@ -1,0 +1,42 @@
+body {
+  padding-top: 72px;
+  padding-bottom: 20px;
+  font-family: helvetica, Arial, sans-serif; }
+
+nav {
+  background-color: #2B78E4; }
+  nav .navbar-brand {
+    color: #fff;
+    font-size: 32px;
+    padding-top: 25px; }
+  nav .navbar-header button {
+    border: 1px solid #fff; }
+    nav .navbar-header button span {
+      background-color: #fff; }
+  nav .btn {
+    width: 80px;
+    margin-top: 19px;
+    background-color: #9FC5F8;
+    font-weight: 800; }
+  nav p {
+    margin-bottom: 2px;
+    color: #fff; }
+
+main .info-container {
+  margin-top: 100px; }
+  main .info-container li {
+    color: #666; }
+main .signup-container .birthday-label {
+  margin-left: -15px; }
+main .signup-container .birthday-select {
+  margin-left: -15px; }
+main .signup-container select {
+  border-radius: 0;
+  color: #aaa; }
+main .signup-container .radio-button {
+  margin-left: -15px;
+  margin-bottom: 10px; }
+main .signup-container .btn {
+  font-weight: 800; }
+
+/*# sourceMappingURL=styles.css.map */
