@@ -5,15 +5,15 @@
   .navbar-default .navbar-brand {
     font-size: 35px;
     font-weight: 500;
-    color: #000; }
+    color: #fff; }
   @media (min-width: 768px) {
     .navbar-default .navbar-brand {
       font-size: 35px;
       font-weight: 500;
-      color: #000;
+      color: #fff;
       margin-top: 15px; } }
   .navbar-default .navbar-brand:hover {
-    color: #000; }
+    color: #fff; }
   .navbar-default button {
     color: #000; }
   .navbar-default button:hover {
@@ -22,9 +22,22 @@
     outline-color: #000; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #000; }
+  .navbar-default #main-navbar-collapse .navbar-form p {
+    color: #fff; }
   @media (min-width: 768px) {
     .navbar-default #main-navbar-collapse .navbar-form p {
+      color: #fff;
       margin-top: 0;
       margin-bottom: 0; }
     .navbar-default #main-navbar-collapse .navbar-form button {
       margin-top: 20px; } }
+
+.block-margin-lg {
+  margin-top: 150px; }
+
+.block-margin-md {
+  margin-top: 75px; }
+
+.description-list li {
+  margin-top: 20px;
+  margin-bottom: 20px; }

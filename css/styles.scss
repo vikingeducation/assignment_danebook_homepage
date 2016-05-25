@@ -4,6 +4,8 @@ $secondary-blue: #9FC5F8;
 
 $prime-black: #000;
 
+$prime-white: #fff;
+
 
 .navbar-default {
 	background-color: $prime-blue;
@@ -15,20 +17,20 @@ $prime-black: #000;
 	.navbar-brand{
 		font-size: 35px;
 		font-weight: 500;
-		color: $prime-black;
+		color: $prime-white;
 	}
 
 	@media (min-width: 768px){
 		.navbar-brand{
 			font-size: 35px;
 			font-weight: 500;
-			color: $prime-black;
+			color: $prime-white;
 			margin-top: 15px;
 		}
 	}
 
 	.navbar-brand:hover{
-		color: $prime-black;
+		color: $prime-white;
 	}
 
 	button{
@@ -48,8 +50,12 @@ $prime-black: #000;
 
 	#main-navbar-collapse{
 		.navbar-form{
+			p{
+				color: $prime-white;
+			}
 			@media (min-width: 768px){
 				p{
+					color: $prime-white;
 					margin-top: 0;
 					margin-bottom: 0;
 				}
@@ -61,3 +67,20 @@ $prime-black: #000;
 	}
 
 }
+
+.block-margin-lg{
+	margin-top: 150px;
+}
+
+.block-margin-md{
+	margin-top: 75px;
+}
+
+.description-list{
+	li{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+
