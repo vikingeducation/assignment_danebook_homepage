@@ -41,3 +41,10 @@
 .description-list li {
   margin-top: 20px;
   margin-bottom: 20px; }
+
+.block-margin-sm {
+  margin-top: 25px; }
+
+.block-margin-xs {
+  margin-top: 5px;
+  margin-bottom: 5px; }
