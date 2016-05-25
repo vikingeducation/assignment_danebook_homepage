@@ -1,0 +1,27 @@
+.navbar-default {
+  background-color: #2B78E4; }
+  .navbar-default .container {
+    margin-bottom: 10px; }
+  .navbar-default .navbar-brand {
+    font-size: 35px;
+    font-weight: 500;
+    color: #000; }
+  @media (min-width: 768px) {
+    .navbar-default .navbar-brand {
+      font-size: 35px;
+      font-weight: 500;
+      color: #000;
+      margin-top: 30px; } }
+  .navbar-default .navbar-brand:hover {
+    color: #000; }
+  .navbar-default button {
+    color: #000; }
+  .navbar-default button:hover {
+    color: #000; }
+  .navbar-default .navbar-toggle {
+    outline-color: #000; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #000; }
+  @media (min-width: 768px) {
+    .navbar-default #main-navbar-collapse .navbar-form button {
+      margin-top: 30px; } }
