@@ -23,7 +23,7 @@ $prime-black: #000;
 			font-size: 35px;
 			font-weight: 500;
 			color: $prime-black;
-			margin-top: 30px;
+			margin-top: 15px;
 		}
 	}
 
@@ -49,8 +49,12 @@ $prime-black: #000;
 	#main-navbar-collapse{
 		.navbar-form{
 			@media (min-width: 768px){
+				p{
+					margin-top: 0;
+					margin-bottom: 0;
+				}
 				button{
-					margin-top: 30px;
+					margin-top: 20px;
 				}
 			}
 		}
