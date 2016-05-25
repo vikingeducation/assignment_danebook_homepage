@@ -1,9 +1,16 @@
 $primary-font: helvetica, Arial, sans-serif;
+
+
+
 body {
   padding-top: 72px;
   padding-bottom: 20px;
   font-family: $primary-font;
 }
+
+
+
+
 nav {
   background-color: #2B78E4;
   .navbar-brand {
@@ -23,7 +30,6 @@ nav {
     width: 80px;
     margin-top: 19px;
     background-color: #9FC5F8;
-    font-family: $primary-font;
     font-weight: 800;
   }
   p {
@@ -31,6 +37,10 @@ nav {
     color: #fff;
   }
 }
+
+
+
+
 main {
   .info-container {
     margin-top: 100px;
