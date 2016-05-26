@@ -14,29 +14,38 @@
       margin-top: 15px; } }
   .navbar-default .navbar-brand:hover {
     color: #fff; }
-  .navbar-default button {
-    color: #000; }
+  @media (min-width: 768px) {
+    .navbar-default button {
+      background-color: #9FC5F8;
+      color: #000; } }
   .navbar-default button:hover {
     color: #000; }
   .navbar-default .navbar-toggle {
-    outline-color: #000; }
+    border-color: #000; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #000; }
+  .navbar-default .navbar-toggle:hover {
+    background-color: #2B78E4; }
+    .navbar-default .navbar-toggle:hover .icon-bar {
+      background-color: #fff; }
   .navbar-default .navbar-collapse {
     background-color: #2B78E4;
-    border-color: #2B78E4; }
+    border-color: #2B78E4;
+    box-shadow: none; }
   .navbar-default .navbar-form {
     background-color: #2B78E4;
     border-color: #2B78E4; }
-  .navbar-default #main-navbar-collapse .navbar-form p {
-    color: #fff; }
-  @media (min-width: 768px) {
+  .navbar-default #main-navbar-collapse .navbar-form {
+    box-shadow: none; }
     .navbar-default #main-navbar-collapse .navbar-form p {
-      color: #fff;
-      margin-top: 0;
-      margin-bottom: 0; }
-    .navbar-default #main-navbar-collapse .navbar-form button {
-      margin-top: 20px; } }
+      color: #fff; }
+    @media (min-width: 768px) {
+      .navbar-default #main-navbar-collapse .navbar-form p {
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 0; }
+      .navbar-default #main-navbar-collapse .navbar-form button {
+        margin-top: 20px; } }
 
 .description-list li {
   margin-top: 20px;

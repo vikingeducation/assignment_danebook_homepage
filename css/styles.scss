@@ -37,17 +37,28 @@ $prime-gray: #E6E6E6;
 		color: $prime-white;
 	}
 
-	button{
-		color: $prime-black;
+	@media (min-width: 768px){
+		button{
+			background-color: $secondary-blue;
+			color: $prime-black;
+		}
 	}
 
 	button:hover{
 		color: $prime-black;
 	}
 	.navbar-toggle{
-		outline-color: $prime-black;
+		border-color: $prime-black;
 		.icon-bar{
 			background-color: $prime-black;
+
+		}
+	}
+
+	.navbar-toggle:hover{
+		background-color: $prime-blue;
+		.icon-bar{
+			background-color: $prime-white;
 
 		}
 	}
@@ -55,6 +66,7 @@ $prime-gray: #E6E6E6;
 	.navbar-collapse{
 		background-color: $prime-blue;
 		border-color: $prime-blue;
+		box-shadow: none;
 	}
 
 	.navbar-form{
@@ -64,6 +76,7 @@ $prime-gray: #E6E6E6;
 
 	#main-navbar-collapse{
 		.navbar-form{
+			box-shadow: none;
 			p{
 				color: $prime-white;
 			}
