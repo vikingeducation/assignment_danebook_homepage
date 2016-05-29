@@ -1,0 +1,26 @@
+.main-nav {
+  background-color: #2B78E4;
+  height: 80px; }
+
+.brand-text {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px; }
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.main-list li {
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.main-header {
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
