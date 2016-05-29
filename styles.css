@@ -23,4 +23,17 @@
   font-weight: bold;
   margin-bottom: 20px; }
 
+.signup-form {
+  margin-top: 20px; }
+
+.signup-form input {
+  margin-bottom: 10px; }
+.signup-form h5 {
+  font-weight: bold; }
+.signup-form label {
+  margin-top: 10px;
+  margin-right: 10px; }
+.signup-form button {
+  margin-top: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
