@@ -117,3 +117,12 @@ body {
 #sign-up-btn {
   width: 460px;
 }
+
+#title {
+  font-size: 35px;
+}
+
+.nav-input {
+  height: 30px;
+  margin-right: 10px;
+}
