@@ -29,7 +29,7 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <header class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -48,7 +48,7 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="submit" class="btn btn-primary">Sign in</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -56,7 +56,7 @@
 
     <section class="container">
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-xs-6" id="info">
           <h1>Connect with all your friends</h1>
 
           <ul>
@@ -68,7 +68,76 @@
         </div>
 
         <div class="col-xs-5 col-xs-offset-1">
-          <h1>Sign up</h1>
+          <h1 id="form-header">Sign up</h1>
+
+          <form>
+            <div class="form-group row">
+              <div class="col-xs-6">
+                <input class="form-control" placeholder="First Name">
+              </div>
+              <div class="col-xs-6">
+                <input class="form-control" placeholder="Last Name">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-xs-12">
+                <input class="form-control" placeholder="Your Email">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-xs-12">
+                <input class="form-control" placeholder="Your New Password">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-xs-12">
+                <input class="form-control" placeholder="Confirm Your Password">
+              </div>
+            </div>
+
+            <div class="form-group birthday row">
+              <h3>Birthday</h3>
+            </div>
+
+            <div class="form-group birthday row">
+              <select class="c-select">
+                <option selected>Month</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <select class="c-select">
+                <option selected>Day</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <select class="c-select">
+                <option selected>Year</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Female
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Male
+              </label>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <button type="submit" class="btn btn-success btn-lg" id="sign-up-btn">Sign Up!</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </section>
