@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Welcome to Danebook</title>
+  <!--Nunito font-->
+   <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <!--our own css sheet-->
@@ -13,7 +15,7 @@
 </head>
 <body>
   <!--Header-->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default header-bar">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -23,21 +25,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Danebook</a>
+      <a class="navbar-brand big-logo" href="#">Danebook</a>
     </div>
     <!--sign in-->
     <form class="navbar-form navbar-right" role="sign-in">
         <div class="form-group">
-          <label class="control-label" for="email">Email</label>
+          <label class="control-label header-label" for="email">Email</label>
           <br>
-          <input type="text" class="form-control" id="email">
+          <input type="text" class="form-control header-input" id="email">
         </div>
         <div class="form-group">
-          <label class="control-label" for="password">Password</label>
+          <label class="control-label header-label" for="password">Password</label>
           <br>
-          <input type="text" class="form-control" id="password">
+          <input type="text" class="form-control header-input" id="password">
         </div>
-        <button type="submit" class="btn btn-default">Log In</button>
+        <button type="submit" class="btn btn-default header-submit">Log In</button>
       </form>
   </div>
 </nav>
@@ -45,44 +47,44 @@
   <main class="container">
     <div class="row">
       <!--left side, text-->
-      <div class="col-sm-6">
-        <h2>Connect with all your friends!</h2>
+      <div class="col-sm-8 teaser">
+        <h2><span>Connect with all your friends!</span></h2>
         <ul>
-          <li>See photos and updates in your news feed</li>
-          <li>Post your status for the world to see from your profile</li>
-          <li>Get in touch with your friends by "friending" them</li>
-          <li>Like things because you're a positive person!</li>
+          <li><span>See photos and updates</span> in your news feed</li>
+          <li><span>Post your status for the world to see</span> from your profile</li>
+          <li><span>Get in touch with your friends</span> by "friending" them</li>
+          <li><span>Like things</span> because you're a positive person!</li>
         </ul>
       </div>
       <!--sign up form-->
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <h1>Sign Up</h1>
         <form>
           <!--First and Last Name-->
           <div class="row">
             <div class="col-sm-6">
-              <input type="text" name="first-name" placeholder="First Name">
+              <input class="sign-up-form" type="text" name="first-name" placeholder="First Name">
             </div>
             <div class="col-sm-6">
-              <input type="text" name="last-name" placeholder="Last Name">
+              <input class="sign-up-form" type="text" name="last-name" placeholder="Last Name">
             </div>
           </div>
           <!--email-->
           <div class="row">
             <div class="col-sm-12">
-              <input type="text" name="email" placeholder="Your Email">
+              <input class="sign-up-form" type="text" name="email" placeholder="Your Email">
             </div>
           </div>
           <!--Your New Password-->
           <div class="row">
             <div class="col-sm-12">
-              <input type="text" name="password" placeholder="Your New Password">
+              <input class="sign-up-form" type="text" name="password" placeholder="Your New Password">
             </div>
           </div>
           <!--Confirm Password-->
           <div class="row">
             <div class="col-sm-12">
-              <input type="text" name="confirm-password" placeholder="Confirm Your Password">
+              <input class="sign-up-form" type="text" name="confirm-password" placeholder="Confirm Your Password">
             </div>
           </div>
           <h2>Birthday</h2>
@@ -103,7 +105,7 @@
                 <option value="12">December</option>
               </select>
             </div>
-            <div class="col-sm-3 col-sm-offset-1">
+            <div class="col-sm-1 col-sm-offset-1">
               <select name="day">
                 <option value="01">01</option>
                 <option value="02">02</option>
@@ -144,15 +146,15 @@
             </div>
           </div>
           <!--gender buttons-->
-          <div class="row">
-            <div class="col-sm-3">
-              <input type="radio" name="gender" value="female">Female
+          <div class="row gender">
+            <div class="col-sm-4">
+              <input type="radio" name="gender" value="female"> Female
             </div>
-            <div class="col-sm-3">
-              <input type="radio" name="gender" value="male">Male
+            <div class="col-sm-4">
+              <input type="radio" name="gender" value="male"> Male
             </div>
           </div>
-          <button type="submit" class="btn btn-default">Sign Up!</button>
+          <button type="submit" class="btn btn-success sign-up-btn">Sign Up!</button>
         </form>
       </div>
     </div>
