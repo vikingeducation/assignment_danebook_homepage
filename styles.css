@@ -1,0 +1,60 @@
+body {
+  font-family: 'Nunito',sans-serif;
+}
+
+.header-bar {
+  background-color: #3b5998;
+}
+
+.navbar-default .big-logo {
+  color: white;
+  font-size: 48px;
+  margin: 10px;
+}
+
+.header-label {
+  color: white;
+}
+
+.header-input {
+  border: 2px solid black;
+  border-radius: 0;
+}
+
+.header-submit {
+  background-color: #39f;
+  border-radius: 0;
+  border-color: black;
+  margin-top: 17px;
+}
+
+.teaser {
+  margin-top: 50px;
+  line-height: 3;
+}
+
+.teaser li {
+  color: #666;
+  font-size: 18px;
+}
+
+.teaser span {
+  font-weight: bold;
+}
+
+.sign-up-form {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.gender {
+  margin-top: 10px;
+}
+
+.sign-up-btn {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
