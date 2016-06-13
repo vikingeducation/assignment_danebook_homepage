@@ -1,5 +1,5 @@
 
-This repository contains a Facebook clone site using contemporary web technologies.
+This repository contains a home page for a Facebook clone site using contemporary web technologies.
 
 Highlights:
 
