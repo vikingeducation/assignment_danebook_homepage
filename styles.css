@@ -1,28 +1,77 @@
-.logo {
+/********* VARIABLES  *********/
+/*Colors*/
+/********* MIXINS  *********/
+/********* VARIABLES  *********/
+/*Colors*/
+/********* MIXINS  *********/
+/*********   
+NAVBAR
+*********/
+.sign_up_nav {
+  background: #3b5998; }
+  .sign_up_nav label {
+    display: none;
+    color: #fff; }
+    @media (min-width: 769px) {
+      .sign_up_nav label {
+        display: initial; } }
+  .sign_up_nav input {
+    margin-top: 5px; }
+  .sign_up_nav br {
+    display: none; }
+    @media (min-width: 769px) {
+      .sign_up_nav br {
+        display: initial; } }
+  @media (min-width: 769px) {
+    .sign_up_nav {
+      height: 100px; } }
+
+#logo {
+  color: #fff;
   font-size: 35px;
   line-height: 47px;
   height: 77px; }
-
-label {
-  display: none; }
-
-br {
-  display: none; }
+  @media (min-width: 769px) {
+    #logo {
+      line-height: 70px;
+      height: 100px; } }
 
 .sign_in_button {
   width: 90px; }
+  @media (min-width: 769px) {
+    .sign_in_button {
+      margin-top: 20px; } }
 
 .form-control {
   margin-right: 20px; }
 
 @media (min-width: 769px) {
-  .sign_in_button {
-    margin-top: 20px; }
+  .sign_up_nav_form {
+    height: 100px;
+    padding-top: 10px; } }
 
-  label {
-    display: initial; }
+/*********   
+SIGNUP FORM
+*********/
+.collapsable_group input {
+  margin-bottom: 15px; }
+  @media (min-width: 769px) {
+    .collapsable_group input {
+      margin-bottom: 0; } }
+.collapsable_group select {
+  margin-bottom: 15px; }
+  @media (min-width: 769px) {
+    .collapsable_group select {
+      margin-bottom: 0; } }
 
-  br {
-    display: initial; } }
+.sign_up_button {
+  width: 100%; }
+
+.info_block li {
+  font-size: 18px;
+  margin: 15px 0; }
+@media (min-width: 769px) {
+  .info_block {
+    margin-top: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */
