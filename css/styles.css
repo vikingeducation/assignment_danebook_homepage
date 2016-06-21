@@ -1,0 +1,36 @@
+.mtop {
+  margin-top: 1.5em; }
+
+.mbottom {
+  margin-bottom: 0.5em; }
+
+.navbar-inverse {
+  background-color: royalblue; }
+
+.navbar-brand {
+  margin-top: 0.5em;
+  font-color: white;
+  font-size: 2em; }
+
+.navbar-header .navbar-brand {
+  color: white; }
+  .navbar-header .navbar-brand:hover {
+    color: black;
+    opacity: 0.4; }
+
+.navbar-form label {
+  color: white; }
+
+.feature-list li {
+  font-size: 1.5em; }
+
+.navbar-toggle {
+  margin-top: 1.25em;
+  border: none; }
+  .navbar-toggle:hover {
+    opacity: 0.4; }
+
+.navbar-form {
+  font-size: 0.75em; }
+
+/*# sourceMappingURL=styles.css.map */
