@@ -4,11 +4,17 @@
 	color: #FEFEFE;
 }
 
+.float-right {
+	float: right;
+}
+
 #nav-content {
 	background-color: #2B78E4;
 	height: 100px;
 
 }
+
+
 
 #landing-page {
 	margin-top: 100px;
@@ -42,7 +48,6 @@
 #birthday-options {
 	margin-bottom: 20px;
 
-
 }
 
 #birthday-options  select {
@@ -74,13 +79,15 @@
 }
 
 #signup-button {
+	margin-top: 15px;
 	width: 100%;
-	height: 30px;
+	height: 40px;
 	background-color: #009E0F;
 	color: white;
 	border-radius: 0;
 	box-shadow: 3px 3px 3px black;
 	border-color: black;
+	font-size: 20px;
 }
 
 
