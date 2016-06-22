@@ -1,0 +1,38 @@
+/*    */
+body {
+  padding-top: 50px; }
+
+#main-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center; }
+
+nav {
+  background-color: blue;
+  height: 60px; }
+
+#brand {
+  color: white; }
+
+header {
+  text-align: left; }
+
+li {
+  text-align: left;
+  padding: 10px;
+  font-size: 14px; }
+
+#content {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+#signup {
+  padding-top: 0px;
+  padding-bottom: 30px; }
+
+#brand {
+  font-size: 34px;
+  font-weight: 550;
+  line-height: 25px; }
+
+/*# sourceMappingURL=styles.css.map */
