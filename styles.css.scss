@@ -1,0 +1,106 @@
+/*    */
+
+body {
+  padding-top: 50px;
+
+  nav {
+    background-color: #418EFF;
+    height: 75px;
+    border-bottom: solid black 2px;
+
+
+    #brand {
+      color: white;
+      font-size: 38px;
+      font-weight: 550;
+      line-height: 38px;
+      padding-left: 30px;
+    }
+
+    label {
+      color: white;
+    }
+
+
+  }
+#navbar {
+  padding-right: 15px;
+  border-bottom: solid black 2px;
+  padding-bottom: 7px;
+}
+
+
+
+  #submit {
+    padding-top: 5px;
+    button {
+      border: 2px black solid;
+      box-shadow: 3px 3px;
+    }
+  }
+
+#password {
+  padding: 0px 10px;
+  input {
+    border: 2px black solid;
+  }
+}
+  #email{
+    input {
+      border: 2px black solid;
+    }
+  }
+
+h2 {
+  font-weight: 600;
+}
+h1 {
+  font-weight: 600;
+}
+h4 {
+  text-align: left;
+}
+#gender {
+  text-align: left;
+}
+
+  main {
+      header {
+        text-align: left;
+
+
+        li {
+          text-align: left;
+          padding: 10px;
+          font-size: 14px;
+        }
+      }
+
+      #content {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+      }
+
+      #signup {
+        padding-top: 20px;
+      }
+  }
+}
+
+#sign-btn {
+  border: 1px black solid;
+  box-shadow: 2px 2px;
+
+}
+
+#last {
+  display: inline;
+  padding-left: 23px;
+}
+#main-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+
+}
