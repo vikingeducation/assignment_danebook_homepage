@@ -1,38 +1,47 @@
 /*    */
 body {
   padding-top: 50px; }
+  body nav {
+    background-color: blue;
+    height: 75px;
+    border-bottom: solid black 2px; }
+    body nav #brand {
+      color: white;
+      font-size: 38px;
+      font-weight: 550;
+      line-height: 38px;
+      padding-left: 30px; }
+    body nav label {
+      color: white; }
+  body #navbar {
+    padding-right: 15px;
+    border-bottom: solid black 2px;
+    padding-bottom: 7px; }
+  body #submit {
+    padding-top: 5px; }
+    body #submit button {
+      border: 2px black solid;
+      box-shadow: 3px 3px; }
+  body #password {
+    padding: 0px 10px; }
+    body #password input {
+      border: 2px black solid; }
+  body #email input {
+    border: 2px black solid; }
+  body main header {
+    text-align: left; }
+    body main header li {
+      text-align: left;
+      padding: 10px;
+      font-size: 14px; }
+  body main #content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 30px; }
 
 #main-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center; }
-
-nav {
-  background-color: blue;
-  height: 60px; }
-
-#brand {
-  color: white; }
-
-header {
-  text-align: left; }
-
-li {
-  text-align: left;
-  padding: 10px;
-  font-size: 14px; }
-
-#content {
-  padding-top: 40px;
-  padding-bottom: 40px; }
-
-#signup {
-  padding-top: 0px;
-  padding-bottom: 30px; }
-
-#brand {
-  font-size: 34px;
-  font-weight: 550;
-  line-height: 25px; }
 
 /*# sourceMappingURL=styles.css.map */
