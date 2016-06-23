@@ -51,6 +51,12 @@ body {
     }
   }
 
+h2 {
+  font-weight: 600;
+}
+h1 {
+  font-weight: 600;
+}
 
   main {
       header {
@@ -71,6 +77,11 @@ body {
       }
 
   }
+}
+
+#last {
+  display: inline;
+  padding-left: 23px;
 }
 #main-wrapper {
   padding-top: 15px;
