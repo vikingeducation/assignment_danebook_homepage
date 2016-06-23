@@ -4,7 +4,7 @@ body {
   padding-top: 50px;
 
   nav {
-    background-color: blue;
+    background-color: #418EFF;
     height: 75px;
     border-bottom: solid black 2px;
 
@@ -57,6 +57,12 @@ h2 {
 h1 {
   font-weight: 600;
 }
+h4 {
+  text-align: left;
+}
+#gender {
+  text-align: left;
+}
 
   main {
       header {
@@ -76,7 +82,16 @@ h1 {
         padding-left: 30px;
       }
 
+      #signup {
+        padding-top: 20px;
+      }
   }
+}
+
+#sign-btn {
+  border: 1px black solid;
+  box-shadow: 2px 2px;
+
 }
 
 #last {

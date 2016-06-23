@@ -97,80 +97,74 @@
            </p>
            </header>
          </div>
-         <div class="col-sm-4 col-sm-offset-1" id="signup">
-           <div class="row">
+         <div class="col-sm-5" id="signup">
+
            <header>
              <h1>Sign Up</h1>
            </header>
-         </div>
-           <form class="form-control">
-            <div class="row">
 
-             <input type="text" size="15" placeholder="First Name">
 
-             <input type="text" size="15" placeholder="Last Name">
-           </div>
-           <input type="text" size="35" placeholder="Your Email">
-             <input type="text" size="35" placeholder="Your New Password">
-             <input type="text" size="35" placeholder="Confirm Your Password">
-             <div class="row">
-             <p><strong>Birthday</strong></p>
-           </div>
-           <div class="row">
+           <form>
+
+             <div class="form-group col-sm-6">
+             <input type="text" class="form-control" placeholder="First Name">
+             </div>
+             <div class="form-group col-sm-6">
+             <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+            <div class="form-group col-sm-12">
+           <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+           <div class="form-group col-sm-12">
+             <input type="text" class="form-control" placeholder="Your New Password">
+               </div>
+             <div class="form-group col-sm-12">
+             <input type="text" class="form-control" placeholder="Confirm Your Password">
+             </div>
+             <div class="form-group col-sm-12">
+             <h4>Birthday</h4>
+
              <div class="col-sm-4">
-             <select class="form-control input-sm" >
-               <option>Month</option>
-             <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-              <option>7</option>
-              <option>8</option>
-              <option>9</option>
-           </select>
+             <select  class="form-control input-sm" >
+               <option selected disabled>Month</option>
+             <option>Jan</option>
+              <option>Feb</option>
+              <option>Mar</option>
+               </select>
          </div>
          <div class="col-sm-4">
-           <select class="form-control input-sm" placeholder=day>
-             <option>Day</option>
+           <select class="form-control input-sm">
+             <option selected disabled>Day</option>
            <option>1</option>
             <option>2</option>
             <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
          </select>
        </div>
        <div class="col-sm-4">
-         <select class="form-control input-sm" placeholder=day>
-           <option>Year</option>
-         <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
+         <select class="form-control input-sm">
+           <option selected disabled>Year</option>
+         <option>1985</option>
+          <option>1986</option>
+          <option>1987</option>
+
        </select>
      </div>
-
+     </div>
+     <div id="gender" class="form-group col-sm-12">
      <label class="radio-inline">
   <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Female
 </label>
 <label class="radio-inline">
   <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Male
 </label>
-  <button type="button" class="btn-success">Sign Up!</button>
+</div>
+  <div class="form-group col-sm-12">
+  <button id="sign-btn" type="button" class="btn-block btn-success">Sign Up!</button>
+</div>
 
-           </div>
 
            </form>
+
          </div>
       </div>
     </main>
