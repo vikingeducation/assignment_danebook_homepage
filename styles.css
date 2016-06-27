@@ -13,4 +13,8 @@
   .navbar-default .navbar-brand:hover {
     color: #BECEEB; }
 
+.btn-block {
+  display: block;
+  width: 48%; }
+
 /*# sourceMappingURL=styles.css.map */
