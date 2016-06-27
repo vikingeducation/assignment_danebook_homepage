@@ -1,0 +1,150 @@
+
+.center-vertical {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+.standard-border {
+	border: 2px solid black;
+}
+
+.container {
+	width: 100%;
+}
+
+nav {
+	height: 95px;
+	background: #2B78E4;
+	border-bottom: 2px solid black;
+
+	div[class^="col-md"] {
+		@extend .center-vertical;
+	}
+
+	h1 {
+		margin-left: 25px;
+		font-size: 48px;
+		font-weight: bold;
+		color: white;
+	}
+
+	label {
+		font-size: 18px;
+		color: white;
+		display: block;
+	}
+
+	input {
+		text-indent: 5px;
+		font-size: 18px;
+		line-height: 1.5em;
+		@extend .standard-border;
+	}
+
+	button {
+		margin-top: 27px;
+		font-size: 18px;
+		line-height: 1.5em;
+		font-weight: bold;
+		background: #9FC5F8;
+		box-shadow: 2px 2px 2px black;
+		@extend .standard-border;
+	}
+}
+
+main {
+	min-height: calc(100vh - 95px);
+}
+
+.benefits {
+
+	margin-top: 6%;
+
+	h1 {
+		font-weight: bold;
+	}
+
+	ul {
+		font-size: 18px;
+		line-height: 3em;
+		color: #666;
+	}
+
+	span {
+		font-weight: bold;
+	}
+
+}
+
+.sign-up-section {
+
+	margin-top: 1%;
+
+	h1 {
+		font-size: 48px;
+		font-weight: bold;
+	}
+
+	label[for=month] {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+}
+
+.sign-up-form {
+
+	margin-bottom: 35px;
+
+	input {
+		width: 100%;
+		text-indent: 5px;
+		font-size: 18px;
+		line-height: 1.5em;
+	}
+
+	div[class=row] {
+		margin-top: 30px;
+	}
+
+}
+
+.birthday-form {
+
+	margin-top: 5px;
+
+	select {
+		font-size: 18px;
+		line-height: 1.5em;
+	}
+}
+
+.gender-radio {
+
+	margin-top: 25px;
+
+	label {
+		font-size: 18px;
+	}
+
+	label:nth-child(n+2) {
+		margin-left: 15px;
+	}
+
+}
+
+.cta-wrapper {
+	margin-top: 10px;
+
+	button {
+		width: 100%;
+		font-size: 36px;
+		font-weight: bold;
+		background: #009E0F;
+		color: white;
+		box-shadow: 2px 2px 2px black;
+		@extend .standard-border;
+	}
+
+}

@@ -1,0 +1,8 @@
+
+# /.gitignore
+
+# Ignore SASS cache
+.sass-cache
+
+# Ignore spec
+spec.txt

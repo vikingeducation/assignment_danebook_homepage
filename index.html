@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danebook: Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Custom CSS-->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+	<!-- Custom JS -->
+	<script type="text/javascript" src="scripts/main.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<!-- Sign in nav -->
+		<nav class="row">
+			<div class="col-md-2">
+				<h1>Danebook</h1>
+			</div>
+			<div class="col-md-2 col-md-offset-4">
+				<label>Email</label>
+				<input type="email"></input>
+			</div>
+			<div class="col-md-2">
+				<label>Password</label>
+				<input type="password"></input>
+			</div>
+			<div class="col-md-1">
+				<button value="Log In">Log In</button>
+			</div>
+		</nav>
+		<!-- Sub-header content -->
+		<main class="row">
+			<!-- Benefits list -->
+			<section class="col-md-5 col-md-offset-1 benefits">
+				<h1>Connect with all your friends!</h1>
+				<ul>
+					<li> <span>See photos and updates</span> in your news feed</li>
+					<li><span>Post your status for the world to see</span> from your profile</li>
+					<li><span>Get in touch with your friends</span> by "friending" them</li>
+					<li><span>Like things</span> because you're a positive person!</li>
+				</ul>
+			</section>
+			<!-- Sign-up form -->
+			<section class="col-md-5 sign-up-section">
+				<h1>Sign Up</h1>
+				<form class="sign-up-form">
+					<div class="row">
+						<div class="col-md-6">
+							<input type="text" placeholder="First Name"></input>
+						</div>
+						<div class="col-md-6">
+							<input type="text" placeholder="Last Name"></input>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="email" placeholder="Your Email"></input>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="password" placeholder="Your New Password"></input>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="email" placeholder="Confirm Your New PW"></input>
+						</div>
+					</div>
+				</form>
+				<label for="month">
+					Birthday
+				</label>
+				<form class="row birthday-form">
+					<div class="col-md-1">
+						<select>
+								<option value="" disabled selected hidden>Month</option>
+						</select>
+					</div>
+					<div class="col-md-1 col-md-offset-1">
+						<select id="birthday-day">
+								<option value="" disabled selected hidden>Day</option>
+						</select>
+					</div>
+					<div class="col-md-1 col-md-offset-1">
+						<select id="birthday-year">
+								<option value="" disabled selected hidden>Year</option>
+						</select>
+					</div>
+				</form>
+				<form class="row gender-radio">
+					<div class="col-md-12">
+						<label>
+							<input type="radio" name="gender">
+							Female
+						</label>
+						<label>
+							<input type="radio" name="gender">
+							Male
+						</label>
+					</div>
+				</form>
+				<div class="row cta-wrapper">
+					<div class="col-md-12 cta-button">
+						<button>Sign Up!</button>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+</html>
