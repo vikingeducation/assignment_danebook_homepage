@@ -1,0 +1,52 @@
+
+.header-bar {
+  background-color: #2B78E4;
+}
+
+.logo {
+  color: white;
+  font-size: 48px;
+  margin: 5px;
+}
+
+.sign-in-color {
+  color: white;
+}
+
+
+.sign-in-btn {
+  background-color: #9FC5F8;
+  border-radius: 0;
+  border-color: black;
+  margin-top: 17px;
+  margin-right: 12px;
+}
+
+.side-panel-left {
+  margin-top: 35px;
+  margin-bottom: 3px;
+  line-height: 3;
+}
+
+.side-panel-left li {
+  margin-bottom: 3px;
+  color: #666;
+  font-size: 18px;
+  font-color: #666774;
+}
+
+.sign-up-form {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.sex {
+  margin-top: 10px;
+}
+
+.sign-up-btn {
+  background-color: #009E0F;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100%;
+}
