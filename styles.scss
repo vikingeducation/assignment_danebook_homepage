@@ -1,0 +1,38 @@
+$base-color: #3b5998;
+
+.navbar-default {
+    background-color: $base-color;
+    border-color: $base-color;
+    border-radius: 0;
+
+
+    .navbar-brand {
+      color: white;
+      font-size: 26px;
+      padding: 15px 55px;
+    }
+
+    .navbar-form {
+      padding: 5px 55px;
+    }
+
+    .navbar-brand a {
+      padding-left: 1px;
+    }
+
+    .navbar-brand:hover {
+      color: #BECEEB;
+    }
+}
+
+ #landing {
+  margin-left: 10px;
+}
+
+#main-text p {
+  font-size: 20px;
+}
+
+.container-fluid {
+  margin-left: 300px;
+}
