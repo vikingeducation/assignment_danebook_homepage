@@ -25,7 +25,14 @@ $base-color: #3b5998;
     }
 }
 
-.btn-block {
-    display: block;
-    width: 48%;
+ #landing {
+  margin-left: 10px;
+}
+
+#main-text p {
+  font-size: 20px;
+}
+
+.container-fluid {
+  margin-left: 300px;
 }

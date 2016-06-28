@@ -5,13 +5,31 @@
     <title>DaneBook</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+
+
+    <!--
+
+          <a class="navbar-brand" href="#">Brand</a>
+         -->
+
+
+
     <nav>
     <div class="navbar navbar-default">
       <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        </div>
         <div class="row">
-          <a href="#" class="nav navbar-brand">DaneBook</a>
+          <a href="#" class="nav navbar-brand">Danebook</a>
           <div class="navbar-form navbar-right">
             <form class="form-group">
               <input type="text" class="form-control" placeholder="Email">
@@ -25,13 +43,24 @@
     </nav>
 
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
+          <div class="col-md-3" id="main-text">
+            <h3>Connect with all your friends!</h3>
+            <ul>
+              <li><p>See photos and updates in your news feed<p/></li>
+              <li><p>Post your status for the world to see from you profile</p></li>
+              <li><p>Get in touch with your friends by "friending" them</p></li>
+              <li><p>Like things because you're a positive person!</p></li>
+            </ul>
+          </div>
 
-          <form class="form-horizontal col-md-12">
-            <h1>Sign Up</h1>
+        <div class="col-md-8">
+          <form class="form-horizontal" id="landing">
+            <h2 >Sign Up</h2>
             <div class="form-group">
               <div class="col-md-3">
+
                 <input type="text" placeholder="First Name" class="form-control">
               </div>
               <div class="col-md-3">
@@ -56,9 +85,10 @@
             </div>
             </div>
 
-            <h3>Birthday</h3>
+            <h4>Birthday</h4>
+            <div class="row">
 
-            <div class="col-md-1">
+            <div class="col-md-2">
               <select class="form-control">
                 <option hidden >Month</option>
                 <option> Jan</option>
@@ -76,7 +106,7 @@
               </select>
               </div>
 
-            <div class="col-md-1">
+            <div class="col-md-2">
               <select class="form-control">
                 <option hidden >Day</option>
                 <option> 1</option>
@@ -89,12 +119,31 @@
                 <option> 8 </option>
                 <option> 9 </option>
                 <option> 10 </option>
-                <option> 11 </option>
+                <option> 11</option>
                 <option> 12 </option>
+                <option> 13 </option>
+                <option> 14 </option>
+                <option> 15 </option>
+                <option> 16 </option>
+                <option> 17 </option>
+                <option> 18 </option>
+                <option> 19 </option>
+                <option> 20 </option>
+                <option> 21</option>
+                <option> 22 </option>
+                <option> 23 </option>
+                <option> 24 </option>
+                <option> 25 </option>
+                <option> 26 </option>
+                <option> 27 </option>
+                <option> 28 </option>
+                <option> 29 </option>
+                <option> 30 </option>
+                <option> 31</option>
               </select>
             </div>
 
-            <div class="col-md-1">
+            <div class="col-md-2">
               <select class="form-control">
                 <option hidden >Year</option>
                 <option> 1980</option>
@@ -109,24 +158,45 @@
                 <option> 1989 </option>
                 <option> 1990 </option>
                 <option> 1991 </option>
+                <option> 1992 </option>
+                <option> 1993 </option>
+                <option> 1994 </option>
+                <option> 1995 </option>
+                <option> 1996 </option>
+                <option> 1997 </option>
+                <option> 1998 </option>
+                <option> 1999 </option>
+                <option> 2000 </option>
+                <option> 2001 </option>
+                <option> 2002 </option>
+                <option> 2003 </option>
+                <option> 2004 </option>
+                <option> 2005 </option>
               </select>
             </div>
-
-          <div class="form-group">
+          </div>
+          <br />
+          <div class="row">
             <div class="col-md-4">
-              <label class="radio-inline">
-                <input type="radio" id="inlineRadioMale" name="inlineRadio" >Male
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Female
               </label>
-
               <label class="radio-inline">
-                <input type="radio" id="inlineRadioFemale" name="inlineRadio">Female
-              </label>
-            </div>
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Male
+            </label>
+          </div>
           </div>
 
-          <button type="button" class="btn btn-success btn-lg btn-block col-md-6">Submit</button>
+          <br />
+            <div class="row">
+              <div class="col-md-5">
+                <button type="button" class="btn btn-success btn-lg btn-block">Submit</button>
+              </div>
+            </div>
 
           </form>
+        </div>
+
         </div>
       </div>
     </main>
