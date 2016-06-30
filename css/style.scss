@@ -1,0 +1,61 @@
+#navbar {
+	padding: 20px 0;
+	background: #2B78E4;
+	border-radius: 0 0 2px 2px;
+	@media (min-width: 768px) {
+		padding-left: 20px;
+	}
+
+	.navbar-brand {
+		font-size: 48px;
+		color: white;
+	}
+
+	#login {
+		border: none;
+
+		form {
+			border: none;
+		}
+	}
+
+	#login-button {
+		background: #9FC5F8;
+		color: #000;
+	}
+}
+
+#connect {
+	@media (min-width: 768px) {
+		padding-top: 70px;
+	}
+
+	ul {
+		font-size: 16px;
+
+		li {
+			margin: 24px 0;
+		}
+	}
+}
+
+#sign-up {
+
+	h1 {
+		font-size: 60px;
+		margin-bottom: 20px;
+	}
+
+	#birthday, #gender {
+		margin-left: 0;
+	}
+
+	#gender{
+		padding-top: 15px;
+	}
+
+	#signup-button {
+		margin-top: 15px;
+		font-size: 24px;
+	}
+}
