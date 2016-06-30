@@ -1,0 +1,38 @@
+#navbar {
+  padding: 20px 0;
+  background: #2B78E4;
+  border-radius: 0 0 2px 2px; }
+  @media (min-width: 768px) {
+    #navbar {
+      padding-left: 20px; } }
+  #navbar .navbar-brand {
+    font-size: 48px;
+    color: white; }
+  #navbar #login {
+    border: none; }
+    #navbar #login form {
+      border: none; }
+  #navbar #login-button {
+    background: #9FC5F8;
+    color: #000; }
+
+@media (min-width: 768px) {
+  #connect {
+    padding-top: 70px; } }
+#connect ul {
+  font-size: 16px; }
+  #connect ul li {
+    margin: 24px 0; }
+
+#sign-up h1 {
+  font-size: 60px;
+  margin-bottom: 20px; }
+#sign-up #birthday, #sign-up #gender {
+  margin-left: 0; }
+#sign-up #gender {
+  padding-top: 15px; }
+#sign-up #signup-button {
+  margin-top: 15px;
+  font-size: 24px; }
+
+/*# sourceMappingURL=style.css.map */
