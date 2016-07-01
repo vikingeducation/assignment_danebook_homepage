@@ -27,6 +27,7 @@ h1
 .navbar-fixed-top
 {
   background-color: #3b5998;
+  margin-bottom: 0px;
 
 }
 
@@ -35,9 +36,16 @@ h1
 
 }
 
+
+
 .form-control
 {
   margin-bottom: 5px;
+}
+
+.navbar-right .form-control
+{
+  margin-bottom: 0px;
 }
 
 .jumbotron
