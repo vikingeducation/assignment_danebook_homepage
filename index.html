@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <h1>Danebook </h1>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <p> Email</p>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <p> Password </p>
+              <input type="password" class="form-control">
+              <button type="submit" class="btn btn-info">Log in</button>
+            </div>  
+            
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2> Connect with all your friends! </h2>
+            <li>See photos and updates in your news feed</li>
+            <li>Post your status for the world to see from your profile</li>
+            <li>Get in touch with your friends by "friending" them</li>
+            <li>Like things because you're a positive person!</li>
+          </div>
+
+          <div class="col-md-6">
+            <h2> Sign Up </h2>
+
+            <div class="user-input-forms">
+              <div class="form-group col-md-6">
+                <input type="text" placeholder="First Name" class="form-control">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" placeholder="Last Name" class="form-control"> 
+              </div>
+              <input type="text" placeholder="Your Email" class="form-control">
+              <input type="text" placeholder="Your New Password" class="form-control">
+              <input type="text" placeholder="Confirm Your Password" class="form-control">
+            </div>
+
+            <h4>Birthday </h4>
+
+            <div class="dropdown col-md-4">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Month
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Jan</a></li>
+                <li><a href="#">February</a></li>
+                <li><a href="#">..December</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown col-md-4">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Day
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">10</a></li>
+                <li><a href="#">20</a></li>
+                <li><a href="#">..31</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown col-md-4">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Year
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">1900</a></li>
+                <li><a href="#">2000</a></li>
+                <li><a href="#">..2016</a></li>
+              </ul>
+            </div>
+              <div class="row">
+              <form class="form-horizontal col-md-6">
+                <fieldset>
+                
+
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group">
+                  <div class="col-md-6">
+                    <label class="radio-inline" for="Gender-1">
+                      <input type="radio" name="Gender" id="Gender-1" value="" female""="">
+                      Female   
+                    </label>
+                  </div>
+                  <div class="col-md-6"> 
+                    <label class="radio-inline" for="Gender-0">
+                      <input type="radio" name="Gender" id="Gender-0" value="" male""="">
+                      Male
+                    </label> 
+                  </div>
+                  
+                </div>
+                </fieldset>
+              </form>
+              </div>
+              <button type="submit" class="btn btn-success col-md-12">Sign Up!</button>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </div>
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
