@@ -25,4 +25,11 @@ section.homepage-headline ul {
 section.sign-up-form h1 {
   margin-bottom: 20px; }
 
+@media screen and (max-width: 767px) {
+  nav#navbar form {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 0;
+    border-bottom: 0; } }
+
 /*# sourceMappingURL=styles.css.map */
