@@ -1,16 +1,28 @@
 .bold-text {
   font-weight: bold; }
 
-.homepage-headline h1 {
+header#site-header {
+  border: 1px solid #3B5998;
+  background-color: #3B5998;
+  color: #fff; }
+
+#site-logo {
+  font-size: 26px;
+  color: #fff; }
+
+nav#navbar label {
+  font-weight: normal; }
+
+section.homepage-headline h1 {
   padding-top: 40px;
   margin-bottom: 40px; }
-.homepage-headline ul {
-  font-size: 16px;
+section.homepage-headline ul {
+  font-size: 18px;
   list-style: none; }
-  .homepage-headline ul li {
+  section.homepage-headline ul li {
     margin-bottom: 20px; }
 
-.sign-up-form h1 {
+section.sign-up-form h1 {
   margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
