@@ -1,0 +1,33 @@
+body {
+  padding-top: 90px;
+}
+
+nav {
+  background-color: #2B78E4;
+  height: 89px;
+  border-bottom: 2px solid #333!important;
+  color: #fff;
+  .navbar-header {
+    .h1 {
+      font-size: 40px;
+      font-weight: 500;
+    }
+  }
+}
+
+a:hover {
+  color: darken(#fff, 15%);
+}
+
+.col-md-7 {
+  padding-top: 6%;
+  padding-left: 6%;
+  h2 {
+    font-weight: 500;
+  }
+  li {
+    line-height: 250%;
+    font-size: 16px;
+    color: #777;
+  }
+}

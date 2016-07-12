@@ -1,0 +1,26 @@
+body {
+  padding-top: 90px; }
+
+nav {
+  background-color: #2B78E4;
+  height: 89px;
+  border-bottom: 2px solid #333 !important;
+  color: #fff; }
+  nav .navbar-header .h1 {
+    font-size: 40px;
+    font-weight: 500; }
+
+a:hover {
+  color: #d9d9d9; }
+
+.col-md-7 {
+  padding-top: 6%;
+  padding-left: 6%; }
+  .col-md-7 h2 {
+    font-weight: 500; }
+  .col-md-7 li {
+    line-height: 250%;
+    font-size: 16px;
+    color: #777; }
+
+/*# sourceMappingURL=styles.css.map */
