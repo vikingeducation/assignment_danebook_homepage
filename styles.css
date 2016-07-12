@@ -9,6 +9,23 @@ nav {
   nav .navbar-header .h1 {
     font-size: 40px;
     font-weight: 500; }
+  nav #login fieldset {
+    margin-left: 7px; }
+  nav #login .form-control {
+    border-radius: 0;
+    border: 1px solid #333;
+    margin-left: 7px; }
+  nav #login .pull-bottom {
+    display: inline-block;
+    vertical-align: bottom; }
+
+.btn-info {
+  background-color: #9FC5F8; }
+  .btn-info:hover {
+    background-color: #589af3; }
+
+.btn-raised {
+  box-shadow: 3px 3px 2px -2px #333; }
 
 a:hover {
   color: #d9d9d9; }

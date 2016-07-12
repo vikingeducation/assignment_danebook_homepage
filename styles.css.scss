@@ -13,6 +13,31 @@ nav {
       font-weight: 500;
     }
   }
+  #login {
+    fieldset {
+      margin-left: 7px;
+    }
+    .form-control{
+      border-radius: 0;
+      border: 1px solid #333;
+      margin-left: 7px;
+    }
+    .pull-bottom {
+      display: inline-block;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.btn-info {
+  background-color: #9FC5F8;
+  &:hover {
+    background-color: darken(#9FC5F8, 15%);
+  }
+}
+
+.btn-raised {
+  box-shadow: 3px 3px 2px -2px #333;
 }
 
 a:hover {
