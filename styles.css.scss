@@ -1,0 +1,78 @@
+body {
+  padding-top: 90px;
+}
+
+.navbar-inverse {
+  background-color: #2B78E4;
+  height: 89px;
+  border-bottom: 2px solid #333!important;
+  color: #fff;
+  .navbar-collapse {
+    background-color: #2B78E4;
+  }
+  .navbar-header {
+    .h1 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: 500;
+    }
+    a:hover {
+      color: darken(#fff, 15%);
+    }
+    button.navbar-toggle {
+      position: absolute;
+      top: 24%;
+      right: 2%;
+    }
+  }
+}
+  
+#login {
+  .form-control {
+    border-radius: 0;
+    border: 1px solid #333;
+  }
+  #pull-bottom {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}
+
+.btn-info {
+  background-color: #9FC5F8;
+  &:hover {
+    background-color: darken(#9FC5F8, 15%);
+  }
+}
+
+.btn-raised {
+  box-shadow: 3px 3px 2px -2px #333;
+}
+
+.col-md-7 {
+  padding-top: 6%;
+  padding-left: 6%;
+  h2 {
+    font-weight: 500;
+  }
+  li {
+    line-height: 250%;
+    font-size: 16px;
+    color: #777;
+  }
+}
+
+.col-md-5 {
+  padding-top: 2%;
+  fieldset.h1 {
+    padding-bottom: 5px;
+  }
+}
+
+.smidgen-right {
+  padding-left: 2px;
+}
+
+.birthday {
+  padding-right: 3px;
+}

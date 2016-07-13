@@ -1,0 +1,58 @@
+body {
+  padding-top: 90px; }
+
+.navbar-inverse {
+  background-color: #2B78E4;
+  height: 89px;
+  border-bottom: 2px solid #333 !important;
+  color: #fff; }
+  .navbar-inverse .navbar-collapse {
+    background-color: #2B78E4; }
+  .navbar-inverse .navbar-header .h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500; }
+  .navbar-inverse .navbar-header a:hover {
+    color: #d9d9d9; }
+  .navbar-inverse .navbar-header button.navbar-toggle {
+    position: absolute;
+    top: 24%;
+    right: 2%; }
+
+#login .form-control {
+  border-radius: 0;
+  border: 1px solid #333; }
+#login #pull-bottom {
+  display: inline-block;
+  vertical-align: bottom; }
+
+.btn-info {
+  background-color: #9FC5F8; }
+  .btn-info:hover {
+    background-color: #589af3; }
+
+.btn-raised {
+  box-shadow: 3px 3px 2px -2px #333; }
+
+.col-md-7 {
+  padding-top: 6%;
+  padding-left: 6%; }
+  .col-md-7 h2 {
+    font-weight: 500; }
+  .col-md-7 li {
+    line-height: 250%;
+    font-size: 16px;
+    color: #777; }
+
+.col-md-5 {
+  padding-top: 2%; }
+  .col-md-5 fieldset.h1 {
+    padding-bottom: 5px; }
+
+.smidgen-right {
+  padding-left: 2px; }
+
+.birthday {
+  padding-right: 3px; }
+
+/*# sourceMappingURL=styles.css.map */
