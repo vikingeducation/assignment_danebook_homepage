@@ -49,36 +49,31 @@
         </ul>
       </nav>
       <form class="form-signin col-md-5 col-md-offset-1">
-        <h2 class="form-signin-heading"><strong>Sign Up</strong></h2>
+        <h2 class="form-signin-heading margin"><strong>Sign Up</strong></h2>
         <div class="form-inline">
           <div class="form-group">
-            <label for="inputFirstName" class="sr-only"></label>
-            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" required>
+            <input type="text" class="form-control margin" id="inputFirstName" placeholder="First Name" required>
           </div>
           <div class="form-group pull-right">
-            <label for="inputLastName" class="sr-only"></label>
-            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" required>
+            <input type="text" class="form-control margin" id="inputLastName" placeholder="Last Name" required>
           </div>
         </div>
-        <label for="inputEmail" class="sr-only"></label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Your Email" required>
-        <label for="inputNewPassword" class="sr-only"></label>
-        <input type="password" id="newPassword" class="form-control" placeholder="Your New Password" required>
-        <label for="inputConfirmPassword" class="sr-only"></label>
-        <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Your Password" required>
-        <h4><strong>Birthday</strong></h4>
-        <div class="form-inline">
-          <select class="form-control">
+        <input type="email" id="inputEmail" class="form-control margin" placeholder="Your Email" required>
+        <input type="password" id="newPassword" class="form-control margin" placeholder="Your New Password" required>
+        <input type="password" id="confirmPassword" class="form-control margin" placeholder="Confirm Your Password" required>
+        <h4 class="margin"><strong>Birthday</strong></h4>
+        <div class="form-inline margin">
+          <select class="form-control birthday-border">
             <option>Month</option>
           </select>
-          <select class="form-control">
+          <select class="form-control birthday-border">
             <option>Day</option>
           </select>
-          <select class="form-control">
+          <select class="form-control birthday-border">
             <option>Year</option>
           </select>
         </div>
-        <div class="checkbox">
+        <div class="checkbox margin">
           <label class="radio-inline">
             <input type="radio" value="Female"> Female
           </label>
@@ -86,7 +81,7 @@
             <input type="radio" value="Male"> Male
           </label>
         </div>
-        <button class="btn btn-lg btn-success btn-block" type="submit">Sign Up!</button>
+        <button class="btn btn-lg btn-success btn-block margin" type="submit" id="sign-up">Sign Up!</button>
       </form>
     </section>
   </main>
