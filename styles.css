@@ -13,4 +13,18 @@
 .padding {
   padding: 10px; }
 
+.form-control {
+  border: 3px solid #333; }
+
+#email,
+#password {
+  color: white;
+  margin: 0 3px; }
+
+.btn.btn-primary.btn-info {
+  border-radius: 0;
+  box-shadow: 3px 3px 3px #333;
+  margin: 0 10px;
+  color: black; }
+
 /*# sourceMappingURL=styles.css.map */
