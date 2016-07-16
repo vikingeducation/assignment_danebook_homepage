@@ -13,7 +13,7 @@
 .padding {
   padding: 10px;
 }
-.form-control {
+.sign-in {
   border: 3px solid #333;
 }
 #email,
@@ -22,6 +22,7 @@
   margin: 0 3px;
 }
 .btn.btn-primary.btn-info {
+  border: 2px solid #333;
   border-radius: 0;
   box-shadow: 3px 3px 3px #333;
   margin: 0 10px;

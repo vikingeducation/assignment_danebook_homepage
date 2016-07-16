@@ -27,11 +27,11 @@
       <form class="navbar-form navbar-right">
         <fieldset class="form-group">
           <label for="exampleInputEmail1" id="email">Email</label>
-          <input type="email" class="form-control">
+          <input type="email" class="form-control sign-in">
         </fieldset>
         <fieldset class="form-group">
           <label for="exampleInputPassword1" id="password">Password</label>
-          <input type="password" class="form-control">
+          <input type="password" class="form-control sign-in">
         </fieldset>
         <button type="submit" class="btn btn-primary btn-info">Log in</button>
       </form>
@@ -48,6 +48,46 @@
           <li class="padding"><strong>Like things</strong> because you're a positive person!</li>
         </ul>
       </nav>
+      <form class="form-signin col-md-5 col-md-offset-1">
+        <h2 class="form-signin-heading"><strong>Sign Up</strong></h2>
+        <div class="form-inline">
+          <div class="form-group">
+            <label for="inputFirstName" class="sr-only"></label>
+            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" required>
+          </div>
+          <div class="form-group pull-right">
+            <label for="inputLastName" class="sr-only"></label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" required>
+          </div>
+        </div>
+        <label for="inputEmail" class="sr-only"></label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Your Email" required>
+        <label for="inputNewPassword" class="sr-only"></label>
+        <input type="password" id="newPassword" class="form-control" placeholder="Your New Password" required>
+        <label for="inputConfirmPassword" class="sr-only"></label>
+        <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Your Password" required>
+        <h4><strong>Birthday</strong></h4>
+        <div class="form-inline">
+          <select class="form-control">
+            <option>Month</option>
+          </select>
+          <select class="form-control">
+            <option>Day</option>
+          </select>
+          <select class="form-control">
+            <option>Year</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <label class="radio-inline">
+            <input type="radio" value="Female"> Female
+          </label>
+          <label class="radio-inline">
+            <input type="radio" value="Male"> Male
+          </label>
+        </div>
+        <button class="btn btn-lg btn-success btn-block" type="submit">Sign Up!</button>
+      </form>
     </section>
   </main>
 
