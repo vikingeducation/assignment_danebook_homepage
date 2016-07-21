@@ -1,0 +1,39 @@
+body {
+  margin-top: 70px;
+  margin-bottom: 20px; }
+
+#brand {
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold; }
+
+#slogan h1 {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: fantasy;
+  margin-bottom: 22px;
+  color: #333; }
+#slogan li {
+  line-height: 3;
+  font-size: 20px; }
+
+#signup {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: monospace;
+  margin-bottom: 30px; }
+
+.input-line {
+  margin-bottom: 10px; }
+
+#sex-pick {
+  margin-top: 10px; }
+
+select {
+  margin-top: 10px; }
+
+#signup-btn {
+  margin-top: 15px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
