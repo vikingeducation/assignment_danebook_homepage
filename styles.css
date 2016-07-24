@@ -1,5 +1,8 @@
-.aa {
-  background-color: green;
-  height: 55px; }
+nav {
+  background-color: #3C5A99; }
+  nav header h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3.5em; }
 
 /*# sourceMappingURL=styles.css.map */
