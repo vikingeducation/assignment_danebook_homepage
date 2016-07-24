@@ -1,12 +1,23 @@
 nav {
     background-color: #3C5A99;
-    header {
+    
+    #navbar {
+        //margin-top: 25px;
+        line-height: 75px;
+        vertical-align: middle;
+    }
+  
         h1 {
             color: white;
             font-weight: bold;
             font-size: 3.5em;
         }
-    }
+    
+}
+
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 // aside {
