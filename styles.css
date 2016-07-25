@@ -1,15 +1,15 @@
-nav {
-  background-color: #3C5A99; }
-  nav #navbar {
-    line-height: 75px;
-    vertical-align: middle; }
-  nav h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 3.5em; }
+nav h1,
+nav h6 {
+  font-weight: bold;
+  color: white; }
+nav h1 {
+  font-size: 4.5em; }
 
 body {
   padding-top: 80px;
   padding-bottom: 20px; }
+
+.navbar-default {
+  background-color: #3C5A99; }
 
 /*# sourceMappingURL=styles.css.map */

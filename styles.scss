@@ -1,17 +1,27 @@
 nav {
-    background-color: #3C5A99;
+    h1,
+    h6 {
+        font-weight: bold;
+        color: white;
+    }
+    
+    h1 {
+        font-size: 4.5em;
+    }
+    
+
+
+    
+    .icon-bar {
+        // background-color: white;
+    }
     
     #navbar {
         //margin-top: 25px;
-        line-height: 75px;
-        vertical-align: middle;
+        // line-height: 75px;
+        // vertical-align: middle;
     }
-  
-        h1 {
-            color: white;
-            font-weight: bold;
-            font-size: 3.5em;
-        }
+
     
 }
 
@@ -35,3 +45,9 @@ body {
 //         font-weight: bold;
 //     }
 // }
+
+
+    .navbar-default {
+        background-color: #3C5A99;
+    }
+    
