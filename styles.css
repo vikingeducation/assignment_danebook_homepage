@@ -19,7 +19,10 @@ nav h1 {
   background-color: #f3f0f0; }
 
 .short {
-  width: 100px; }
+  width: 200px; }
+
+.big-three {
+  width: 400px; }
 
 #email-login {
   margin: 10px 0; }
