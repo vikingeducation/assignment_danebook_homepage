@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Danebook</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js\jquery-3.1.0.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-default" id="top-nav">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <big>
+            Danebook
+          </big>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse" id="myNavbar">
+        <form class="navbar-form navbar-right" role="form">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" name="password" class="form-control" id="password">
+          </div>
+          <div class="form-group">
+            <button id="login-button" type="submit" name="login" class="btn btn-primary" >Log In</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <main class="container" >
+      <div class="row">
+        <div class="col-sm-7">
+          <section id="info-left">
+            <header>
+              <h1>
+                Connect with all your friends!
+              </h1>
+            </header>
+            <big>
+              <ul class="text-lead">
+                <li><p>See photos and updates in your newsfeed.<p></li>
+                <li><p>Post your status for the world to see from your profile.<p></li>
+                <li><p>Get in touch with friends by "friending" them.<p></li>
+                <li><p>Like things because you're a positive person!<p></li>
+              </ul>
+            </big>
+          </section>
+        </div>
+        <div class="col-sm-5">
+          <section id="sign-up-right">
+            <header>
+              <h1>
+                Sign Up
+              </h1>
+            </header>
+            <form role="form">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input type="text" name="first-name" placeholder="First Name" class="form-control">
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input type="text" name="last-name" placeholder="Last Name" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" name="your-email" placeholder="Your Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" name="your-new-password" placeholder="Your New Password" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" name="password-confirm" placeholder="Confirm Your Password" class="form-control">
+              </div>
+              <h3>
+                Birthday
+              </h3>
+              <div class="row">
+                <div class="col-sm-3 form-group">
+                  <select class="form-control" name="month">
+                    <option value="" disabled selected>Month</option>
+                  </select>
+                </div>
+                <div class="col-sm-3 form-group">
+                  <select class="form-control" name="day">
+                    <option value="" disabled selected>Day</option>
+                  </select>
+                </div>
+                <div class="col-sm-3 form-group">
+                  <select class="form-control" name="Year">
+                    <option value="" disabled selected>Year</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="radio-inline"><input type="radio" name="male">Male</label>
+                <label class="radio-inline"><input type="radio" name="female">Female</label>
+              </div>
+              <button type="submit" class="btn btn-success btn-block">Sign Up!</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+
+  </body>
+</html>
