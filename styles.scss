@@ -1,0 +1,38 @@
+#top-nav{
+  background-color: #3b5998;
+  border-radius: 0;
+
+  *{
+    border-radius: 0;
+  }
+
+  .navbar-brand{
+    color: white;
+  }
+
+  label{
+    color: white;
+  }
+
+  button{
+    box-shadow: 2px 2px 1px black;
+  }
+}
+
+#sign-up-right{
+  h1{
+    font-weight: bold;
+  }
+
+  h3{
+    font-weight: bold;
+  }
+}
+
+#info-left{
+  font-size: 20px;
+
+  h1{
+    font-weight: bold;
+  }
+}
