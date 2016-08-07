@@ -1,0 +1,47 @@
+body {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-family: sans-serif; }
+
+#navbar-background {
+  height: 80px;
+  background-color: #3b5998; }
+
+#navbar-brand a {
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+  vertical-align: middle; }
+
+#navbar-button {
+  line-height: 60px;
+  vertical-align: middle; }
+
+.form-spacing {
+  margin-bottom: 18px; }
+
+@media (max-width: 768px) {
+  #test {
+    margin-top: 20px; } }
+#sign-up {
+  padding-bottom: 20px; }
+
+#left-side-header {
+  padding-top: 55px;
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 600; }
+
+.list-styles {
+  line-height: 50px;
+  font-size: 16px;
+  color: #696969; }
+
+.button-shadow {
+  box-shadow: 2px 2px black; }
+
+#sign-up-button {
+  background-color: #6b8e23;
+  height: 40px; }
+
+/*# sourceMappingURL=styles.css.map */
