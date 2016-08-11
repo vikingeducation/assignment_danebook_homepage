@@ -1,0 +1,167 @@
+$brand-lt-blue: #9fc5f8;
+$brand-md-blue: #2b78e4;
+$brand-dk-blue: #3f6291;
+
+$white: #f6f6f6;
+$light-grey: #696969;
+
+body {
+  padding-bottom: 10%;
+  padding-top: 20%;
+}
+
+.navbar {
+  padding: 1.5% 0;
+}
+
+.navbar-brand {
+  background-color: $brand-md-blue;
+  border-color: $brand-dk-blue;
+  height: auto;
+
+  .navbar-logo  {
+    color: $white;
+    font-size: 2.5em;
+  }
+}
+
+.navbar-form {
+
+  label {
+    color: $white;
+    display: block;
+    padding-bottom: 4px;
+  }
+}
+
+.login-cta {
+  background-color: $brand-lt-blue;
+  border-color: $brand-dk-blue;
+  color: $brand-dk-blue;
+  margin-top: 5%;
+
+  &:hover {
+    background-color: $brand-dk-blue;
+    border-color: $brand-lt-blue;
+    color: $white;
+  }
+}
+
+.mainpage-bullets {
+  margin-top: 5%;
+
+  li {
+    color: $light-grey;
+    font-size: 1.25em;
+    margin-bottom: 5%;
+  }
+}
+
+.mainpage-title {
+  font-size: 2.5em;
+  margin-bottom: 5%;
+  margin-top:0;
+}
+
+.mainpage-date-label {
+  display: block;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
+
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+.birthday-date {
+
+  select {
+    max-width: 50%;
+  }
+
+  p {
+    margin-top: 5%;
+  }
+}
+
+.mainpage-signup-cta {
+  font-size: 1.75em;
+  margin-top: 5%;
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+
+  body {
+    padding-top: 15%;
+  }
+
+  .mainpage-bullets {
+    margin-top: 5%;
+
+    li {
+      font-size: 1.25em;
+      margin-bottom: 2.5%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .navbar-inverse {
+
+    .navbar-logo {
+      margin-top: 10%;
+    }
+  }
+
+  .form-margin-right-15 {
+    margin-right: 25px;
+  }
+
+  .birthday-date {
+
+    select {
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1199px) {
+
+  .navbar {
+
+    .form-group {
+      margin-right: 23px;
+    }
+  }
+}
+
+@media screen and (min-width: 1700px) {
+
+  body {
+    padding-top: 8%;
+  }
+
+  .navbar {
+    padding: .75% 0;
+
+    .form-group {
+      margin-right: 23px;
+    }
+  }
+
+  .mainpage-content {
+
+    li {
+      font-size: 1.5em;
+      margin-bottom: 2.5%;
+    }
+  }
+}
