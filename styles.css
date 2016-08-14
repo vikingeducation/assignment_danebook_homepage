@@ -9,19 +9,13 @@ body {
   background-color: #266EE1;
   height: 70px; }
 
-.left-push {
-  margin-left: 15px; }
-
 .nav-title {
   color: white;
   letter-spacing: 3px;
   font-size: 1.5em; }
 
-.rmv-bot-marg {
+.remove-bot-marg {
   margin-bottom: 0px; }
-
-.center-align {
-  margin-top: 10px; }
 
 .bot-align {
   vertical-align: bottom; }
