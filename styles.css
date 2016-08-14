@@ -1,0 +1,27 @@
+* {
+  border-radius: 0 !important; }
+
+body {
+  margin-top: 70px; }
+
+.nav-banner {
+  background-color: #266EE1;
+  height: 80px; }
+
+#nav-title {
+  color: white;
+  font-size: 3em; }
+
+.rmv-bot-marg {
+  margin-bottom: 0px; }
+
+.bot-align {
+  vertical-align: bottom; }
+
+.form-group p {
+  color: white; }
+
+.btn-login {
+  box-shadow: 5px 5px 5px black; }
+
+/*# sourceMappingURL=styles.css.map */
