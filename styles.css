@@ -1,27 +1,32 @@
 * {
-  border-radius: 0 !important; }
+  border-radius: 0 !important;
+  font-family: 'Lato', serif; }
 
 body {
   margin-top: 70px; }
 
 .nav-banner {
   background-color: #266EE1;
-  height: 80px; }
+  height: 70px; }
 
-#nav-title {
+.left-push {
+  margin-left: 15px; }
+
+.nav-title {
   color: white;
-  font-size: 3em; }
+  letter-spacing: 3px;
+  font-size: 1.5em; }
 
 .rmv-bot-marg {
   margin-bottom: 0px; }
+
+.center-align {
+  margin-top: 10px; }
 
 .bot-align {
   vertical-align: bottom; }
 
 .form-group p {
   color: white; }
-
-.btn-login {
-  box-shadow: 5px 5px 5px black; }
 
 /*# sourceMappingURL=styles.css.map */
