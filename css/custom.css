@@ -17,4 +17,10 @@ body {
   font-size: 18px;
   margin: 15px; }
 
+#name-form {
+  margin-bottom: 15px; }
+
+#last-name {
+  margin-left: 12px; }
+
 /*# sourceMappingURL=custom.css.map */
