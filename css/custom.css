@@ -1,3 +1,17 @@
+body {
+  padding-top: 70px; }
 
+#main-logo .navbar-brand {
+  background-color: #2b78e4;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px; }
+
+.navbar-inverse {
+  background-color: #2b78e4; }
+
+.product-features li {
+  font-size: 18px;
+  margin: 15px; }
 
 /*# sourceMappingURL=custom.css.map */
