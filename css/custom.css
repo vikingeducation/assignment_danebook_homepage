@@ -10,6 +10,9 @@ body {
 .navbar-inverse {
   background-color: #2b78e4; }
 
+.navbar-form button {
+  background-color: #9fc5f8; }
+
 .product-features li {
   font-size: 18px;
   margin: 15px; }
