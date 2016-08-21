@@ -18,9 +18,16 @@ body {
   margin: 15px; }
 
 #name-form {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-right: -2px; }
 
-#last-name {
-  margin-left: 12px; }
+#birthday-month, #birthday-date, #birthday-year {
+  margin-right: 30px; }
+
+#birthday-form {
+  margin-bottom: 35px; }
+
+#female-label {
+  margin-right: 20px; }
 
 /*# sourceMappingURL=custom.css.map */
