@@ -1,0 +1,33 @@
+body {
+  padding-top: 70px; }
+
+#main-logo .navbar-brand {
+  background-color: #2b78e4;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px; }
+
+.navbar-inverse {
+  background-color: #2b78e4; }
+
+.navbar-form button {
+  background-color: #9fc5f8; }
+
+.product-features li {
+  font-size: 18px;
+  margin: 15px; }
+
+#name-form {
+  margin-bottom: 15px;
+  margin-right: -2px; }
+
+#birthday-month, #birthday-date, #birthday-year {
+  margin-right: 30px; }
+
+#birthday-form {
+  margin-bottom: 35px; }
+
+#female-label {
+  margin-right: 20px; }
+
+/*# sourceMappingURL=custom.css.map */
