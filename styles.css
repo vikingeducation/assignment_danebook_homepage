@@ -2,15 +2,26 @@
   background-color: #2B78E4; }
 
 .container h2 {
-  margin-top: 100px; }
+  margin-top: 160px; }
 
-.navbar-brand {
-  color: #FEFEFE; }
+.navbar-default .navbar-brand {
+  color: #FEFEFE;
+  font-size: 32px;
+  margin-top: 20px; }
 
 .form-control {
   margin-bottom: 10px; }
 
 #exampleInputEmail3 {
   margin-right: 12px; }
+
+.btn-success {
+  margin-top: 15px; }
+
+label {
+  color: #FEFEFE; }
+
+.checkbox-inline {
+  color: #000000; }
 
 /*# sourceMappingURL=styles.css.map */

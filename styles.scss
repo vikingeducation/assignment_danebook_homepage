@@ -3,11 +3,13 @@
 }
 
 .container h2 {
-	margin-top: 100px;
+	margin-top: 160px;
 }
 
-.navbar-brand {
+.navbar-default .navbar-brand {
 	color: #FEFEFE;
+	font-size: 32px;
+	margin-top: 20px;
 }
 
 
@@ -18,3 +20,16 @@
 #exampleInputEmail3 {
 	margin-right: 12px;	
 }
+
+.btn-success {
+	margin-top: 15px;
+}
+
+label {
+	color: #FEFEFE;
+}
+
+.checkbox-inline {
+	color: #000000;
+}
+
