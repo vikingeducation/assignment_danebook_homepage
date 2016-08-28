@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 20px; }
+
 nav.navbar-default {
   background-color: #2b78e4;
   border-color: black;
@@ -21,9 +24,14 @@ nav.navbar-default {
   padding-bottom: 5px;
   font-weight: bold; }
 .container .row aside ul li {
-  padding-bottom: 8px;
+  padding-bottom: 20px;
   color: gray;
   font-size: 19px;
   font-weight: light; }
+
+section form fieldset input {
+  margin-bottom: 15px; }
+section form fieldset #dropdownDay {
+  margin-left: 5px; }
 
 /*# sourceMappingURL=styles.css.map */

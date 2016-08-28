@@ -1,8 +1,8 @@
 $bgDefault      : #2b78e4;
-$bgHighlight    : #2b36c0;
-$colDefault     : #ecf0f1;
-$colHighlight   : #0a0b0b;
-$dropDown       : false;
+
+body {
+    padding-bottom: 20px;
+}
 
 nav.navbar-default {
     background-color: $bgDefault;
@@ -33,9 +33,20 @@ nav.navbar-default {
         font-weight: bold;
     }
     ul li {
-        padding-bottom: 8px;
+        padding-bottom:20px;
         color: gray;
         font-size: 19px;
         font-weight: light;
     }
 }
+
+section form fieldset {
+    input {
+        margin-bottom: 15px;
+    }
+    #dropdownDay {
+        margin-left: 5px;;
+    }
+}
+
+
