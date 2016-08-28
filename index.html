@@ -26,7 +26,7 @@
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
-            Danebook
+          <span class="brand"> Danebook</span>
         </a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#form-collapse" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -62,11 +62,52 @@
     </div>
     </div>
   </nav>
+  <div class="container">
+    <div class="row">
+      <aside class="col-md-7 col-md-offset-1">
+        <h2>Connect with all your friends!</h2>
+          <ul>
+            <li>See photos and updates in your news feed.</li>
+            <li>Post your status for the world to see from your profile.</li>
+            <li>Get in touch with your friends by "friending" them</li>
+            <li>Like things because you're a positive person!</li>
+          </ul>
+      </aside>
 
-  <aside></aside>
+      <section class="col-md-4 col-md-pull-1">
+        <h1>Sign Up</h1>
+      <form>
 
-  <section></section>
+        <fieldset>
+          <input type="text" name="first-name" required placeholder="First Name">
+          <input type="text" name="last-name" required placeholder="Last Name">
+          <input type="email" name="email" required placeholder="Your Email">
+          <input type="text" name="password" required placeholder="Your New Password">
+          <input type="text" name="passoword-confirm" required placeholder="Confirm Your Password">
+          <h4>Birthday</h4>
 
+          <select name="Month">
+            <option value="Month">Month</option>
+          </select>
+
+          <select name="Day">
+            <option value="Day">Day</option>
+          </select>
+
+          <select name="Year">
+            <option value="Year">Year</option>
+          </select>
+          <div class="radio">
+            <input type="radio" name="male" value="male">Male
+            <input type="radio" name="female" value="female">Female
+          </div>
+        </fieldset>
+        <input class="btn-signup" type="submit" value="Sign Up!">
+
+      </form>
+    </section>
+    </div>
+    </div>
 
   </body>
 

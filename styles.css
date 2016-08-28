@@ -1,3 +1,9 @@
+.navbar .container {
+  height: 48px; }
 
+container aside {
+  margin-top: 50px; }
+  container aside li {
+    padding-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
