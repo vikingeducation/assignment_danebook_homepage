@@ -1,4 +1,19 @@
-.navbar .container {
-  height: 48px; }
+nav.navbar-default {
+  background-color: #2b78e4;
+  border-color: black;
+  color: #ecf0f1; }
+  nav.navbar-default .navbar-brand h1 {
+    margin-top: 0px;
+    color: white; }
+  nav.navbar-default .navbar-right .collapse button {
+    background-color: #0af;
+    color: black;
+    font-weight: bold; }
+  nav.navbar-default .navbar-right .collapse button:hover {
+    background-color: #bef;
+    color: black; }
+
+.centering {
+  margin-top: 100px; }
 
 /*# sourceMappingURL=styles.css.map */

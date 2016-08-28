@@ -1,5 +1,28 @@
-.navbar {
-    .container {
-            height: 48px;
-        }
+$bgDefault      : #2b78e4;
+$bgHighlight    : #2b36c0;
+$colDefault     : #ecf0f1;
+$colHighlight   : #0a0b0b;
+$dropDown       : false;
+
+nav.navbar-default {
+    background-color: $bgDefault;
+    border-color: black;
+    color: #ecf0f1;
+    .navbar-brand h1 {
+        margin-top: 0px;
+        color: white;
     }
+    .navbar-right .collapse button{
+        background-color: #0af;
+        color: black;
+        font-weight: bold;
+    }
+    .navbar-right .collapse button:hover{
+        background-color: #bef;
+        color: black;
+    }
+}
+
+.centering {
+    margin-top: 100px;
+}
