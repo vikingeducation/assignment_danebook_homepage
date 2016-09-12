@@ -1,0 +1,51 @@
+// nav
+
+#navbar {
+	vertical-align: middle;
+	background: #2B78E4;
+
+	.navbar-brand {
+		display: block;
+		height: 100%;
+		font-size: 48px;
+	}
+
+	.navbar-brand,
+	#navbar-signin label {
+		color: #fff;
+	}
+
+	#navbar-signin {
+		.btn-default {
+			color: #eee;
+			background: #9FC5F8;
+
+			&:hover {
+				background: darken(#9FC5F8, 10%);
+			}
+		}
+	}
+
+	.navbar-toggle {
+		background: #9FC5F8;
+
+		.icon-bar {
+			background: #eee;
+		}
+
+		&:hover,
+		&:focus {
+			background: darken(#9FC5F8, 10%);
+		}
+	}
+
+	.navbar-collapse,
+	.navbar-form {
+		border-color: darken(#2B78E4, 10%);
+	}
+}
+
+#navbar,
+#navbar .navbar-brand {
+	line-height: 96px;
+}

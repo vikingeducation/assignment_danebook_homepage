@@ -1,0 +1,52 @@
+/* style */
+#navbar {
+  vertical-align: middle;
+  background: #2B78E4; }
+  #navbar .navbar-brand {
+    display: block;
+    height: 100%;
+    font-size: 48px; }
+  #navbar .navbar-brand,
+  #navbar #navbar-signin label {
+    color: #fff; }
+  #navbar #navbar-signin .btn-default {
+    color: #eee;
+    background: #9FC5F8; }
+    #navbar #navbar-signin .btn-default:hover {
+      background: #6fa8f5; }
+  #navbar .navbar-toggle {
+    background: #9FC5F8; }
+    #navbar .navbar-toggle .icon-bar {
+      background: #eee; }
+    #navbar .navbar-toggle:hover, #navbar .navbar-toggle:focus {
+      background: #6fa8f5; }
+  #navbar .navbar-collapse,
+  #navbar .navbar-form {
+    border-color: #1960c3; }
+
+#navbar,
+#navbar .navbar-brand {
+  line-height: 96px; }
+
+#main-content {
+  margin-bottom: 128px; }
+  #main-content .info .info-list-container {
+    margin-top: 32px; }
+  #main-content .info .info-list li {
+    font-size: 18px;
+    margin-top: 32px;
+    color: #666; }
+  #main-content #signup .btn-default {
+    background: #009E0F;
+    border: none;
+    color: #eee;
+    line-height: 32px;
+    font-size: 24px;
+    width: 100%; }
+    #main-content #signup .btn-default:hover, #main-content #signup .btn-default:focus {
+      background: #006b0a; }
+  @media only screen and (min-width: 768px) {
+    #main-content .info {
+      margin-top: 64px; } }
+
+/*# sourceMappingURL=style.css.map */
