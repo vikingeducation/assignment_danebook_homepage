@@ -16,4 +16,13 @@ Navbar
   border: none;
   border-radius: none; }
 
+.connecthead {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 34px; }
+
+.homepagelist li {
+  margin-top: 20px;
+  font-size: 24px; }
+
 /*# sourceMappingURL=main.css.map */
