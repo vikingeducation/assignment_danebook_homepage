@@ -63,6 +63,98 @@
 
       <div class="row">
         <div class="col-xs-4">
+          <h1 class="signhead">Sign Up</h1>
+          <form class=".form-horizontal">
+            <div class="col-xs-6">
+              <input type="text" name="firstname" placeholder="First Name"  onfocus="this.placeholder = ''" class="form-control" onblur="this.placeholder = 'First Name'">
+            </div>
+            <div class="col-xs-6">
+              <input type="text" name="lastname" placeholder="Last Name"  onfocus="this.placeholder = ''" class="form-control" onblur="this.placeholder = 'Last Name'">
+            </div>
+
+            <div class="col-xs-12">
+            <br>
+              <input type="text" name="emailreg" placeholder="Email"  onfocus="this.placeholder = ''" class="form-control" onblur="this.placeholder = 'Email'">
+            </div>
+
+            <div class="col-xs-12">
+            <br>
+              <input type="text" name="password" placeholder="Password"  onfocus="this.placeholder = ''" class="form-control" onblur="this.placeholder = 'Password'">
+            </div>
+
+            <div class="col-xs-12">
+            <br>
+              <input type="text" name="passwordconfirm" placeholder="Confirm Password"  onfocus="this.placeholder = ''" class="form-control" onblur="this.placeholder = 'Confirm Password'">
+            </div>
+
+            <div class="col-xs-3">
+
+              <div class="form-group">
+                <br>
+                <label for="sel1">Birthday</label>
+                <select class="form-control" id="sel1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </div>
+
+              <script type="text/javascript">
+                  var select = '';
+                  for (i=1;i<=31;i++){
+                      select += '<option val=' + i + '>' + i + '</option>';
+                  }
+                  $('#sel1').html(select);
+
+                </script> 
+
+            </div>
+
+            <div class="col-xs-5">
+
+              <div class="form-group">
+                <br>
+                <div class="alignment"></div>
+                <select class="form-control" id="sel2">
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-xs-4">
+
+              <div class="form-group">
+                <br>
+                <div class="alignment"></div>
+                <select class="form-control" id="sel3">
+                  <option>1900</option>
+                </select>
+              </div>
+
+              <script type="text/javascript">
+                  var select = '';
+                  for (i=2016;i>=1900;i--){
+                      select += '<option val=' + i + '>' + i + '</option>';
+                  }
+                  $('#sel3').html(select);
+
+                </script> 
+
+            </div>
+
+          </form>
           
         </div>
       </div>
