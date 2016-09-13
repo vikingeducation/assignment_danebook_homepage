@@ -1,0 +1,67 @@
+/* bootstrap sprint */
+
+body {
+  font-family: "Helvetica-Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: black;
+  /* from bootstrap.min.css.5 */
+}
+
+/* header bar */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /* (from jumbotron.css.2)
+      "move down content because
+      fixed navbar is 50px tall" */
+}
+
+#topnav {
+  display: inline-block;
+  width: 100%;
+  height: 51px;
+  background-color: black;
+}
+
+.project-name {
+  /* color: #D3D3D3; */
+  /*-- gray */
+  color: #D3D3D3;  /* gray */
+  float: left;
+  display: inline-block;
+  margin-left: 150px;
+  margin-right: 300px;
+  line-height: 20px;
+  font-size: 20px;
+  }
+
+.invitation {
+  display: inline-block;
+  float: left;
+  height: 400px;
+  width: 60%;
+  border: 6px solid black;
+  text-align: center;
+  margin: auto; }
+
+.sign-up {
+  display: inline-block;
+  float: left;
+  height: 400px;
+  width: 40%;
+  border: 6px solid black;
+  text-align: center;
+  margin: auto; }
+
+h1 {
+  font-size: 40px;
+  line-height: 69px;
+  padding: 10px;
+  color: black; }
+
+
+
+
+
+
