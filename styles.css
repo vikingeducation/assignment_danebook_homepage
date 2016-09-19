@@ -1,0 +1,61 @@
+/* global */
+body {
+  font-family: "Comic Sans MS", sans-serif; }
+
+/* navbar */
+#top-nav {
+  background-color: #0054dd;
+  height: 75px; }
+  #top-nav .navbar-header {
+    margin-top: 12px; }
+    #top-nav .navbar-header .navbar-brand {
+      color: white;
+      font-size: 36px; }
+  #top-nav #navbar-form label {
+    color: white;
+    font-size: 12px; }
+  #top-nav #navbar-form input {
+    width: 100%;
+    border-radius: 0;
+    height: 30px; }
+  #top-nav #navbar-form .btn {
+    margin-top: 25px;
+    background-color: #ADD8E6;
+    text-align: center;
+    padding: 4px 12px; }
+
+/* content */
+.content {
+  padding-top: 78px; }
+  .content h1 {
+    font-size: 30px;
+    font-weight: 600; }
+  .content ul {
+    margin-left: 25px; }
+    .content ul li {
+      line-height: 35px;
+      font-size: 16px; }
+
+/* sign up */
+.sign-up h1 {
+  font-size: 48px; }
+.sign-up h2 {
+  font-size: 17px;
+  font-weight: 600; }
+.sign-up input {
+  border-radius: 0;
+  border: 1px solid #cccccc;
+  margin-top: 20px; }
+.sign-up .first-name {
+  margin-right: 30px; }
+.sign-up .name-field {
+  width: 163px; }
+.sign-up .wide-input, .sign-up button {
+  width: 100%; }
+.sign-up button {
+  height: 30px;
+  border-radius: 0;
+  border: 1px solid black;
+  margin-top: 15px; }
+
+/*# sourceMappingURL=styles.css.map */
