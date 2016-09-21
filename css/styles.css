@@ -1,6 +1,7 @@
 #topnav{
   color:white;
   justify-content: center;
+  background-color: darkblue;
 }
 body {
   margin-top:100px;
@@ -8,10 +9,9 @@ body {
 .navbar-brand {
     margin-top: 10px;
     font-size: 29px;
+    color:white;
 }
-.navbar-brand.hover{
-  color:white;
-}
+
 #signin {
   margin-top:27px;
 }
