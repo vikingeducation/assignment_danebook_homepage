@@ -9,3 +9,9 @@ body {
     margin-top: 10px;
     font-size: 29px;
 }
+.navbar-brand.hover{
+  color:white;
+}
+#signin {
+  margin-top:27px;
+}
