@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Danebook</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
-
+    <link href="styles.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,45 +46,49 @@
     <main>
     <div class="container">
       <div class = "row">
-          <section class="col-md-6 col-md-offset-1" id = "padsection1">
-            <h2>Connect with all your friends!</h2>
+          <section class="col-md-5 col-md-offset-1" id = "padsection1">
+            <h2 id="headpad">Connect with all your friends!</h2>
             <ul>
               <li>See photos and updates in you news feed</li>
+                </br>
               <li>Post your status for the world to see from your profile</li>
+                </br>
               <li>Get in touch with your friends by friending them</li>
+                </br>
               <li>Like things because you're a positive person!</li>
+                </br>
             </ul>
           </section>
           <section class= "col-md-4 col-md-offset-1">
             <h2>Sign Up</h2>
-            <form>
+              <form class="form-inline">
+              <div class="form-group">
+              <input type="text" class="form-control" id="firstname" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+              </div>
+            </form>
+          </br>
             <div class="form-group">
-              <label for="exampleInputEmail1"></label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email">
+              <input type="email" class="form-control" placeholder="Your Email">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1"></label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your New Password">
+              <input type="password" class="form-control" placeholder="Your New Password">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1"></label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Your New Password">
+              <input type="password" class="form-control" placeholder="Confirm Your New Password">
             </div>
             <div class="form-group">
               <h3>Birthday</h3>
               <select id="selectDate" style="width:auto; display:inline;" form="" class="form-control selectWidth">
-
                   <option>Month</option>
-
               </select>
               <select id="selectMonth" class="form-control selectWidth">
                   <option>Day</option>
-
               </select>
               <select id="selectYear" class="form-control selectWidth">
-
                   <option>Year</option>
-
               </select>
             </div>
             <div class="form-group">
