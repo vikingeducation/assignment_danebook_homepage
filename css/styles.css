@@ -1,0 +1,30 @@
+#topnav{
+  color:white;
+  justify-content: center;
+  background-color: #2b78e4;
+}
+body {
+  margin-top:100px;
+}
+.navbar-brand {
+    margin-top: 10px;
+    font-size: 41px;
+    color:white !important;
+}
+
+#signin {
+  margin-top:27px;
+}
+#padsection1 {
+  padding-top:100px;
+}
+#selectMonth {
+  margin-left: 20px;
+  width:auto;
+  display:inline;
+}
+#selectYear {
+    margin-left: 20px;
+    width:auto;
+    display:inline;
+}
