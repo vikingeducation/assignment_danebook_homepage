@@ -18,3 +18,13 @@ body {
 #padsection1 {
   padding-top:100px;
 }
+#selectMonth {
+  margin-left: 20px;
+  width:auto;
+  display:inline;
+}
+#selectYear {
+    margin-left: 20px;
+    width:auto;
+    display:inline;
+}
