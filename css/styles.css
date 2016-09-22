@@ -1,7 +1,7 @@
 #topnav{
   color:white;
   justify-content: center;
-  background-color: darkblue;
+  background-color: #2b78e4;
 }
 body {
   margin-top:100px;
@@ -9,9 +9,12 @@ body {
 .navbar-brand {
     margin-top: 10px;
     font-size: 41px;
-    color:white;
+    color:white !important;
 }
 
 #signin {
   margin-top:27px;
+}
+#padsection1 {
+  padding-top:100px;
 }

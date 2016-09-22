@@ -41,7 +41,7 @@
               <p>password</p>
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success" id = "signin">Sign in</button>
+            <button type="submit" class="btn btn-info" id = "signin">Sign in</button>
           </form>
         </div><!--navbar-collapse -->
       </div>
@@ -49,7 +49,7 @@
     <main>
     <div class="container">
       <div class = "row">
-          <section class="col-md-6 col-md-offset-1">
+          <section class="col-md-6 col-md-offset-1" id = "padsection1">
             <h2>Connect with all your friends!</h2>
             <ul>
               <li>See photos and updates in you news feed</li>
@@ -60,38 +60,49 @@
           </section>
           <section class= "col-md-4 col-md-offset-1">
             <h2>Sign Up</h2>
-            <div class="name">
-              <input type="text" name="fn" placeholder="First Name">
-              <input type="text" name="ln" placeholder="Last Name">
+            <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email">
             </div>
-            <input class="singleLineInput" type="text" name="email" placeholder="Your Email">
-            <input class="singleLineInput" classtype="text" name="pw" placeholder="Your New Password">
-            <input class="singleLineInput" type="text" name="pw2" placeholder="Confirm Your Password">
-            <div class="dob">
+            <div class="form-group">
+              <label for="exampleInputPassword1"></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your New Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1"></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Your New Password">
+            </div>
+            <div class="form-group">
               <h3>Birthday</h3>
-              <select name="Month" placeholder="Month">
-                <option value="Jan">Jan</option>
-                <option value="Feb">Feb</option>
-                <option value="Mar">Mar</option>
+              <select id="selectDate" style="width:auto; display:inline;" form="" class="form-control selectWidth">
+                  @for ($i = 1; $i <= 31; $i++)
+                  <option class="">{{$i}}</option>
+                  @endfor
               </select>
-              <select name="Date">
-                <option value="01">01</option>
-                <option value="02">02</option>
-                <option value="03">03</option>
+              <select id="selectMonth" style="width:auto; display:inline;" class="form-control selectWidth">
+                  @for ($i = 1; $i <= 12; $i++)
+                  <option class="">{{$i}}</option>
+                  @endfor
               </select>
-              <select name="Year">
-                <option value="1985">1985</option>
-                <option value="1986">1986</option>
-                <option value="1987">1987</option>
+              <select id="selectYear" style="width:auto; display:inline;" class="form-control selectWidth">
+                  @for ($i = 1900; $i <= 2015; $i++)
+                  <option class="">{{$i}}</option>
+                  @endfor
               </select>
             </div>
-            <div class="sex">
-              <input type="radio" name="sex" value="Female"> Female
-              <input type="radio" name="sex" value="Male"> Male
+            <div class="form-group">
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male"> male
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="female"> female
+            </label>
             </div>
-            <div>
-              <button type="submit" class="btn btn-success">Sign up</button>
+            <div class="form-group">
+              <button type="submit" class="btn btn-success btn-lg btn-block">Sign up!</button>
             </div>
+          </form>
             </section>
           </div>
         </div>
