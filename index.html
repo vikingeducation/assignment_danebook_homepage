@@ -25,14 +25,16 @@
     <div class="navbar">
       <a class="navbar-brand" href="#">Danebook</a>
       <div class="login-container navbar-form navbar-right">
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Email">
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Password">
-        <button type="button" class="btn btn-success">Sign in</button>
+        <input type="text" class="form-control" id="emailInput1" placeholder="Email">
+        <input type="text" class="form-control" id="emailInput2" placeholder="Password">
+        <button type="button" class="btn btn-info">Sign in</button>
       </div>
     </div>
     <div class="container">
       <div class="row>">
         <article class="col-md-7">
+          <div class="row dummy-space">
+          </div>
           <h2>Connect with all your friends!</h2>
           <ul>
             <li>See photos and updates in your news feed.</li>
@@ -41,17 +43,36 @@
             <li>Like things because you're a positive person!</li>
           </ul>
         </article>
-        <article class="col-md-5">
+        <article class="col-md-5 signup-form">
           <h2>Sign Up</h2>
-          <div class="names">
-            <input type="text" class="form-control" id="input-firstname" placeholder="First Name">
-            <input type="text" class="form-control" id="input-lastname" placeholder="Last Name">
-          </div>  
-            <input type="text" class="form-control" id="inputEmail2" placeholder="Your Email">
-            <input type="text" class="form-control" id="password2" placeholder="Your New Password">
-            <input type="text" class="form-control" id="password3"placeholder="Confirm New Password">
-            <h5>Birthday</h5>
-            <select>
+          <div class="row names">
+            <div class ="col-md-6">
+              <input type="text" class="form-control" id="input-firstname" placeholder="First Name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="input-lastname" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="row">
+            <div class ="col-md-12">
+              <input type="text" class="form-control" id="inputEmail2" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="row">
+            <div class ="col-md-12">
+              <input type="text" class="form-control" id="password2" placeholder="Your New Password">
+            </div>
+          </div>
+          <div class="row">
+            <div class ="col-md-12">
+              <input type="text" class="form-control" id="password3"placeholder="Confirm New Password">
+            </div>
+          </div>
+          <div class="row">
+            <div class ="col-md-12">
+              <h4>Birthday</h4>
+              <select>
+            </div>
               <option value="" selected>Month</option>
                 <option value="Jan">Jan</option>
                 <option value="Feb">Feb</option>
@@ -134,13 +155,21 @@
                   <option value="1968">1968</option>
                   <option value="1967">1967</option>
                 </select>
-            <div class='gender-container'>
-               <label>Female</label>
-               <input type="radio" name="gender" value="female"></input>
-               <label>Male</label>
-               <input type="radio" name="gender" value="male"></input>
             </div>
-            <button type="button" class="btn btn-success">Sign Up!</button>
+          </div>
+          <div class="row gender-container">
+            <div class ="col-md-12">
+             <input type="radio" name="gender" value="female"></input>
+             <label>Female</label>
+             <input type="radio" name="gender" value="male"></input>
+             <label>Male</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class ="col-md-12">
+              <button type="button" class="btn btn-block btn-success">Sign Up!</button>
+            </div>
+          </div>
         </article>
       </div>
     </div>
