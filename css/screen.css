@@ -1,4 +1,21 @@
-* {
-  background-color: red; }
+/* layout/positioning */
+body {
+  padding-top: 95px; }
+
+header {
+  height: 75px; }
+
+.custom-h2 {
+  margin-top: 60px; }
+
+.custom-intro li {
+  margin: 20px 0; }
+
+/* base */
+header {
+  background-color: #2b78e4;
+  color: #fff; }
+  header a {
+    color: #fff; }
 
 /*# sourceMappingURL=screen.css.map */
