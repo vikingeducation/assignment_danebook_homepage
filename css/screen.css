@@ -15,19 +15,22 @@ header {
 header {
   background-color: #2b78e4; }
 
-.custom-brand, label {
+.custom-brand, #navbar label {
   color: #fff; }
 
 /* sign in form */
-label {
+#navbar label {
   display: block; }
 
-input {
+#navbar input {
   margin-right: 15px; }
 
 .custom-btn {
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 5px; }
+
+#fname, #lname {
+  width: 178px; }
 
 /*# sourceMappingURL=screen.css.map */
