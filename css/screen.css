@@ -18,6 +18,12 @@ header {
 .custom-brand, #navbar label {
   color: #fff; }
 
+label {
+  font-weight: normal; }
+
+h3 {
+  margin-top: 35px; }
+
 /* sign in form */
 #navbar label {
   display: block; }
