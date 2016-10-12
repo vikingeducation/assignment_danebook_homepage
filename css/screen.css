@@ -15,8 +15,10 @@ header {
 header {
   background-color: #2b78e4; }
 
-.custom-brand, #navbar label {
-  color: #fff; }
+.custom-brand {
+  color: #fff;
+  font-size: 36px;
+  line-height: 2em; }
 
 label {
   font-weight: normal; }
@@ -29,6 +31,7 @@ h3 {
   background-color: #2b78e4; }
 
 #navbar label {
+  color: #fff;
   display: block; }
 
 #navbar input {
