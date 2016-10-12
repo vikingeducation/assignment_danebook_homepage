@@ -1,0 +1,57 @@
+/* layout/positioning */
+body {
+  padding-top: 95px; }
+
+header {
+  height: 75px; }
+
+.custom-h2 {
+  margin-top: 60px; }
+
+.custom-intro li {
+  margin: 20px 0; }
+
+/* base */
+header {
+  background-color: #2b78e4; }
+
+.custom-brand {
+  color: #fff;
+  font-size: 36px;
+  line-height: 2em; }
+
+label {
+  font-weight: normal; }
+
+h3 {
+  margin-top: 35px; }
+
+/* sign in form */
+#navbar form {
+  background-color: #2b78e4; }
+
+#navbar label {
+  color: #fff;
+  display: block; }
+
+#navbar input {
+  margin-right: 15px; }
+
+.custom-btn {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 5px; }
+
+.icon-bar {
+  background-color: #fff; }
+
+/* sign up form */
+/* makes name fields responsive */
+#fname, #lname {
+  width: 100%; }
+
+@media only screen and (min-width: 1200px) {
+  #fname, #lname {
+    width: 178px; } }
+
+/*# sourceMappingURL=screen.css.map */
