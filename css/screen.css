@@ -36,7 +36,13 @@ h3 {
   padding-bottom: 2px;
   margin-top: 5px; }
 
+/* sign up form */
+/* makes name fields responsive */
 #fname, #lname {
-  width: 178px; }
+  width: 100%; }
+
+@media only screen and (min-width: 1200px) {
+  #fname, #lname {
+    width: 178px; } }
 
 /*# sourceMappingURL=screen.css.map */
