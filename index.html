@@ -20,14 +20,20 @@
     <div class="container">
 
 
-    <!-- LOGO -->
+    <!-- LOGO & NAV TOGGLE -->
       <nav class="navbar-header">
-        <h1 class="custom-brand">Danebook</h1>
+        <h1 href="#" class="navbar-brand custom-brand">Danebook</h1>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </nav>
 
 
     <!-- SIGN IN MENU -->
-      <nav id="navbar">
+      <nav id="navbar" class="navbar navbar-collapse collapse in">
         <form action="" class="navbar-form navbar-right">
           <div class="form-group">
             <label for="">Email</label>
@@ -43,6 +49,8 @@
           </div>
         </form>
       </nav>
+
+
     </div>
   </header>
 
@@ -274,12 +282,13 @@
                 Male
               </label>
             </div>
-
           </div>
 
           <div class="form-group">
             <input class="btn btn-block btn-success" type="submit" value="Sign Up" id="signup-submit">
           </div>
+
+
         </form>
       </section>
 

@@ -25,6 +25,9 @@ h3 {
   margin-top: 35px; }
 
 /* sign in form */
+#navbar form {
+  background-color: #2b78e4; }
+
 #navbar label {
   display: block; }
 
@@ -35,6 +38,9 @@ h3 {
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 5px; }
+
+.icon-bar {
+  background-color: #fff; }
 
 /* sign up form */
 /* makes name fields responsive */
