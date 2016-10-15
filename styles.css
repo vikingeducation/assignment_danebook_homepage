@@ -1,7 +1,67 @@
-/***********************************/
+/*****************************************************************************************/
 /* Colors */
-/***********************************/
+/*************************************************************************************/
+/*************************************************************************************/
+/* Body */
+/*************************************************************************************/
 body {
   font-family: "Roboto", sans-serif; }
+
+/*************************************************************************************/
+/* Navigation Bar */
+/*************************************************************************************/
+.navbar {
+  background-color: #2B78E4;
+  height: 100px; }
+  .navbar .navbar-header {
+    margin-left: 30px; }
+    .navbar .navbar-header .navbar-brand {
+      color: white;
+      font-size: 4em;
+      padding: 0 15px;
+      height: 100px;
+      line-height: 100px; }
+      .navbar .navbar-header .navbar-brand:hover, .navbar .navbar-header .navbar-brand:focus, .navbar .navbar-header .navbar-brand:active {
+        color: white; }
+    .navbar .navbar-header .navbar-toggle {
+      margin-top: 28px;
+      height: 44px;
+      border-color: white; }
+      .navbar .navbar-header .navbar-toggle .icon-bar {
+        background-color: white; }
+      .navbar .navbar-header .navbar-toggle:hover, .navbar .navbar-header .navbar-toggle:focus, .navbar .navbar-header .navbar-toggle:active {
+        border-color: #2B78E4;
+        background-color: white; }
+        .navbar .navbar-header .navbar-toggle:hover .icon-bar, .navbar .navbar-header .navbar-toggle:focus .icon-bar, .navbar .navbar-header .navbar-toggle:active .icon-bar {
+          background-color: #2B78E4; }
+
+/*************************************************************************************/
+/* Main Content */
+/*************************************************************************************/
+main {
+  margin-top: 100px; }
+
+#info {
+  width: 655px;
+  margin: 0 auto;
+  margin-top: 150px; }
+  #info h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 30px; }
+  #info li {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: #666;
+    margin-bottom: 20px; }
+  @media screen and (max-width: 992px) {
+    #info {
+      margin-top: 50px; } }
+
+#sign-up h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  letter-spacing: 3px; }
 
 /*# sourceMappingURL=styles.css.map */

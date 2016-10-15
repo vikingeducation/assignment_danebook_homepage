@@ -1,11 +1,98 @@
-/***********************************/
+/*****************************************************************************************/
 /* Colors */
-/***********************************/
+/*************************************************************************************/
 
 $main-blue: #2B78E4;
+$gray: #666; 
+
+/*************************************************************************************/
+/* Body */
+/*************************************************************************************/
 
 body {
 	font-family: "Roboto", sans-serif; 
 }
 
+/*************************************************************************************/
+/* Navigation Bar */
+/*************************************************************************************/
 
+.navbar {
+	background-color: $main-blue; 
+	height: 100px; 
+
+	.navbar-header {
+		margin-left: 30px;
+
+		.navbar-brand {
+			color: white; 
+			font-size: 4em; 
+			padding: 0 15px;
+			height: 100px; 
+			line-height: 100px;
+
+			&:hover, &:focus, &:active { // prevent from changing color
+				color: white; 
+			}
+		}
+
+		.navbar-toggle {
+			margin-top: 28px; // used math to vertically center
+			height: 44px; // larger, looks better with bigger navbar
+			border-color: white; 
+
+			.icon-bar { // the three lines on the small-screen toggle button
+				background-color: white; 
+			}
+
+			&:hover, &:focus, &:active { // toggle button color changes on click & hover
+				border-color: $main-blue;	
+				background-color: white; 
+
+				.icon-bar {
+					background-color: $main-blue; 
+				}
+			}
+		}
+	}
+}
+
+/*************************************************************************************/
+/* Main Content */
+/*************************************************************************************/
+
+main {
+	margin-top: 100px; // same as navbar height
+}
+
+#info {
+	width: 655px;
+	margin: 0 auto; 
+	margin-top: 150px;
+
+	h1 {
+		font-size: 2.5em;
+		font-weight: bold;
+		letter-spacing: 3px;
+		margin-bottom: 30px;
+	}
+
+	li {
+		font-size: 1.5em;
+		letter-spacing: 2px;
+		color: $gray; 
+		margin-bottom: 20px;
+	}
+
+	@media screen and (max-width: 992px) { // mobile screens
+		margin-top: 50px;
+	}
+}
+
+#sign-up {
+	h1 {
+		font-size: 3.5em; 
+		font-weight: bold; 
+		letter-spacing: 3px;
+	}
+}
