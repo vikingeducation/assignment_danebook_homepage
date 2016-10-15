@@ -4,13 +4,13 @@
 		<title> Welcome to Danebook </title>
 		<meta charset="utf-8">
 		<!-- Meta Stuff -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="bootstrap.min.css">
 		<!-- Our CSS -->
 		<link href="styles.css" rel="stylesheet">
 		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="jquery-3.1.1.js"></script>
 		<!-- Bootstrap Javascripts -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="bootstrap.min.js"></script>
 	</head>
 	<body>
 
@@ -32,8 +32,8 @@
 		      <form class="navbar-form navbar-right">
 		        <div class="row">
 		        	<div class="form-group">
-		        		<label class="email-label">Email:</label>
-		          	<label class="password-label">Password:</label>
+		        		<label class="email-label">Email</label>
+		          	<label class="password-label">Password</label>
 		        	</div>
 		        </div>
 		        <div class="form-group">
@@ -49,24 +49,36 @@
 		<!-- Body Text -->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
-					<h2>Connect with all your friends!</h2>
-					<ul>
-						<li>See photos and updates in your news feed.</li>
-						<li>Post your status for the world to see from your profile</li>
-						<li>Get in touch with your friends by "friending" them</li>
-						<li>Like things because you're a positive person!</li>
-					</ul>
+				<div class="col-md-7" id="perks-list">
+					<div class="row">
+						<div class="col-md-11 col-md-offset-1">
+							<h2>Connect with all your friends!</h2>
+							<ul>
+								<li>See photos and updates in your news feed.</li>
+								<li>Post your status for the world to see from your profile</li>
+								<li>Get in touch with your friends by "friending" them</li>
+								<li>Like things because you're a positive person!</li>
+							</ul>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-4"
+				<div class="col-md-4 sign-up-form">
 					<!-- Form -->
 					<h1>Sign Up</h1>
-					<input type="name" placeholder="First Name">
-					<input type="name" placeholder="Last Name">
-					<input type="email" placeholder="Your Email">
-					<input type="password" placeholder="Your New Password">
-					<input type="password" placeholder="Confirm Your Password">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<input class="col-md-6 col-xs-12 split-form" type="name" placeholder="First Name">
+								<input class="col-md-6 col-xs-12 split-form" type="name" placeholder="Last Name">
+							</div>
+						</div>
+					<input class="full-line-input" type="email" placeholder="Your Email">
+					<input class="full-line-input" type="password" placeholder="Your New Password">
+					<input class="full-line-input" type="password" placeholder="Confirm Your Password">
+					<span>Birthday</span>
+					<br>
 					<select>
+						<option value="" disabled selected>Month</option>
 						<option value="January">January</option>
 						<option value="February">February</option>
 						<option value="March">March</option>
@@ -81,6 +93,7 @@
 						<option value="December">December</option>
 					</select>
 					<select>
+						<option value="" disabled selected>Day</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
 						<option value="3">3</option>
@@ -114,6 +127,7 @@
 						<option value="31">31</option>
 					</select>
 					<select>
+						<option value="" disabled selected>Year</option>
 						<option value="2016">2016</option>
 						<option value="2015">2015</option>
 						<option value="2014">2014</option>
@@ -232,6 +246,11 @@
 						<option value="1901">1901</option>
 						<option value="1900">1900</option>
 					</select>
+					<br>
+					<input type="radio"> Female</input>
+					<input class="right-radio" type="radio"> Male</input>
+					<br>
+					<button type="submit" class="full-line-input btn btn-success">Sign Up!</button>
 				</div>
 			</div>
 		</div>

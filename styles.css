@@ -17,6 +17,23 @@
 #log-in-button {
   background-color: #9FC5F8; }
 
+.sign-up-form h1 {
+  margin-bottom: 15px; }
+.sign-up-form input, .sign-up-form select {
+  margin-bottom: 10px; }
+.sign-up-form .right-radio {
+  margin-left: 10px; }
+
+.full-line-input {
+  width: 100%; }
+
+#perks-list h2 {
+  margin-bottom: 18px;
+  margin-top: 50px; }
+#perks-list li {
+  font-size: 16px;
+  margin-bottom: 1em; }
+
 @media screen and (max-width: 768px) {
   .navbar-brand {
     margin-top: -30px; } }
