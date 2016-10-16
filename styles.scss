@@ -1,5 +1,24 @@
 .navbar-default {
   background-color: blue;
   color: white;
+  
+  td {
+    // margin: 15px;
+    padding-left: 15px;
+  }
+  label {
+    padding-left: 15px;
+  }
+  .form-control {
+    border-radius: 0 !important;
+  }
 }
 
+* {
+  // border: 1px solid black;
+  
+}
+
+// $border-radius-base:        0px
+// $border-radius-large:       0px
+// $border-radius-small:       0px

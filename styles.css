@@ -1,5 +1,11 @@
 .navbar-default {
   background-color: blue;
   color: white; }
+  .navbar-default td {
+    padding-left: 15px; }
+  .navbar-default label {
+    padding-left: 15px; }
+  .navbar-default .form-control {
+    border-radius: 0 !important; }
 
 /*# sourceMappingURL=styles.css.map */
