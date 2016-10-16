@@ -140,4 +140,9 @@ main {
 		font-weight: bold; 
 		letter-spacing: 3px;
 	}
+
+	.dropdown-menu { /* scroll through dropdown options */
+		height: 150px;
+		overflow-x: hidden;
+	}
 }

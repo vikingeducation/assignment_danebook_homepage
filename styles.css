@@ -95,5 +95,9 @@ main {
   font-size: 3.5em;
   font-weight: bold;
   letter-spacing: 3px; }
+#sign-up .dropdown-menu {
+  /* scroll through dropdown options */
+  height: 150px;
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=styles.css.map */
