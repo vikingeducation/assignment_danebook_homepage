@@ -1,21 +1,22 @@
 /*****************************************************************************************/
 /* Colors */
-/*************************************************************************************/
+/*****************************************************************************************/
 
 $main-blue: #2B78E4;
+$light-blue: #9FC5F8;
 $gray: #666; 
 
-/*************************************************************************************/
+/*****************************************************************************************/
 /* Body */
-/*************************************************************************************/
+/*****************************************************************************************/
 
 body {
 	font-family: "Roboto", sans-serif; 
 }
 
-/*************************************************************************************/
+/*****************************************************************************************/
 /* Navigation Bar */
-/*************************************************************************************/
+/*****************************************************************************************/
 
 .navbar {
 	background-color: $main-blue; 
@@ -26,7 +27,9 @@ body {
 
 		.navbar-brand {
 			color: white; 
-			font-size: 4em; 
+			font-size: 4em;
+			font-weight: bold; 
+			letter-spacing: 2px;
 			padding: 0 15px;
 			height: 100px; 
 			line-height: 100px;
@@ -34,18 +37,22 @@ body {
 			&:hover, &:focus, &:active { // prevent from changing color
 				color: white; 
 			}
+
+			@media (max-width: 768px) {
+				margin-left: -30px;
+			}
 		}
 
 		.navbar-toggle {
 			margin-top: 28px; // used math to vertically center
-			height: 44px; // larger, looks better with bigger navbar
+			height: 44px; // larger than default, looks better with taller navbar
 			border-color: white; 
 
 			.icon-bar { // the three lines on the small-screen toggle button
 				background-color: white; 
 			}
 
-			&:hover, &:focus, &:active { // toggle button color changes on click & hover
+			&:hover, &:focus, &:active { // toggle button changes color on click/hover
 				border-color: $main-blue;	
 				background-color: white; 
 
@@ -55,11 +62,49 @@ body {
 			}
 		}
 	}
+
+
+	form {
+		position: absolute; 
+		top: 50%;
+		right: 30px;
+		transform: translateY(-50%); 
+
+
+		.form-group {	
+			display: inline-block;
+			margin-right: 20px;
+
+			label {
+				color: white; 
+				font-size: 1.2em;
+			}
+		}
+
+		button {
+			background-color: $light-blue; 
+			border-radius: 0px;
+			border: none;
+			box-shadow: 2px 2px 1px 1px black;
+			margin-bottom: 5px; /* reposition button to look more centered */
+		}
+
+		@media screen and (max-width: 768px) {
+			top: 100%;
+			right: 50%;
+			transform: translateY(0); 
+			transform: translateX(50%);
+			width: 110%;
+			background: $main-blue;
+			text-align: center;
+		}
+
+	}
 }
 
-/*************************************************************************************/
+/*****************************************************************************************/
 /* Main Content */
-/*************************************************************************************/
+/*****************************************************************************************/
 
 main {
 	margin-top: 100px; // same as navbar height

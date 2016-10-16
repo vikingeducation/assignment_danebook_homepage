@@ -1,15 +1,15 @@
 /*****************************************************************************************/
 /* Colors */
-/*************************************************************************************/
-/*************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
 /* Body */
-/*************************************************************************************/
+/*****************************************************************************************/
 body {
   font-family: "Roboto", sans-serif; }
 
-/*************************************************************************************/
+/*****************************************************************************************/
 /* Navigation Bar */
-/*************************************************************************************/
+/*****************************************************************************************/
 .navbar {
   background-color: #2B78E4;
   height: 100px; }
@@ -18,11 +18,16 @@ body {
     .navbar .navbar-header .navbar-brand {
       color: white;
       font-size: 4em;
+      font-weight: bold;
+      letter-spacing: 2px;
       padding: 0 15px;
       height: 100px;
       line-height: 100px; }
       .navbar .navbar-header .navbar-brand:hover, .navbar .navbar-header .navbar-brand:focus, .navbar .navbar-header .navbar-brand:active {
         color: white; }
+      @media (max-width: 768px) {
+        .navbar .navbar-header .navbar-brand {
+          margin-left: -30px; } }
     .navbar .navbar-header .navbar-toggle {
       margin-top: 28px;
       height: 44px;
@@ -34,10 +39,37 @@ body {
         background-color: white; }
         .navbar .navbar-header .navbar-toggle:hover .icon-bar, .navbar .navbar-header .navbar-toggle:focus .icon-bar, .navbar .navbar-header .navbar-toggle:active .icon-bar {
           background-color: #2B78E4; }
+  .navbar form {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%); }
+    .navbar form .form-group {
+      display: inline-block;
+      margin-right: 20px; }
+      .navbar form .form-group label {
+        color: white;
+        font-size: 1.2em; }
+    .navbar form button {
+      background-color: #9FC5F8;
+      border-radius: 0px;
+      border: none;
+      box-shadow: 2px 2px 1px 1px black;
+      margin-bottom: 5px;
+      /* reposition button to look more centered */ }
+    @media screen and (max-width: 768px) {
+      .navbar form {
+        top: 100%;
+        right: 50%;
+        transform: translateY(0);
+        transform: translateX(50%);
+        width: 110%;
+        background: #2B78E4;
+        text-align: center; } }
 
-/*************************************************************************************/
+/*****************************************************************************************/
 /* Main Content */
-/*************************************************************************************/
+/*****************************************************************************************/
 main {
   margin-top: 100px; }
 
