@@ -26,7 +26,7 @@ body {
 	.navbar-header {
 		margin-left: 30px;
 
-		.navbar-brand {
+		.navbar-brand { // "Danebook" in navbar 
 			color: white; 
 			font-size: 4em;
 			font-weight: bold; 
@@ -44,7 +44,7 @@ body {
 			}
 		}
 
-		.navbar-toggle {
+		.navbar-toggle { // 3-line button on smaller screens
 			margin-top: 28px; // used math to vertically center
 			height: 44px; // larger than default, looks better with taller navbar
 			border-color: white; 
@@ -65,14 +65,14 @@ body {
 	}
 
 
-	form {
+	form { // sign in
 		position: absolute; 
 		top: 50%;
 		right: 30px;
 		transform: translateY(-50%); 
 
 
-		.form-group {	
+		.form-group { // label + text field
 			display: inline-block;
 			margin-right: 20px;
 			width: 228px;
@@ -83,7 +83,7 @@ body {
 			}
 		}
 
-		button {
+		button { // "Log In"
 			background-color: $light-blue; 
 			border-radius: 0px;
 			border: none;
@@ -91,7 +91,7 @@ body {
 			margin-bottom: 5px; /* reposition button to look more centered */
 		}
 
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 768px) { // mobile screens
 			top: 100%;
 			right: 50%;
 			transform: translateY(0); 
@@ -108,11 +108,11 @@ body {
 /* Main Content */
 /*****************************************************************************************/
 
-main {
+main { // everything below navbar
 	margin-top: 100px; // same as navbar height
 }
 
-#info {
+#info { // left content (heading + bullet points)
 	width: 653px; /* min width so that bullets do not exceed one line each */
 	margin: 50px auto; // mobile screens
 
@@ -130,13 +130,13 @@ main {
 		margin-bottom: 20px;
 	}
 
-	@media screen and (min-width: 1380px) { // desktop screens
+	@media screen and (min-width: 1380px) { 
 		float: left;
 		margin-top: 100px;
 		margin-left: 60px;
 	}
 
-	@media screen and (min-width: 1580px) { // larger desktop screens
+	@media screen and (min-width: 1580px) { 
 		transform: scale(1.1);
 		margin-left: 180px;
 	}
@@ -147,49 +147,49 @@ main {
 	}
 }
 
-#sign-up {
+#sign-up { // sign up form 
 	width: 620px;
 	margin: 50px auto;
 
-	h1 {
+	h1 { // Sign Up
 		font-size: 3.2em; 
 		font-weight: bold; 
 		letter-spacing: 3px;
 		margin-bottom: 30px;
 	}
 
-	.form-group {
+	.form-group { // all forms 
 		margin-bottom: 20px;
 	}
 
-	input[type=text], input[type=email], input[type=password] {
+	input[type=text], input[type=email], input[type=password] { // text inputs
 		font-size: 1.2em;
 	}
 
-	label[for=birthday] {
+	label[for=birthday] { // "Birthday"
 		font-size: 1.3em;
 		margin-bottom: 15px;
 	}
 
-	.btn-group {
+	.btn-group { // "Month", "Day", "Year" dropdowns
 		margin-right: 20px;
 	}
 
-	.dropdown-menu { /* scroll through dropdown options */
+	.dropdown-menu { // scroll through dropdown items
 		height: 150px;
 		overflow-x: hidden;
 	}
 
-	input[type=radio] {
+	input[type=radio] { // gender radio buttons
 		margin-right: 6px;
 	}
 
-	.gender {
+	.gender { // "Female" and "Male"
 		font-weight: 400;
 		font-size: 1.2em;
 	}
 
-	#sign-up-button {
+	#sign-up-button { // big sign-up button 
 		width: 100%;
 		background-color: $sign-up-button-color; 
 		color: white;
@@ -200,7 +200,7 @@ main {
 		box-shadow: 2px 2px 2px 2px black;
 	}
 
-	@media screen and (min-width: 1380px) { // desktop screens
+	@media screen and (min-width: 1380px) { 
 		float: right;
 		width: 500px;
 		margin-top: 20px;
