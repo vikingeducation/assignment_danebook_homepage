@@ -75,6 +75,7 @@ body {
 		.form-group {	
 			display: inline-block;
 			margin-right: 20px;
+			width: 228px;
 
 			label {
 				color: white; 
@@ -129,8 +130,20 @@ main {
 		margin-bottom: 20px;
 	}
 
-	@media screen and (min-width: 992px) { // desktop screens
-		margin-top: 50px;
+	@media screen and (min-width: 1380px) { // desktop screens
+		float: left;
+		margin-top: 100px;
+		margin-left: 60px;
+	}
+
+	@media screen and (min-width: 1580px) { // larger desktop screens
+		transform: scale(1.1);
+		margin-left: 180px;
+	}
+
+	@media screen and (min-width: 1720px) {
+		transform: scale(1.1);
+		margin-left: 270px;
 	}
 }
 
@@ -185,5 +198,12 @@ main {
 		border: none;
 		border-radius: 0px;
 		box-shadow: 2px 2px 2px 2px black;
+	}
+
+	@media screen and (min-width: 1380px) { // desktop screens
+		float: right;
+		width: 500px;
+		margin-top: 20px;
+		margin-right: 80px;
 	}
 }

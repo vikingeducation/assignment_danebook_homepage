@@ -46,7 +46,8 @@ body {
     transform: translateY(-50%); }
     .navbar form .form-group {
       display: inline-block;
-      margin-right: 20px; }
+      margin-right: 20px;
+      width: 228px; }
       .navbar form .form-group label {
         color: white;
         font-size: 1.2em; }
@@ -87,9 +88,19 @@ main {
     letter-spacing: 2px;
     color: #666;
     margin-bottom: 20px; }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1380px) {
     #info {
-      margin-top: 50px; } }
+      float: left;
+      margin-top: 100px;
+      margin-left: 60px; } }
+  @media screen and (min-width: 1580px) {
+    #info {
+      transform: scale(1.1);
+      margin-left: 180px; } }
+  @media screen and (min-width: 1720px) {
+    #info {
+      transform: scale(1.1);
+      margin-left: 270px; } }
 
 #sign-up {
   width: 620px;
@@ -126,5 +137,11 @@ main {
     border: none;
     border-radius: 0px;
     box-shadow: 2px 2px 2px 2px black; }
+  @media screen and (min-width: 1380px) {
+    #sign-up {
+      float: right;
+      width: 500px;
+      margin-top: 20px;
+      margin-right: 80px; } }
 
 /*# sourceMappingURL=styles.css.map */
