@@ -5,6 +5,7 @@
 $main-blue: #2B78E4;
 $light-blue: #9FC5F8;
 $gray: #666; 
+$sign-up-button-color: #009E0F;
 
 /*****************************************************************************************/
 /* Body */
@@ -111,9 +112,8 @@ main {
 }
 
 #info {
-	width: 655px;
-	margin: 0 auto; 
-	margin-top: 150px;
+	width: 653px; /* min width so that bullets do not exceed one line each */
+	margin: 50px auto; // mobile screens
 
 	h1 {
 		font-size: 2.5em;
@@ -129,20 +129,61 @@ main {
 		margin-bottom: 20px;
 	}
 
-	@media screen and (max-width: 992px) { // mobile screens
+	@media screen and (min-width: 992px) { // desktop screens
 		margin-top: 50px;
 	}
 }
 
 #sign-up {
+	width: 620px;
+	margin: 50px auto;
+
 	h1 {
-		font-size: 3.5em; 
+		font-size: 3.2em; 
 		font-weight: bold; 
 		letter-spacing: 3px;
+		margin-bottom: 30px;
+	}
+
+	.form-group {
+		margin-bottom: 20px;
+	}
+
+	input[type=text], input[type=email], input[type=password] {
+		font-size: 1.2em;
+	}
+
+	label[for=birthday] {
+		font-size: 1.3em;
+		margin-bottom: 15px;
+	}
+
+	.btn-group {
+		margin-right: 20px;
 	}
 
 	.dropdown-menu { /* scroll through dropdown options */
 		height: 150px;
 		overflow-x: hidden;
+	}
+
+	input[type=radio] {
+		margin-right: 6px;
+	}
+
+	.gender {
+		font-weight: 400;
+		font-size: 1.2em;
+	}
+
+	#sign-up-button {
+		width: 100%;
+		background-color: $sign-up-button-color; 
+		color: white;
+		font-size: 1.5em;
+		font-weight: bold;
+		border: none;
+		border-radius: 0px;
+		box-shadow: 2px 2px 2px 2px black;
 	}
 }

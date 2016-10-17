@@ -74,9 +74,9 @@ main {
   margin-top: 100px; }
 
 #info {
-  width: 655px;
-  margin: 0 auto;
-  margin-top: 150px; }
+  width: 653px;
+  /* min width so that bullets do not exceed one line each */
+  margin: 50px auto; }
   #info h1 {
     font-size: 2.5em;
     font-weight: bold;
@@ -87,17 +87,44 @@ main {
     letter-spacing: 2px;
     color: #666;
     margin-bottom: 20px; }
-  @media screen and (max-width: 992px) {
+  @media screen and (min-width: 992px) {
     #info {
       margin-top: 50px; } }
 
-#sign-up h1 {
-  font-size: 3.5em;
-  font-weight: bold;
-  letter-spacing: 3px; }
-#sign-up .dropdown-menu {
-  /* scroll through dropdown options */
-  height: 150px;
-  overflow-x: hidden; }
+#sign-up {
+  width: 620px;
+  margin: 50px auto; }
+  #sign-up h1 {
+    font-size: 3.2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 30px; }
+  #sign-up .form-group {
+    margin-bottom: 20px; }
+  #sign-up input[type=text], #sign-up input[type=email], #sign-up input[type=password] {
+    font-size: 1.2em; }
+  #sign-up label[for=birthday] {
+    font-size: 1.3em;
+    margin-bottom: 15px; }
+  #sign-up .btn-group {
+    margin-right: 20px; }
+  #sign-up .dropdown-menu {
+    /* scroll through dropdown options */
+    height: 150px;
+    overflow-x: hidden; }
+  #sign-up input[type=radio] {
+    margin-right: 6px; }
+  #sign-up .gender {
+    font-weight: 400;
+    font-size: 1.2em; }
+  #sign-up #sign-up-button {
+    width: 100%;
+    background-color: #009E0F;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px 2px black; }
 
 /*# sourceMappingURL=styles.css.map */
