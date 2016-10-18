@@ -1,0 +1,19 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+nav{
+  &.navbar{
+    background: #2b78e4;
+    color:#fff
+  }
+  label{
+    display:block;
+  }
+  button{
+    margin-top:25px
+  }
+}
+.btn-large {
+  font-size:1.5em;
+}

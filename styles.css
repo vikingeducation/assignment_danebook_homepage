@@ -1,3 +1,16 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 20px; }
 
+nav.navbar {
+  background: #2b78e4;
+  color: #fff; }
+nav label {
+  display: block; }
+nav button {
+  margin-top: 25px; }
+
+.btn-large {
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=styles.css.map */
