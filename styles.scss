@@ -1,0 +1,42 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+nav{
+  &.navbar{
+    background: #2b78e4;
+    color:#fff;
+    border-color:#080808;
+  }
+  .navbar-brand {
+    font-size:45px;
+    height: 75px;
+    line-height:1;
+    color:#fff;
+  }
+  label{
+    display:block;
+  }
+  button{
+    margin-top:25px
+  }
+}
+.btn-large {
+  font-size:1.5em;
+}
+#reasons-header {
+  font-weight:bolder;
+}
+#reasons {
+  h2{
+    font-weight:bolder;
+    margin-top:0;
+    padding-top:0;
+  }
+  h2, li {
+    margin-bottom:1em;
+  }
+
+  padding-top: 70px;
+
+}
