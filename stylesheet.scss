@@ -1,0 +1,44 @@
+.navbar-default {
+  background-color: #2B78E4;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default label {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-brand {
+  height: 80px;
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.btn-primary {
+  background: #9FC5F8;
+}
+
+.btn-primary:hover {
+  background: #8ed4e7;
+}
+
+.nav label {
+  display: block;
+  margin-bottom: 3px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav .btn {
+  margin-top: 22px;
+}
+
+.form-group {
+  margin-right: 20px;
+}
+
+.navbar-toggle {
+  margin-top: 22px;
+}
