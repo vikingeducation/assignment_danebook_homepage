@@ -1,0 +1,124 @@
+/* NAV */
+
+.navbar-default {
+  background-color: #2B78E4;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default label {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-brand {
+  height: 80px;
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.btn-primary {
+  background: #9FC5F8;
+}
+
+.btn-primary:hover {
+  background: #8ed4e7;
+}
+
+.nav label {
+  display: block;
+  margin-bottom: 3px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav .btn {
+  margin-top: 24px;
+}
+
+.nav .form-group {
+  margin-right: 20px;
+}
+
+.navbar-toggle {
+  margin-top: 24px;
+}
+
+/* MAIN */
+
+.db-info {
+  margin-top: 70px;
+}
+
+.db-info h2 {
+  margin-bottom: 20px;
+}
+
+.db-info ul {
+
+}
+
+.db-info li {
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.sign-up h2 {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+fieldset .form-group {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+legend {
+  border: 0;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.sign-up .radio-label {
+  margin-right: 10px;
+}
+
+.sign-up input[type=radio] {
+  margin-right: 5px;
+}
+
+.sign-up .btn {
+  background: #009E0F;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+
+.sign-up .btn:hover {
+  background: #008d0e;
+}
+
+@media (max-width: 767px) {
+  .db-info {
+    margin-top: 10px;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  background: gray;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  footer {
+    position: static;
+    margin-top: 30px;
+  }
+}
