@@ -25,12 +25,54 @@
   -webkit-font-smoothing: antialiased; }
 
 .nav .btn {
-  margin-top: 22px; }
+  margin-top: 24px; }
 
-.form-group {
+.nav .form-group {
   margin-right: 20px; }
 
 .navbar-toggle {
-  margin-top: 22px; }
+  margin-top: 24px; }
+
+.db-info {
+  margin-top: 70px; }
+
+.db-info h2 {
+  margin-bottom: 20px; }
+
+.db-info li {
+  margin: 10px 0;
+  font-size: 17px; }
+
+.sign-up h2 {
+  font-size: 45px;
+  margin-bottom: 25px; }
+
+fieldset .form-group {
+  display: inline-block;
+  margin-right: 10px; }
+
+legend {
+  border: 0;
+  margin-bottom: 5px;
+  font-size: 18px; }
+
+.sign-up .radio-label {
+  margin-right: 10px; }
+
+.sign-up input[type=radio] {
+  margin-right: 5px; }
+
+.sign-up .btn {
+  background: #009E0F;
+  color: #fff;
+  display: block;
+  width: 100%; }
+
+.sign-up .btn:hover {
+  background: #008d0e; }
+
+@media (max-width: 767px) {
+  .db-info {
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

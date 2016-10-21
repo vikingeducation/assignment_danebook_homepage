@@ -41,7 +41,7 @@
     <main>
       <div class="container">
         <div class="row">
-          <section class="col-xs-12 col-sm-5 col-sm-offset-1">
+          <section class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1 db-info">
             <h2>Connect with all your friends</h2>
             <ul>
               <li>See photos and updates in your news feed.</li>
@@ -49,9 +49,83 @@
               <li>Get in touch with your friends by "friending" them</li>
               <li>Like things because you're a positive person!</li>
           </section>
-          <section class="col-xs-12 col-sm-5 col-sm-offset-1">
+          <section class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1 sign-up">
             <h2>Sign Up</h2>
             <form>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 form-group">
+                  <input id="first-name" class="form-control" type="text" placeholder="First Name">
+                </div>
+                <div class="col-xs-12 col-sm-6 form-group">
+                  <input id="last-name" class="form-control" type="text" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <input id="email" class="form-control" type="email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input id="password" class="form-control" type="password" placeholder="Your New Password">
+              </div>
+              <div class="form-group">
+                <input id="password-confirm" class="form-control" type="password" placeholder="Confirm Your Password">
+              </div>
+              <fieldset>
+                <legend>Birthday</legend>
+                <div class="form-group">
+                  <label for="b-month" class="sr-only">Month</label>
+                    <select id="b-month" type="dropdown">
+                      <option selected="true" disabled="disabled">Month</option>
+                      <option value="January">January</option>
+                      <option value="February">February</option>
+                      <option value="March">March</option>
+                      <option value="April">April</option>
+                      <option value="May">May</option>
+                      <option value="June">June</option>
+                      <option value="July">July</option>
+                      <option value="August">August</option>
+                      <option value="September">September</option>
+                      <option value="October">October</option>
+                      <option value="November">November</option>
+                      <option value="December">December</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label for="b-day" class="sr-only">Day</label>
+                  <select id="b-day" type="dropdown">
+                    <option selected="true" disabled="disabled">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="Etc...">Etc...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="b-year" class="sr-only">Year</label>
+                  <select id="b-year" type="dropdown">
+                    <option selected="true" disabled="disabled">Year</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="Etc...">Etc...</option>
+                  </select>
+                </div>
+              </fieldset>
+              <div class="form-group">
+                <label class="radio-label" for="female">
+                  <input type="radio" name="gender" id="female" value="female">
+                  Female
+                </label>
+                <label class="radio-label" for="male">
+                  <input type="radio" name="gender" id="male" value="male">
+                  Male
+                </label>
+              </div>
+              <button type="submit" class="btn btn-lg">Sign Up!</button>
             </form>
           </section>
         </div>
