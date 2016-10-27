@@ -1,0 +1,13 @@
+.navbar-default,
+.navbar-default .navbar-brand,
+.navbar-default label {
+  background-color: #337AB7;
+  color: #fff; }
+
+.navbar-default .navbar-brand:hover {
+  color: #fff; }
+
+.main {
+  margin-left: 20px; }
+
+/*# sourceMappingURL=style.css.map */
