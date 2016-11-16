@@ -1,0 +1,19 @@
+nav.navbar {
+  border-radius: 0;
+  min-height: 85px; }
+nav .navbar-toggle {
+  margin-top: 20px; }
+  nav .navbar-toggle .icon-bar {
+    background-color: white; }
+nav .navbar-brand {
+  margin-top: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px; }
+nav label {
+  display: block; }
+nav button {
+  margin-top: 25px; }
+
+/*# sourceMappingURL=styles.css.map */
