@@ -1,0 +1,56 @@
+body {
+  padding-bottom: 30px;
+}
+
+nav {
+  &.navbar {
+    border-radius: 0;
+    min-height: 85px;
+  }
+
+  .navbar-toggle {
+    margin-top: 20px;
+
+    .icon-bar {
+      background-color: white;
+    }
+  }
+
+  .navbar-brand {
+    margin-top: 5px;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  label {
+    display: block;
+  }
+
+  button {
+    margin-top: 25px;
+  }
+}
+
+.features {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  line-height: 2.5em;
+  font-size: 18px;
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+.sign-up {
+  h1 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .row {
+    margin-top: 15px;
+  }
+}
