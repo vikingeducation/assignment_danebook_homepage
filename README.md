@@ -4,4 +4,4 @@
 
 Jerry Gao
 
-[View in browser](htmlpreview.github.io/?https://github.com/blackwright/assignment_danebook_homepage/blob/master/index.html)
+[View in browser](http://htmlpreview.github.io/?https://github.com/blackwright/assignment_danebook_homepage/blob/master/index.html)
