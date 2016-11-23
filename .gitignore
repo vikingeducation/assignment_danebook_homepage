@@ -1,0 +1,6 @@
+# Finder metadata
+.DS_Store
+
+# Sass files
+.sass-cache/
+styles.css.map
