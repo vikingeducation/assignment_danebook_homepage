@@ -73,17 +73,44 @@ body {
   .navbar-danebook .navbar-form-signin {
     position: relative;
     top: 10px; }
-  .navbar-danebook .signin-form-field {
+  .navbar-danebook .form-group {
     display: inline-block;
     margin-right: 2em; }
-    .navbar-danebook .signin-form-field label,
-    .navbar-danebook .signin-form-field input {
+    .navbar-danebook .form-group label,
+    .navbar-danebook .form-group input {
       display: block; }
-    .navbar-danebook .signin-form-field label {
+    .navbar-danebook .form-group label {
       margin-bottom: 0.5em; }
   .navbar-danebook .signin-form-field:last-child {
     margin-right: 1em; }
   .navbar-danebook .btn-signin-login {
     margin-top: 1.6em; }
+
+.feature-page {
+  padding-top: 6em; }
+  .feature-page h1 {
+    font-size: 1.8em; }
+  .feature-page .feature-list {
+    margin: 2em 0 0 3em;
+    list-style-type: initial; }
+    .feature-page .feature-list li {
+      margin-bottom: 1em; }
+
+.signup-page h1 {
+  font-size: 3em;
+  margin-bottom: 2rem; }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-bottom: 5em; }
+
+  .feature-page {
+    padding-top: initial;
+    margin-bottom: 3em; }
+    .feature-page h1 {
+      font-size: 3em; }
+
+  .signup-page h1 {
+    font-size: 2.5em; } }
 
 /*# sourceMappingURL=styles.css.map */

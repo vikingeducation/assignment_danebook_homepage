@@ -29,14 +29,12 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <form class="navbar-form navbar-right navbar-form-signin">
               <div class="form-group">
-                <div class="signin-form-field">
-                  <label for="signin-email">Email</label>
-                  <input type="email" id="signin-email" class="form-control"/>
-                </div>
-                <div class="signin-form-field">
-                  <label for="signin-password">Password</label>
-                  <input type="password" id="signin-password" class="form-control"/>
-                </div>
+                <label for="signin-email">Email</label>
+                <input type="email" id="signin-email" class="form-control"/>
+              </div>
+              <div class="form-group">
+                <label for="signin-password">Password</label>
+                <input type="password" id="signin-password" class="form-control"/>
               </div>
               <button type="submit" class="btn btn-info btn-signin-login">Log In</button>
             </form>
@@ -44,6 +42,101 @@
         </div><!-- /.container-fluid -->
       </nav>
     </header>
+
+    <main>
+      <div class="container">
+        <section class="col-sm-7 feature-page">
+          <header>
+            <h1>Connect with all your friends!</h1>
+          </header>
+          <ul class="feature-list">
+            <li>See photos and updates in your news feed</li>
+            <li>Post your status for the world to see from your profile</li>
+            <li>Get in touch with your firends by "friending" them</li>
+            <li>Like things because your a positive person</li>
+          </ul>
+        </section>
+        <section class="col-sm-5 signup-page">
+          <header>
+            <h1>Sign Up</h1>
+          </header>
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="First Name"/>
+              </div>
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="Last Name"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" placeholder="Your Email"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="password" class="form-control" placeholder="Your New Password"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="password" class="form-control" placeholder="Confirm Your Password"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-12">Birthday</label>
+              <div class="col-sm-4">
+                <select class="form-control">
+                  <option value="" disabled selected>Month</option>
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+              </div>
+              <div class="col-sm-4">
+                <select class="form-control">
+                  <option value="" disabled selected>Day</option>
+                </select>
+              </div>
+              <div class="col-sm-4">
+                <select class="form-control">
+                  <option value="" disabled selected>Year</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-3">
+                <label>
+                  <input type="radio" name="gender" id="female" value="female">
+                  Female
+                </label>
+              </div>
+              <div class="col-sm-3">
+                <label>
+                  <input type="radio" name="gender" id="male" value="male" checked>
+                  Male
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up!</button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

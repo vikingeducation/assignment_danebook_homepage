@@ -37,7 +37,7 @@ body {
     top: 10px;
   }
 
-  .signin-form-field {
+  .form-group {
     display: inline-block;
     margin-right: 2em;
 
@@ -57,5 +57,49 @@ body {
 
   .btn-signin-login {
     margin-top: 1.6em;
+  }
+}
+
+.feature-page {
+  padding-top: 6em;
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .feature-list {
+    margin: 2em 0 0 3em;
+    list-style-type: initial;
+
+    li {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.signup-page {
+  h1 {
+    font-size: 3em;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-bottom: 5em;
+  }
+
+  .feature-page {
+    padding-top: initial;
+    margin-bottom: 3em;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+  .signup-page {
+    h1 {
+      font-size: 2.5em;
+    }
   }
 }
