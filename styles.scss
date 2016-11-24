@@ -15,4 +15,47 @@ html {
  *  Custom styles
  */
 
- 
+body {
+  font-family: arial, sans-serif; 
+}
+
+.navbar-danebook {
+  background-color: #2B78E4;
+  color: white;
+  min-height: 100px;
+
+  .navbar-brand {
+    position: relative;
+    top: 0.5em;
+    left: 1em;
+    font-size: 2.5em;
+    color: inherit;
+  }
+
+  .navbar-form-signin {
+    position: relative;
+    top: 10px;
+  }
+
+  .signin-form-field {
+    display: inline-block;
+    margin-right: 2em;
+
+    label,
+    input {
+      display: block;
+    }
+
+    label {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .signin-form-field:last-child {
+    margin-right: 1em;
+  }
+
+  .btn-signin-login {
+    margin-top: 1.6em;
+  }
+}
