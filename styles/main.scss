@@ -1,0 +1,105 @@
+@import 'reset';
+
+/* "borrowed" from https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+ *  Custom styles
+ */
+
+body {
+  font-family: arial, sans-serif; 
+}
+
+.navbar-danebook {
+  background-color: #2B78E4;
+  color: white;
+  min-height: 100px;
+
+  .navbar-brand {
+    position: relative;
+    top: 0.5em;
+    left: 1em;
+    font-size: 2.5em;
+    color: inherit;
+  }
+
+  .navbar-form-signin {
+    position: relative;
+    top: 10px;
+  }
+
+  .form-group {
+    display: inline-block;
+    margin-right: 2em;
+
+    label,
+    input {
+      display: block;
+    }
+
+    label {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .signin-form-field:last-child {
+    margin-right: 1em;
+  }
+
+  .btn-signin-login {
+    margin-top: 1.6em;
+  }
+}
+
+.feature-page {
+  padding-top: 6em;
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .feature-list {
+    margin: 2em 0 0 3em;
+    list-style-type: initial;
+
+    li {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.signup-page {
+  h1 {
+    font-size: 3em;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-bottom: 5em;
+  }
+
+  .feature-page {
+    padding-top: initial;
+    margin-bottom: 3em;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+  .signup-page {
+    h1 {
+      font-size: 2.5em;
+    }
+  }
+}
