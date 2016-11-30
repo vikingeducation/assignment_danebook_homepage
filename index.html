@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- These 3 meta tags *must* come first in the head-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Danebook Homepage</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Project CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <h1> <a href="#">Danebook</a></h1>
+        </div>
+
+          <!-- Log in code block -->
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <button type="submit" class="btn btn-default nav-button">Log In</button>
+        </form>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+
+        <!-- Row for main Content  -->
+        <div class="row">
+          
+          <!-- Left side column-->
+          <div class="col-sm-6 left-side">
+            <h2>Connect with all your friends!</h2>
+            <ul>
+              <li><p class="text-muted">See photos and updates in your newsfeed.</p></li>
+              <li><p class="text-muted">Post your status for the world to see from your profile.</p></li>
+              <li><p class="text-muted">Get in touch with your friends by "friending" them. </p></li>
+              <li><p class="text-muted">Like things because you're a positive person! </p></li>
+            </ul>
+          </div>
+
+
+
+          <!-- Right Side Column -->
+          <div class="col-sm-5 col-sm-offset-1 right-side">
+            <h2>Sign Up</h2>
+
+            <!-- Create Signup Form -->
+            <form>
+              <div class="row">   <!-- Name Row -->
+               
+
+                <div class="col-sm-6">    <!-- First Name -->
+                  <div form-group>
+                    <label class = "sr-only" for = "first-name">First Name</label>
+                    <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name">
+                  </div>    
+                </div>
+
+                <div class="col-sm-6">        <!-- Last Name -->
+                  <div form-group class="form-name">
+                     <label class = "sr-only" for = "last-name">Last Name</label>
+                     <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name">
+                  </div>
+                </div>
+              </div>    <!-- End Name Row -->
+            
+              <div class="row">         <!-- Email -->
+                <div class="col-sm-12">
+                  <div form-group>
+                    <label class = "sr-only" for = "email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">         <!-- Password -->
+                <div class="col-sm-12">
+                  <div form-group>
+                    <label class = "sr-only" for = "password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Your New Password">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">         <!-- Confirm password -->
+                <div class="col-sm-12">
+                  <div form-group>
+                    <label class = "sr-only" for = "confirm-password">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="Confirm Your Password">
+                  </div>  
+                </div>
+              </div>
+
+              <div class="row">         <!-- Birthday header -->
+                <div class="col-sm-12">
+                  <h4>Birthday</h4>                
+                </div>
+              </div>
+
+              <div class="row">            <!-- Birthday inputs -->
+                <div class="col-sm-3">
+                  <select>
+                    <option disabled selected>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                  </select>
+                </div>
+
+
+                <div class="col-sm-2">
+                  <select>
+                    <option disabled selected>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              
+
+                <div class="col-sm-2">
+                  <select>
+                    <option disabled selected>Year</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                  </select>
+                </div>
+              </div>            <!-- End Birthday inputs-->  
+
+              <div class="row">         <!-- Radio Button Row -->
+                <div class="col-sm-12">
+
+                  <label class="radio-inline">
+                    <input type="radio" name="female">Female
+                  </label>
+
+                  <label class= "radio-inline"> 
+                    <input type="radio" name="male">Male
+                  </label>
+
+                </div>
+              </div>        <!-- End Radio Button Row -->
+
+              <div class="row">     <!-- Sign up button -->
+                <div class="col-sm-12">
+                  <button type="submit" class="btn btn-info btn-block big-button">
+                    Sign Up!
+                  </button>
+                </div>
+              </div>
+            </form>
+          
+          </div>        <!-- End right side column -->
+        </div>  <!-- End row container -->
+      </div>  <!-- End main container -->
+    </main>
+        
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

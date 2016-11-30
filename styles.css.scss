@@ -1,0 +1,52 @@
+.navbar{
+	background-color: #2B78E4;
+	color: #FFF; 
+	a{ 
+		color: #FFF;
+	}
+	.nav-button{
+		background-color: #92B4D1; 
+		border: solid 2px black; 
+	}
+	form{ 
+		padding-top: 10px; 
+		input{
+			border-radius: 0px; 
+		}
+	}
+}
+
+.left-side{
+	padding-top: 4%;
+	li{
+		line-height: 2.5; 
+	} 
+}
+
+.right-side{
+	.row{
+		margin-bottom: 14px; 
+	}
+	form{
+		width:85%;
+	}
+	input{ 
+		height: 29px; 
+		border-radius: 0px; 
+		border-width: 2px; 
+	}
+	label.radio-inline{
+		line-height:2.5; 
+	}
+}
+
+h4{ 
+	margin-bottom: 0px; 
+}
+
+.big-button{
+	border-radius: 0px; 
+	border: solid 3px black; 
+	background-color: #009E0F; 
+	box-shadow: 3px 3px 5px black; 
+}
