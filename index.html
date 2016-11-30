@@ -23,7 +23,6 @@
           <h1> <a href="#">Danebook</a></h1>
         </div>
 
-
           <!-- Log in code block -->
         <form class="navbar-form navbar-right">
           <div class="form-group">
@@ -49,7 +48,7 @@
         <div class="row">
 
 
-          <!-- Create left side content -->
+          <!-- Left side content -->
           <div class="col-sm-6">
             <h2>Connect with all your friends!</h2>
             <ul>
@@ -62,9 +61,134 @@
 
 
 
-          <!-- Create Signup Form -->
+          
           <div class="col-sm-5 col-sm-offset-1">
             <h2>Sign Up!</h2>
+
+
+
+            <!-- Create Signup Form -->
+            <form>
+
+              <div class="row">   <!-- Name Row -->
+                <div class="col-sm-6">
+                  <div form-group class="form-name">
+                    <label class = "sr-only" for = "first-name">First Name</label>
+                    <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name">
+                  </div>    
+                </div>
+
+                <div class="col-sm-6">
+                  <div form-group class="form-name">
+                     <label class = "sr-only" for = "last-name">Last Name</label>
+                     <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name">
+                  </div>
+                </div>
+            </div>    <!-- End Name Row -->
+            
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div form-group>
+                  <label class = "sr-only" for = "email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div form-group>
+                  <label class = "sr-only" for = "password">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Your New Password">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div form-group>
+                  <label class = "sr-only" for = "confirm-password">Confirm Password</label>
+                  <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="Confirm Your Password">
+                </div>  
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <h4>Birthday</h4>                
+              </div>
+            </div>
+
+            <div class="row">     <!-- Birthday Row -->
+              <div class="col-sm-3">
+                <select>
+                  <option disabled selected>Month</option>
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                </select>
+              </div>
+
+
+              <div class="col-sm-2">
+                <select>
+                  <option disabled selected>Day</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            
+
+           
+              <div class="col-sm-2">
+                <select>
+                  <option disabled selected>Year</option>
+                  <option>1991</option>
+                  <option>1992</option>
+                  <option>1993</option>
+                  <option>1994</option>
+                  <option>1995</option>
+                </select>
+              </div>
+            </div>            <!-- End Birthday Row -->  
+
+
+
+            <div class="row">     <!-- Radio Button Row -->
+              <div class="col-sm-12">
+
+                <label class="radio-inline">
+                  <input type="radio" name="female">Female
+                </label>
+
+                <label class= "radio-inline"> 
+                  <input type="radio" name="male">Male
+                </label>
+              </div>
+            </div>        <!-- End Radio Button Row -->
+
+            <div class="row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-info btn-block">
+                  Sign Up!
+                </button>
+              </div>
+            </div>
+
+
+
+
+
+              
+
+            </form>
             
           </div>
           
