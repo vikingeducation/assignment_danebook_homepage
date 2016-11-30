@@ -27,29 +27,25 @@
         <form class="navbar-form navbar-right">
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" class="form-control">
+            <input type="email" class="form-control" id="email">
           </div>
           <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" class="form-control">
+            <input type="password" class="form-control" id="password">
           </div>
-          <button type="submit" class="btn btn-default">Log In</button>
+          <button type="submit" class="btn btn-default nav-button">Log In</button>
         </form>
       </div>
     </nav>
-
-
-
 
     <main>
       <div class="container">
 
         <!-- Row for main Content  -->
         <div class="row">
-
-
-          <!-- Left side content -->
-          <div class="col-sm-6">
+          
+          <!-- Left side column-->
+          <div class="col-sm-6 left-side">
             <h2>Connect with all your friends!</h2>
             <ul>
               <li><p class="text-muted">See photos and updates in your newsfeed.</p></li>
@@ -61,144 +57,126 @@
 
 
 
-          
-          <div class="col-sm-5 col-sm-offset-1">
-            <h2>Sign Up!</h2>
-
-
+          <!-- Right Side Column -->
+          <div class="col-sm-5 col-sm-offset-1 right-side">
+            <h2>Sign Up</h2>
 
             <!-- Create Signup Form -->
             <form>
-
               <div class="row">   <!-- Name Row -->
-                <div class="col-sm-6">
-                  <div form-group class="form-name">
+               
+
+                <div class="col-sm-6">    <!-- First Name -->
+                  <div form-group>
                     <label class = "sr-only" for = "first-name">First Name</label>
                     <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name">
                   </div>    
                 </div>
 
-                <div class="col-sm-6">
+                <div class="col-sm-6">        <!-- Last Name -->
                   <div form-group class="form-name">
                      <label class = "sr-only" for = "last-name">Last Name</label>
                      <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name">
                   </div>
                 </div>
-            </div>    <!-- End Name Row -->
+              </div>    <!-- End Name Row -->
             
-
-            <div class="row">
-              <div class="col-sm-12">
-                <div form-group>
-                  <label class = "sr-only" for = "email">Email</label>
-                  <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+              <div class="row">         <!-- Email -->
+                <div class="col-sm-12">
+                  <div form-group>
+                    <label class = "sr-only" for = "email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-sm-12">
-                <div form-group>
-                  <label class = "sr-only" for = "password">Password</label>
-                  <input type="password" class="form-control" id="password" name="password" placeholder="Your New Password">
+              <div class="row">         <!-- Password -->
+                <div class="col-sm-12">
+                  <div form-group>
+                    <label class = "sr-only" for = "password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Your New Password">
+                  </div>
                 </div>
               </div>
-            </div>
 
-
-            <div class="row">
-              <div class="col-sm-12">
-                <div form-group>
-                  <label class = "sr-only" for = "confirm-password">Confirm Password</label>
-                  <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="Confirm Your Password">
-                </div>  
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-12">
-                <h4>Birthday</h4>                
-              </div>
-            </div>
-
-            <div class="row">     <!-- Birthday Row -->
-              <div class="col-sm-3">
-                <select>
-                  <option disabled selected>Month</option>
-                  <option>January</option>
-                  <option>February</option>
-                  <option>March</option>
-                  <option>April</option>
-                  <option>May</option>
-                </select>
+              <div class="row">         <!-- Confirm password -->
+                <div class="col-sm-12">
+                  <div form-group>
+                    <label class = "sr-only" for = "confirm-password">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="Confirm Your Password">
+                  </div>  
+                </div>
               </div>
 
-
-              <div class="col-sm-2">
-                <select>
-                  <option disabled selected>Day</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
+              <div class="row">         <!-- Birthday header -->
+                <div class="col-sm-12">
+                  <h4>Birthday</h4>                
+                </div>
               </div>
-            
 
-           
-              <div class="col-sm-2">
-                <select>
-                  <option disabled selected>Year</option>
-                  <option>1991</option>
-                  <option>1992</option>
-                  <option>1993</option>
-                  <option>1994</option>
-                  <option>1995</option>
-                </select>
-              </div>
-            </div>            <!-- End Birthday Row -->  
+              <div class="row">            <!-- Birthday inputs -->
+                <div class="col-sm-3">
+                  <select>
+                    <option disabled selected>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                  </select>
+                </div>
 
 
-
-            <div class="row">     <!-- Radio Button Row -->
-              <div class="col-sm-12">
-
-                <label class="radio-inline">
-                  <input type="radio" name="female">Female
-                </label>
-
-                <label class= "radio-inline"> 
-                  <input type="radio" name="male">Male
-                </label>
-              </div>
-            </div>        <!-- End Radio Button Row -->
-
-            <div class="row">
-              <div class="col-sm-12">
-                <button type="submit" class="btn btn-info btn-block">
-                  Sign Up!
-                </button>
-              </div>
-            </div>
-
-
-
-
-
+                <div class="col-sm-2">
+                  <select>
+                    <option disabled selected>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
               
 
+                <div class="col-sm-2">
+                  <select>
+                    <option disabled selected>Year</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                  </select>
+                </div>
+              </div>            <!-- End Birthday inputs-->  
+
+              <div class="row">         <!-- Radio Button Row -->
+                <div class="col-sm-12">
+
+                  <label class="radio-inline">
+                    <input type="radio" name="female">Female
+                  </label>
+
+                  <label class= "radio-inline"> 
+                    <input type="radio" name="male">Male
+                  </label>
+
+                </div>
+              </div>        <!-- End Radio Button Row -->
+
+              <div class="row">     <!-- Sign up button -->
+                <div class="col-sm-12">
+                  <button type="submit" class="btn btn-info btn-block big-button">
+                    Sign Up!
+                  </button>
+                </div>
+              </div>
             </form>
-            
-          </div>
           
-
+          </div>        <!-- End right side column -->
         </div>  <!-- End row container -->
-
-
       </div>  <!-- End main container -->
-
-      
     </main>
         
 
