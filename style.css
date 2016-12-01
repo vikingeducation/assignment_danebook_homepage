@@ -1,14 +1,26 @@
 /* NAVBAR */
-.navbar-brand {
+.navbar-default .navbar-brand {
   color: #fff;
   font-size: 36px; }
 
-.navbar-brand:hover {
+.navbar-default .navbar-brand:hover {
   color: #fff; }
 
 .navbar {
   background-color: #2B78E4;
-  border-radius: 0; }
+  border-radius: 0;
+  border: 0; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  color: #fff;
+  background-color: #fff; }
+
+.navbar-default .navbar-toggle {
+  border-color: #fff; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #2B78E4;
+  margin: 0; }
 
 .navbar-form label {
   display: block;
@@ -39,5 +51,13 @@
 
 .btn {
   border-radius: 0; }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 991px) {
+  .connect-message, .main {
+    margin-top: 0; }
+
+  .signup-list {
+    margin-bottom: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
