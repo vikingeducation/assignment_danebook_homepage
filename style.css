@@ -1,3 +1,22 @@
+/* NAVBAR */
+.navbar-brand {
+  color: #fff;
+  font-size: 36px; }
 
+.navbar-brand:hover {
+  color: #fff; }
+
+.navbar {
+  background-color: #2B78E4;
+  border-radius: 0; }
+
+/* MAIN */
+.main {
+  margin-top: 50px; }
+
+/* SIGN UP LIST */
+.signup-list li, .signup-list {
+  margin: 16px 0;
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
