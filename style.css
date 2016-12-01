@@ -10,6 +10,16 @@
   background-color: #2B78E4;
   border-radius: 0; }
 
+.navbar-form label {
+  display: block;
+  color: #fff; }
+
+.navbar-form .form-button {
+  vertical-align: bottom; }
+
+.navbar-form .btn {
+  height: 26px; }
+
 /* MAIN */
 .main {
   margin-top: 50px; }
@@ -18,5 +28,13 @@
 .signup-list li, .signup-list {
   margin: 16px 0;
   font-size: 16px; }
+
+/* BUTTON MOD */
+.btn.btn-action {
+  background-color: #9FC5F8;
+  border: 0; }
+
+.btn {
+  border-radius: 0; }
 
 /*# sourceMappingURL=style.css.map */
