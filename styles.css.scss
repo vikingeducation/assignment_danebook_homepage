@@ -1,12 +1,13 @@
 #navbar {
   height: 85px;
   background-color: #2B78E4;
+   border-bottom: 2px solid black;
   .navbar-brand {
     color: white;
     font-size: 50px;
     line-height: 50px;
+    padding-left: 50px;
   }
-  border-bottom: 2px solid black;
 }
 
 main {
