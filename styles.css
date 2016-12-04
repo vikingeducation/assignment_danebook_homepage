@@ -1,3 +1,23 @@
+#navbar {
+  height: 85px;
+  background-color: #2B78E4;
+  border-bottom: 2px solid black; }
+  #navbar .navbar-brand {
+    color: white;
+    font-size: 50px;
+    line-height: 50px; }
 
+main .info {
+  padding-top: 60px; }
+  main .info h2 {
+    font-weight: bold;
+    letter-spacing: .05em;
+    padding-bottom: 30px; }
+  main .info ul li {
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #666; }
+main .sign-up h1 {
+  font-size: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
