@@ -8,6 +8,22 @@
     line-height: 50px;
     padding-left: 50px;
   }
+  .nav-label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  input {
+    border: 2px solid black;
+    margin-right: 20px;
+  }
+  button {
+    margin-top: 20px;
+    background-color: #9FC5F8;
+    border: 2px solid black;
+    font-weight: bold;
+    width: 75px;
+  }
 }
 
 main {

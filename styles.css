@@ -7,6 +7,19 @@
     font-size: 50px;
     line-height: 50px;
     padding-left: 50px; }
+  #navbar .nav-label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold; }
+  #navbar input {
+    border: 2px solid black;
+    margin-right: 20px; }
+  #navbar button {
+    margin-top: 20px;
+    background-color: #9FC5F8;
+    border: 2px solid black;
+    font-weight: bold;
+    width: 75px; }
 
 main .info {
   padding-top: 60px; }
