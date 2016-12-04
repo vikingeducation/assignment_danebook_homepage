@@ -1,7 +1,8 @@
 #navbar {
   height: 85px;
   background-color: #2B78E4;
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+  z-index: 9999; }
   #navbar .navbar-brand {
     color: white;
     font-size: 50px;
@@ -13,25 +14,69 @@
     font-weight: bold; }
   #navbar input {
     border: 2px solid black;
-    margin-right: 20px; }
+    margin-right: 16px; }
+  #navbar .collapse {
+    background-color: #2B78E4; }
   #navbar button {
     margin-top: 20px;
+    margin-right: 45px;
     background-color: #9FC5F8;
     border: 2px solid black;
     font-weight: bold;
     width: 75px; }
 
-main .info {
-  padding-top: 60px; }
-  main .info h2 {
+main {
+  padding-top: 100px; }
+  main .info {
+    padding-top: 85px; }
+    main .info h2 {
+      font-weight: bold;
+      letter-spacing: .05em;
+      padding-bottom: 30px; }
+    main .info ul li {
+      font-size: 20px;
+      padding-bottom: 15px;
+      color: #666; }
+  main .sign-up h1 {
+    font-size: 50px;
+    margin-bottom: 30px; }
+  main .sign-up #signup-first-name {
+    margin-right: 16px; }
+  main .sign-up #signup-email {
+    margin-top: 15px; }
+  main .sign-up input {
+    border: 2px solid #ccc; }
+  main .sign-up ul.scroll-menu {
+    position: absolute;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    top: 0 !important;
+    left: 0 !important;
+    height: auto;
+    max-height: 100px;
+    margin: 2.6em 0;
+    border-right: none;
+    border-radius: 0 !important; }
+  main .sign-up ul.scroll-menu-2x {
+    max-height: 230px; }
+  main .sign-up h4 {
     font-weight: bold;
-    letter-spacing: .05em;
-    padding-bottom: 30px; }
-  main .info ul li {
-    font-size: 20px;
-    padding-bottom: 15px;
-    color: #666; }
-main .sign-up h1 {
-  font-size: 50px; }
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  main .sign-up .btn-group {
+    margin-right: 15px;
+    margin-bottom: 15px; }
+  main .sign-up button {
+    border: 2px solid #444; }
+  main .sign-up .radio-inline {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    font-size: 16px; }
+  main .sign-up #signup-button {
+    background-color: #009E0F; }
 
 /*# sourceMappingURL=styles.css.map */
