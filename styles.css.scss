@@ -1,7 +1,8 @@
+$navbar-border: 2px solid black;
 #navbar {
   height: 85px;
   background-color: #2B78E4;
-  border-bottom: 2px solid black;
+  border-bottom: $navbar-border;
   z-index: 9999;
   .navbar-brand {
     color: white;
@@ -15,7 +16,7 @@
     font-weight: bold;
   }
   input {
-    border: 2px solid black;
+    border: $navbar-border;
     margin-right: 16px;
   }
   .collapse {
@@ -25,7 +26,7 @@
     margin-top: 20px;
     margin-right: 45px;
     background-color: #9FC5F8;
-    border: 2px solid black;
+    border: $navbar-border;
     font-weight: bold;
     width: 75px;
   }
