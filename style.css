@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #426bf4;
+  height: 100px; }
+  .navbar h1 {
+    font-size: 45px;
+    color: white;
+    padding-left: 70px; }
+
+.page-wrapper {
+  height: 1000px;
+  width: 1200px;
+  min-width: 1200px; }
+  @media (max-width: 1200px) {
+    .page-wrapper {
+      max-width: 970px; } }
+
+.signin-wrapper {
+  min-width: 600px;
+  color: white;
+  margin-right: 60px;
+  padding-top: 20px; }
+  .signin-wrapper label {
+    font-size: 15px; }
+  .signin-wrapper button {
+    margin-top: 26px;
+    min-width: 100px; }
+
+.info-wrapper {
+  height: 800px;
+  padding-top: 100px;
+  letter-spacing: 2px; }
+  .info-wrapper h2 {
+    font-weight: bold;
+    font-size: 30px; }
+  .info-wrapper ul {
+    padding-top: 30px;
+    font-size: 17px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    line-height: 45px;
+    color: #aaa; }
+
+.signup-wrapper {
+  min-width: 500px; }
+  .signup-wrapper h1 {
+    font-size: 40px; }
+
+b {
+  color: #777; }
+
+.btn-login {
+  box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76); }
+
+.btn-signup {
+  box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76);
+  width: 100%; }
+
+.form-signup-wrapper {
+  margin-top: 30px; }
+  .form-signup-wrapper h3 {
+    padding-left: 20px; }
+
+.birthday-year {
+  width: 65px; }
+
+.birthday-day {
+  width: 65px; }
+
+/*# sourceMappingURL=style.css.map */
