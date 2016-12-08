@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding-top: 15vh;
+}
+.navbar-default {
+  background-color: #006EE3;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+#login-button {
+  margin-top: 20px;
+  background-color: #99C5F5;
+  border: 2px solid black;
+}
+
+ label.control-label{
+  color: white;
+}
+
+#nav {
+  height: 10vh;
+  .navbar-brand {
+    font-size: 3em;
+    line-height: 5vh;
+  }
+}
+
+#signup-submit {
+  margin-top: 5vh;
+  border: 2px solid black;
+}
+
+.info {
+  padding-top: 10vh;
+  li {
+    margin: 2.5vh 0;
+    font-size: 1.25em;
+    color: #66676B;
+  }
+}
+
+.signup h2{
+  font-size: 3em;
+  padding-bottom: 5vh;
+}
+
+.info h2 {
+  font-size: 2em;
+}
+
+.form-group {
+  margin-bottom: 3vh;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--  setting the dimensions to the dimensions of the viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--  Bootstrap CSS-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- My custom CSS-->
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <!-- jQuery files-->
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous">
+  </script>
+  <!-- Bootstrap JS files-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+  <title>Danebook Mockups</title>
+</head>
+<body>
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Danebook</a>
+        </div>
+        <form class="navbar-form navbar-right">
+          <div class="form-group col-xs-4">
+            <label for="email" class="control-label">Email
+            </label>
+            <input type="text" class="form-control" placeholder="Email" id="email">
+            </div>
+          <div class="form-group col-xs-4">
+             <label for="password" class="control-label">Password
+             </label>
+            <input type="text" class="form-control" placeholder="Password" id="password">
+            </div>          
+            <button id="login-button" type="submit" class="btn btn-success form-control">Log In</button>
+          </form>
+        </div>
+      </nav>
+    <main class="container">
+    <div class="row">
+    <section class="info col-md-6">
+      <h2>Connect with all your friends!</h2>
+      <ul>
+        <li>See photos and updates in your news feed</li>
+        <li>Post your status for the world to see from your profile</li>
+        <li>Get in touch with your friends by friending them</li>
+        <li>Like things because you are a positive person</li>
+      </ul>
+    </section>
+    <section class="signup col-md-6">
+      <h2 class="col-md-12">Sign Up</h2>
+        <form action="">
+          <div class="form-group col-md-6">
+          <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+          <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+          <div class="form-group col-md-12">
+          <input type="text" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group col-md-12">
+          <input type="text" class="form-control" placeholder="Password">
+          </div>
+          <div class="form-group col-md-12">
+          <input type="text" class="form-control" placeholder="Confirm Password">
+          </div>
+          <div class="form-group col-md-6">
+          <label>Birthday</label>
+          <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
+          </div>
+          <div class="radio col-md-12">
+            <label for="male" class="radio-inline"><input type="radio">Male</label>
+            <label for="male" class="radio-inline"><input type="radio">Female</label>
+          </div>               
+            <button id="signup-submit" class="btn btn-success btn-lg col-md-12">Submit</button>              
+        </form>
+    </section>
+    </div> 
+  </main>     
+</body>
+</html>
