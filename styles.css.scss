@@ -3,22 +3,15 @@ body {
 }
 
 
-
-
-
-.cover-pic {
-  background: url("denmark.jpg") no-repeat center center;
-  height: 300px;
+.navbar-homepage {
+  background-color: #3B5999;
+  color: #fff;
 }
 
-.profile-pic {
-  margin: -100px 10px -150px 20px;
-  height: 200px;
-  width: 200px;
-}
 
-.profile-text {
-    font-weight: 700;
-    font-size:12px;
-    margin-left: 150px;
+.navbar-header {
+  h2 {
+    color: #fff;
+    line-height: 25px;
+  }
 }
