@@ -3,6 +3,20 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+main{
+	position: relative;
+	margin: 0 auto;
+}
 
+.col-sm-8 {
+	padding-top: 120px;
+	background: yellow;
+	text-align: center;
+}
 
+.col-sm-4 {
+	padding-top: 120px;
+	background: green;
+	text-align: center;
+}
 // sass --watch public/stylesheets/style.scss:public/stylesheets/style.css
