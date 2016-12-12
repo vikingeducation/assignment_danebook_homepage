@@ -9,65 +9,67 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a id="nav-logo" href="#" class="navbar-brand">Danebook</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="#">Project name</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <input type="text" placeholder="Email" class="form-control">
-          </div>
-          <div class="form-group">
-            <input type="password" placeholder="Password" class="form-control">
-          </div>
-          <button type="submit" class="btn btn-success">Sign in</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <main>
-    <section class="container">
-      <div class="row">
-        <div class="col-sm-7">
-          <h1>Connect with all your friends</h1>
-          <ul>
-            <li>See Photos and update in your news feed.</li>
-            <li>Post your status for the world to see from your profile</li>
-            <li>Get in touch with your friends by "friending them</li>
-            <li>Like things because you're a positive person!</li>
-          </ul>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="main-navbar-collapse">
+                <form class="navbar-form">
+                    <div class="form-group">
+                        <p>Email</p>
+                        <input class="form-control" type="email" name="" placeholder="Email" id="user-input-email">
+                    </div>
+                    <div class="form-group">
+                        <p>Password</p>
+                        <input class="form-control" type="password" name="" placeholder="Password" id="user-input-password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+            </div>
         </div>
-        <div class="col-sm-5">
-          <form>
-         <h1>Sign Up</h1>
-         <div class="form-group">
-           <div class="form-inline">
-             <input type="text" class="form-control" placeholder="First Name">
-             <input type="text" class="form-control" placeholder="Last Name">
-           </div>
-         </div>
-         <div class="form-group">
-           <input type="text" class="form-control" placeholder="Your Email">
-         </div>
-         <div class="form-group">
-           <input type="text" class="form-control" placeholder="Your New Password">
-         </div>
-         <div class="form-group">
-           <input type="text" class="form-control" placeholder="Confirm Your Password">
-         </div>
-        <strong>Birthday</strong>
-         <div class="form-group">
-           <div class="form-inline">
-           <select class="form-control">
+    </nav>
+
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <h1 class="intro-title">Connect with all your friends</h1>
+                    <ul>
+                        <li class="intro-item"><strong>See Photos and update in your news feed.</strong></li>
+                        <li class="intro-item"><strong>Post your status for the world to see from your profile</strong></li>
+                        <li class="intro-item"><strong>Get in touch with your friends by "friending them</strong></li>
+                        <li class="intro-item"><strong>Like things because you're a positive person!</strong></li>
+                    </ul>
+                </div>
+                <div class="col-sm-5 ">
+                    <form>
+                        <h1>Sign Up</h1>
+                        <div class="form-group">
+                            <div class="form-inline">
+                                <input type="text" class="form-control" placeholder="First Name">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your New Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Confirm Your Password">
+                        </div>
+                        <strong>Birthday</strong>
+                        <div class="form-group">
+                            <div class="form-inline">
+                                <select class="form-control">
              <option>Month</option>
              <option>January</option>
              <option>February</option>
@@ -82,7 +84,7 @@
              <option>November</option>
              <option>December</option>
            </select>
-           <select class="form-control">
+                                <select class="form-control">
              <option>Day</option>
              <option>1</option>
              <option>2</option>
@@ -116,7 +118,7 @@
              <option>30</option>
              <option>31</option>
            </select>
-           <select class="form-control">
+                                <select class="form-control">
             <option>Year</option>
              <option>2016</option>
              <option>2015</option>
@@ -236,29 +238,27 @@
              <option>1901</option>
              <option>1900</option>
            </select>
-         </div>
-         </div>
-         <div class="form-group">
-           <label class="radio-inline">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="radio-inline">
              <input type="radio">Female
            </label>
-           <label class="radio-inline">
+                            <label class="radio-inline">
              <input type="radio">Male
           </label>
-         </div>
-         <div class="form-group">
-           <button class="btn btn-success btn-lg btn-block">Sign Up!</button>
-         </div>
-       </form>
-  
-        </div>
-      </div>
-      
-    </section>
-  </main>
-	
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success btn-lg btn-block">Sign Up!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
 
 </body>
+
 </html>
