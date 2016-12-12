@@ -8,15 +8,20 @@ main{
 	margin: 0 auto;
 }
 
-.col-sm-8 {
+.col-sm-7 {
 	padding-top: 120px;
-	background: yellow;
-	text-align: center;
+	
+	
 }
 
-.col-sm-4 {
+.col-sm-5 {
 	padding-top: 120px;
-	background: green;
-	text-align: center;
+	
+	
+}
+
+#login-cont {
+	position: relative;
+	margin: 0 auto;
 }
 // sass --watch public/stylesheets/style.scss:public/stylesheets/style.css

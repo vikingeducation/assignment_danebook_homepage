@@ -7,14 +7,14 @@ main {
   position: relative;
   margin: 0 auto; }
 
-.col-sm-8 {
-  padding-top: 120px;
-  background: yellow;
-  text-align: center; }
+.col-sm-7 {
+  padding-top: 120px; }
 
-.col-sm-4 {
-  padding-top: 120px;
-  background: green;
-  text-align: center; }
+.col-sm-5 {
+  padding-top: 120px; }
+
+#login-cont {
+  position: relative;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
