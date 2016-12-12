@@ -1,0 +1,121 @@
+$prime-blue: #2B78E4;
+
+$secondary-blue: #9FC5F8;
+
+$dark-blue: #2d5b9b;
+
+$prime-black: #000;
+
+$prime-white: #fff;
+
+$prime-gray: #E6E6E6;
+
+$secondary-gray: gray;
+
+
+.navbar-default {
+	background-color: $prime-blue;
+
+	.container{
+		margin-bottom: 10px;
+	}
+
+	.navbar-brand{
+		font-size: 35px;
+		font-weight: 500;
+		color: $prime-white;
+	}
+
+	@media (min-width: 768px){
+		.navbar-brand{
+			font-size: 35px;
+			font-weight: 500;
+			color: $prime-white;
+			margin-top: 15px;
+		}
+	}
+
+	.navbar-brand:hover{
+		color: $prime-white;
+	}
+
+	@media (min-width: 768px){
+		button{
+			background-color: $secondary-blue;
+			color: $prime-black;
+		}
+	}
+
+	button:hover{
+		color: $prime-black;
+	}
+	.navbar-toggle{
+		border-color: $prime-black;
+		.icon-bar{
+			background-color: $prime-black;
+
+		}
+	}
+
+	.navbar-toggle:hover{
+		background-color: $prime-blue;
+		.icon-bar{
+			background-color: $prime-white;
+
+		}
+	}
+
+	.navbar-collapse{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
+		box-shadow: none;
+	}
+
+	.navbar-form{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
+	}
+
+	#main-navbar-collapse{
+		.navbar-form{
+			box-shadow: none;
+			p{
+				color: $prime-white;
+			}
+			@media (min-width: 768px){
+				p{
+					color: $prime-white;
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+				button{
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+
+}
+
+main{
+	position: relative;
+	margin: 0 auto;
+
+	.col-sm-7 {
+		padding-top: 120px;
+	}
+	.col-sm-5 {
+		padding-top: 120px;
+	}
+	.intro-title {
+		padding-top: 40px;
+	}
+	.intro-item {
+		padding-top: 10px;
+	}
+	strong {
+		color: $secondary-gray;
+	}
+}
+
+// sass --watch public/stylesheets/style.scss:public/stylesheets/style.css
