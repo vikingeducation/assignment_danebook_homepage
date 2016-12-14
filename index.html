@@ -19,61 +19,133 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
-    <nav class="navbar navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header row">
-          <div class="col-md-8">
-          <a class="navbar-brand" href="#">
-          Danebook
-          </a>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="navbar-header">
+            <div class="col-xs-6">
+              <a class="navbar-brand" href="#">Danebook
+              </a>
+            </div>
           </div>
-        </div>
-        <form class="navbar-form navbar-right">
-          <div class="row">
-            <div class="col-md-2">
+          <form class="navbar-header navbar-right navbar-form col-xs-4">
               <div class="form-group">
                 <label for="exampleInputEmail1">Email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1">
               </div>
-            </div>
-            <div class="col-md-2 col-md-offset-2">
               <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
               </div>
-            </div>
-            <div class="col-md-1 col-md-offset-2">
               <button type="button" class="btn btn-primary btn-sm">Log In</button>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </nav>
-    <main class="container">
+    <main class="container-fluid">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-xs-6">
           <ul>Connect with all your friends!
             <li>See photos and updates in your news feed.</li>
             <li>Post your status for the world to see your profile</li>
             <li>Get in touch with your friends by "friending" them</li>
             <li>Like things because you're a positive person!</li>
           </ul>
-          
-
         </div>
-        <div class="col-md-4">Sign Up!
-          
+        <div class="col-xs-4">Sign Up!
+          <div class="row">
+            <div class="col-xs-6">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFirstName"></label>
+                  <input type="FirstName" class="form-control" id="exampleFirstName" placeholder="First name">
+                </div>
+              </form>
+            </div>
+            <div class="col-xs-6">
+              <form>
+                <div class="form-group">
+                  <label for="exampleLastName"></label>
+                  <input type="LastName" class="form-control" id="exampleLastName" placeholder="Last name">
+                </div>
+              </form>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <form>
+                <div class="form-group">
+                  <label for="exampleYourEmail"></label>
+                  <input type="youremail" class="form-control" id="exampleYourEmail" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleYourNewPassword"></label>
+                  <input type="yournewpassword" class="form-control" id="exampleYourNewPassword" placeholder="Your New Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleConfirmYourPassword"></label>
+                  <input type="ConfirmYourPassword" class="form-control" id="exampleConfirmYourPassword" placeholder="Confirm Your Password">
+                </div>
+                <p>
+                  Birthday
+                </p>
+                <div class="row">
+                  <div class="dropdown col-xs-2">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Month
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">January</a></li>
+                      <li><a href="#">February</a></li>
+                      <li><a href="#">March, Etc.</a></li>        
+                    </ul>
+                  </div>
+                  <div class="dropdown col-xs-2 col-xs-offset-1">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Day
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3, Etc.</a></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown col-xs-2 col-xs-offset-1">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Year
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">1900</a></li>
+                      <li><a href="#">1901</a></li>
+                      <li><a href="#">1902, Etc.</a></li>
+                    </ul>
+                  </div>
+                </div>
+                  <div class="radio">
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadioFemale" value="option1"> Female
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadioMale" value="option2"> Male
+                    </label>
+                  </div>
+                  <div class="button">
+                    <button type="button" class="btn btn-primary btn-block btn-lg">Sign Up!</button>
+              </form>
+            </div>
         </div>
-        
-
-      </div>
-      
-
-    </main>
+      </div>  
+    </div>
+  </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
