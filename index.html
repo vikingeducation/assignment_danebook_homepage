@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Prototyping Danebook</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-override.css" /> 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-custom">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="navbar-header">
+            <div class="col-xs-6">
+              <a class="navbar-brand" href="#" style="">Danebook
+              </a>
+            </div>
+          </div>
+          <form class="navbar-header navbar-right navbar-form col-xs-4">
+            <div class="row">
+              <div class="form-group col-xs-3">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+              </div>
+              <div class="form-group col-xs-2 col-xs-offset-1">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="button" class="btn btn-primary btn-md col-xs-2 col-xs-offset-2">Log In</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6">
+          <ul>Connect with all your friends!
+            <div class="row">
+              <div class="col-xs-11 col-xs-offset-1">
+                <li>See photos and updates in your news feed.</li>
+                <li>Post your status for the world to see your profile</li>
+                <li>Get in touch with your friends by "friending" them</li>
+                <li>Like things because you're a positive person!</li>
+              </div>
+            </div>  
+          </ul>
+        </div>
+        <div class="col-xs-4">
+          <div class="row">
+            <div class="col-xs-12">
+              <p>Sign Up</p>
+            </div>
+            <div class="col-xs-6">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFirstName"></label>
+                  <input type="FirstName" class="form-control" id="exampleFirstName" placeholder="First name">
+                </div>
+              </form>
+            </div>
+            <div class="col-xs-6">
+              <form>
+                <div class="form-group">
+                  <label for="exampleLastName"></label>
+                  <input type="LastName" class="form-control" id="exampleLastName" placeholder="Last name">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <form>
+                <div class="form-group">
+                  <label for="exampleYourEmail"></label>
+                  <input type="youremail" class="form-control" id="exampleYourEmail" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleYourNewPassword"></label>
+                  <input type="yournewpassword" class="form-control" id="exampleYourNewPassword" placeholder="Your New Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleConfirmYourPassword"></label>
+                  <input type="ConfirmYourPassword" class="form-control" id="exampleConfirmYourPassword" placeholder="Confirm Your Password">
+                </div>
+                <section>
+                  Birthday
+                </section>
+                <div class="row">
+                  <div class="dropdown col-xs-2">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Month
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">January</a></li>
+                      <li><a href="#">February</a></li>
+                      <li><a href="#">March, Etc.</a></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown col-xs-2 col-xs-offset-1">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Day
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3, Etc.</a></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown col-xs-2 col-xs-offset-1">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Year
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">1900</a></li>
+                      <li><a href="#">1901</a></li>
+                      <li><a href="#">1902, Etc.</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="radio">
+                  <label class="radio-inline">
+                     <input type="radio" name="inlineRadioOptions" id="inlineRadioFemale" value="option1"> Female
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadioMale" value="option2"> Male
+                  </label>
+                </div>
+                <div class="button">
+                  <button type="button" class="btn btn-success btn-block btn-lg">Sign Up!</button>
+              </form>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </main>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
