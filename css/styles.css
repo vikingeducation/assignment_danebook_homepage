@@ -1,3 +1,36 @@
+.navbar-custom {
+  color: #FFFFFF;
+  background-color: #2B78E4;
+  border-radius: 0; }
 
+.navbar-brand {
+  color: #FFFFFF;
+  font-size: 40px;
+  margin-top: 12px; }
+
+.btn-primary {
+  margin-top: 25px; }
+
+ul {
+  font-size: 32px;
+  margin-top: 80px;
+  font-weight: bold; }
+
+li {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal; }
+
+p {
+  font-weight: bold;
+  font-size: 40px; }
+
+button.btn-primary {
+  background-color: #9FC5F8; }
+
+section {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
