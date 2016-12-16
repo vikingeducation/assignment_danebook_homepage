@@ -1,0 +1,73 @@
+body {
+  padding-top: 70px; }
+
+/* Navbar CSS */
+#navbar {
+  background-color: #2e63f9;
+  color: white;
+  height: 70px; }
+
+#navbar-brand {
+  color: white;
+  font-size: 40px;
+  margin-top: 10px; }
+
+.navbar-collapse-style {
+  background-color: #2e63f9; }
+
+#user-email-label,
+#user-pw-label {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0; }
+
+#user-email,
+#user-pw {
+  height: 26px;
+  margin-right: 8px;
+  font-size: 12px;
+  border: 1px solid #666;
+  border-radius: 0; }
+
+.login-btn {
+  border: 1px solid #666;
+  border-radius: 0;
+  background-color: #bddfeb;
+  padding: 0;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  padding: 0 5px;
+  margin-top: 18px; }
+
+.login-btn:hover {
+  background-color: #deeff5; }
+
+/* Main content CSS */
+#features {
+  padding: 30px 50px; }
+  #features h1 {
+    font-size: 32px;
+    margin-bottom: 25px; }
+  #features li {
+    font-size: 18px;
+    margin: 15px 0; }
+
+#sign-up h1 {
+  font-size: 40px;
+  margin-bottom: 25px; }
+#sign-up h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px; }
+#sign-up .sign-up-btn {
+  border: 2px solid #666;
+  border-radius: 0;
+  background-color: #32cd32;
+  font-size: 26px;
+  padding: 2px 0;
+  box-shadow: 2px 2px 2px #666; }
+#sign-up .sign-up-btn:hover {
+  background-color: #2db82d; }
+
+/*# sourceMappingURL=styles.css.map */
