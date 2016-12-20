@@ -1,0 +1,82 @@
+$border: 3px solid black;
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Comic Sans MS";
+}
+
+.navbar-default {
+	background-color: #2B78E4;
+	border:$border;
+	border-radius: 0px;
+	height: 77px;
+	.navbar-brand {
+		color:white;
+		font-size: 50px;
+	}
+}
+
+.navbar-brand {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar-right {
+	margin:10px;	
+}
+
+.nav-group {
+	margin: 3px -68px 3px 11px;
+}
+
+.left-side {
+	margin-top:48px;
+	h2 {
+	font-weight: bold;
+	font-size: 28px;
+	}
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.select-picker {
+	border-radius: 0;
+}
+
+.btn-default{
+	margin-bottom: -10px;
+	background-color: #9FC5F8;
+}
+
+.left-side li {
+	margin-top: 20px;
+	color:#63615F;
+}
+
+.signup {
+	margin-top: -20px;
+}
+
+.signup h2{
+	font-size: 48px;
+	font-weight:bold;
+	margin-bottom: 21px;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+#birthday-label {
+	margin-bottom:-7px;
+}
+
+.radio {
+	margin-bottom: 18px;
+}
