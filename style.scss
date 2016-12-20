@@ -1,0 +1,58 @@
+$border: 2px solid black
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 14px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.navbar-default {
+	background-color: #006EE3;
+	.navbar-brand {
+		color:white
+	}
+}
+
+#login-button {
+	margin-top:20px;
+	background-color:#99C5F5;
+	border:$border;
+}
+
+label.control-label {
+	color:white;
+}
+
+#nav {
+  	height: 7px;
+}
+
+#signup-submit {
+  margin-top: 3px;
+  border: $border;
+}
+
+.info {
+  padding-top: 7px;
+  li {
+    margin: 2px;
+    color: #66676B;
+  }
+}
+
+.signup h2{
+  padding-bottom: 3px;
+}
+
+
+.form-group {
+  margin-bottom: 3px;
+}
+
