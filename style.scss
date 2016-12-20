@@ -1,58 +1,82 @@
-$border: 2px solid black
+$border: 3px solid black;
+
 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
-  	font-size: 14px;
-	line-height: 1.42857143;
-	background-color: #fff;
-	padding-top: 50px;
-	padding-bottom: 20px;
+	font-family: "Comic Sans MS";
 }
 
 .navbar-default {
-	background-color: #006EE3;
+	background-color: #2B78E4;
+	border:$border;
+	border-radius: 0px;
+	height: 77px;
 	.navbar-brand {
-		color:white
+		color:white;
+		font-size: 50px;
 	}
 }
 
-#login-button {
-	margin-top:20px;
-	background-color:#99C5F5;
-	border:$border;
+.navbar-brand {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-label.control-label {
-	color:white;
+.navbar-right {
+	margin:10px;	
 }
 
-#nav {
-  	height: 7px;
+.nav-group {
+	margin: 3px -68px 3px 11px;
 }
 
-#signup-submit {
-  margin-top: 3px;
-  border: $border;
+.left-side {
+	margin-top:48px;
+	h2 {
+	font-weight: bold;
+	font-size: 28px;
+	}
 }
 
-.info {
-  padding-top: 7px;
-  li {
-    margin: 2px;
-    color: #66676B;
-  }
+.btn {
+	border-radius: 0;
+}
+
+.select-picker {
+	border-radius: 0;
+}
+
+.btn-default{
+	margin-bottom: -10px;
+	background-color: #9FC5F8;
+}
+
+.left-side li {
+	margin-top: 20px;
+	color:#63615F;
+}
+
+.signup {
+	margin-top: -20px;
 }
 
 .signup h2{
-  padding-bottom: 3px;
+	font-size: 48px;
+	font-weight:bold;
+	margin-bottom: 21px;
 }
 
-
-.form-group {
-  margin-bottom: 3px;
+.form-control {
+	border-radius: 0;
 }
 
+#birthday-label {
+	margin-bottom:-7px;
+}
+
+.radio {
+	margin-bottom: 18px;
+}
