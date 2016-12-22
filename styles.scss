@@ -1,0 +1,81 @@
+$standard-spacing: 10px;
+
+.main-nav
+{
+	background-color: #2B78E4;
+}
+.brand-text
+{
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+}
+.main-list li 
+{
+	font-size: 20px;
+	margin-bottom: $standard-spacing;	
+}
+.main-header
+{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.signup-form 
+{ 
+	input
+	{
+		margin-bottom: $standard-spacing;
+	}
+	h5 
+	{
+		font-weight: bold;
+	}
+	label
+	{
+		margin-top: $standard-spacing;
+		margin-right: 10px;
+	}
+	select 
+	{
+		color: #aaa;
+	}
+	button 
+	{
+		margin-top: $standard-spacing;
+	}
+}
+signin.btn
+{
+	background-color: #9FC5F8;
+}
+.main-header
+{
+	margin-top: 80px;	
+}
+.signup-header
+{
+	margin-bottom: 30px;	
+}
+
+/*Fix some spacing issues on non-desktop devices */
+@media only screen and (max-width : 992px) 
+{
+	select 
+	{
+		margin-bottom: $standard-spacing;
+	}
+	.signin-form
+	{
+
+		input
+		{
+
+		margin-bottom: $standard-spacing;
+
+		}
+	}
+	.main-header 
+	{
+		margin-top: $standard-spacing;
+	}
+}

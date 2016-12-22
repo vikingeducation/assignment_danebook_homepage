@@ -1,0 +1,5 @@
+#.gitignore - Stephen Kilgore
+
+#files to ignore
+.sass-cache
+

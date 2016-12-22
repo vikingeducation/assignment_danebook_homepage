@@ -1,0 +1,49 @@
+.main-nav {
+  background-color: #2B78E4; }
+
+.brand-text {
+  color: white;
+  font-weight: bold;
+  font-size: 35px; }
+
+.main-list li {
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.main-header {
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+.signup-form input {
+  margin-bottom: 10px; }
+.signup-form h5 {
+  font-weight: bold; }
+.signup-form label {
+  margin-top: 10px;
+  margin-right: 10px; }
+.signup-form select {
+  color: #aaa; }
+.signup-form button {
+  margin-top: 10px; }
+
+signin.btn {
+  background-color: #9FC5F8; }
+
+.main-header {
+  margin-top: 80px; }
+
+.signup-header {
+  margin-bottom: 30px; }
+
+/*Fix some spacing issues on non-desktop devices */
+@media only screen and (max-width: 992px) {
+  select {
+    margin-bottom: 10px; }
+
+  .signin-form input {
+    margin-bottom: 10px; }
+
+  .main-header {
+    margin-top: 10px; } }
+
+/*# sourceMappingURL=styles.css.map */
