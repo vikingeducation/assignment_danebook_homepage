@@ -7,11 +7,14 @@ nav {
   height: 80px; }
 
 .navbar {
-  background-color: #337ab7;
+  background: #337ab7;
   color: white; }
 
 #nav-heading {
-  margin-left: 20px; }
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px; }
 
 input,
 label {
@@ -25,7 +28,8 @@ label {
 
 #signin-btn {
   margin-top: 24px;
-  background-color: #5ECEF2;
+  margin-right: 20px;
+  background: #5ECEF2;
   color: black;
   box-shadow: 3px 3px;
   height: 24px;
@@ -41,6 +45,51 @@ label {
   margin-top: 20px; }
 
 .icon-bar {
-  background-color: white !important; }
+  background: white !important; }
+
+.left-page {
+  margin-top: 50px; }
+  .left-page h1 {
+    font-weight: bold; }
+  .left-page li {
+    line-height: 2.0;
+    font-size: 20px; }
+
+#signup-header {
+  font-size: 44px;
+  font-weight: bold; }
+
+.signup-form-wrapper h1,
+.signup-form-wrapper h3 {
+  margin-left: 15px; }
+.signup-form-wrapper h1 {
+  margin-top: 30px;
+  margin-bottom: 15px; }
+.signup-form-wrapper h3 {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px; }
+
+#month-drop, #day-drop {
+  margin-right: 15px; }
+
+#signup-btn {
+  margin-top: 15px;
+  margin-right: 20px;
+  box-shadow: 3px 3px black;
+  border: 2px solid black;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 2px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 0px; }
+
+.signup-form-wrapper input:not([type=radio]):not([type=label]) {
+  margin: 10px auto; }
+
+.birthday-wrapper {
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
