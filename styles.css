@@ -1,3 +1,11 @@
-
+/* Styles for navbar */
+#navbar-container {
+  background-color: #3b5998; }
+  #navbar-container .navbar-brand {
+    color: #fff; }
+  #navbar-container .navbar-form .btn {
+    background-color: #365899;
+    border-color: #29487d;
+    color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
