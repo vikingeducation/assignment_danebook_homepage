@@ -1,13 +1,24 @@
 /* Styles for navbar */
 #navbar-container {
   background-color: #3b5998; }
-  #navbar-container .navbar-brand {
-    color: #fff; }
   #navbar-container .navbar-form .btn {
     background-color: #365899;
     border-color: #29487d;
     color: #fff; }
+  #navbar-container .navbar-brand,
   #navbar-container .navbar-form .form-group label {
     color: #fff; }
+
+.list-container {
+  margin-top: 12px; }
+
+.signup-header {
+  margin-left: 12px; }
+
+/* Styles for signup button */
+#signup-button {
+  background-color: #79bc64;
+  color: #fff;
+  font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

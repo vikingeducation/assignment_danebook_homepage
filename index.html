@@ -55,14 +55,16 @@
 
     <main class="container-fluid">
       <section class="row">
+
+        <!-- left column (blurb) -->
         <article class="col-md-5 col-md-offset-1">
           <div class="row">
             <div class="col-md-12">
-              <h2>Connect with all your friends!</h2>
+              <h1>Connect with all your friends!</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="list-container col-md-12">
               <ul>
                 <li>See photos and updates in your news feed.</li>
                 <li>Post your status for the world to see from your profile.</li>
@@ -73,35 +75,40 @@
           </div>
         </article>
 
+        <!-- right column (signup form) -->
         <article class="col-md-6">
           <div class="row">
             <div class="col-md-12">
-              <h1>Sign Up</h1>
+              <h1 class="signup-header">Sign Up</h1>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-12">
-              <form>
-                <div class="form-group form-inline">
-                  <input type="text" class="form-control" placeholder="First Name">
+              <form action="#" method="post">
+                <div class="form-group">
+                  <div class="col-md-5 form-group">
+                    <input type="text" class="form-control" placeholder="First Name">
+                  </div>
 
-                  <input type="text" class="form-control" placeholder="Last Name">
+                  <div class="col-md-5 form-group">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                  </div>
                 </div>
 
-                <div class="form-group">
+                <div class="col-md-10 form-group">
                   <input type="email" class="form-control" placeholder="Your Email">
                 </div> 
               
-                <div class="form-group">
+                <div class="col-md-10 form-group">
                   <input type="password" class="form-control" placeholder="Your New Password">
                 </div> 
               
-                <div class="form-group">
+                <div class="col-md-10 form-group">
                   <input type="password" class="form-control" placeholder="Confirm Your Password">
                 </div>
 
-                <div class="form-group">
+                <div class="col-md-10 form-group">
                   <label for="">Enter Your Birthday</label>
                   <div class="form-inline">
                     <select class="form-control">
@@ -116,7 +123,7 @@
                   </div>
                 </div>
 
-                <div class="form-group">
+                <div class="col-md-10 form-group">
                   <label class="radio-inline">
                     <input type="radio" name="genderRadioOptions" id="gender-female" value="female"> Female
                   </label>
@@ -125,8 +132,8 @@
                   </label>
                 </div>
                 
-                <div class="form-group">
-                  <button type="submit" class="btn btn-default btn-block">Sign Up!</button> 
+                <div class="col-md-10 form-group">
+                  <button type="submit" class="btn btn-default btn-block" id="signup-button">Sign Up!</button> 
                 </div>
 
               </form>
