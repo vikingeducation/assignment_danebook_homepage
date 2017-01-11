@@ -14,6 +14,10 @@ $primary-color: #fff;
   .navbar-form .form-group label {
     color: $primary-color;
   }
+
+  .navbar-brand {
+    font-size: 28px;
+  }
 }
 
 .list-container {
