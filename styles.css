@@ -5,13 +5,19 @@
   .navbar .navbar-brand {
     color: white;
     font-size: 36px;
-    line-height: 55px; }
+    line-height: 50px; }
   .navbar h1 {
     color: white; }
 
-.form-group h6 {
+.navbar-form {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.navbar-form .form-group h6 {
   color: white;
-  font-size: 14px; }
+  font-size: 14px;
+  margin: 0 0 5px;
+  padding: 0; }
 
 #login-button {
   background-color: #9FC5F8;
