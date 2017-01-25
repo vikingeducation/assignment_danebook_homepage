@@ -105,11 +105,9 @@
 
                     <!-- "Birthday" label -->
 
-                    <!-- The following three dropdowns should be in a single row, left aligned -->
-
                     <div class="row">
                         <!-- User month of birth select dropdown -->
-                        <div class="col-xs-4">
+                        <div class="col-xs-3">
                             <div class="form-group">
                                 <select class="form-control" id="birthday-month-select">
                               <option>Month</option>
@@ -118,7 +116,7 @@
                         </div>
 
                         <!-- User day of birth select dropdown -->
-                        <div class="col-xs-4">
+                        <div class="col-xs-3">
                             <div class="form-group">
                                 <select class="form-control" id="birthday-day-select">
                               <option>Day</option>
@@ -127,7 +125,7 @@
                         </div>
 
                         <!-- User year of birth select dropdown -->
-                        <div class="col-xs-4">
+                        <div class="col-xs-3">
                             <div class="form-group">
                                 <select class="form-control" id="birthday-year-select">
                               <option>Year</option>
@@ -136,24 +134,28 @@
                         </div>
                     </div>
 
-                    <!-- The following two radio buttons should be in a single row, left aligned -->
-
                     <!-- User gender selection -->
                     <fieldset class="form-group">
-                        <!-- User gender option: female -->
-                        <div class="form-check">
-                            <label class="form-check-label">
+                        <div class="row">
+                            <!-- User gender option: female -->
+                            <div class="col-xs-3">
+                                <div class="form-check">
+                                    <label class="form-check-label">
                               <input type="radio" class="form-check-input" name="user-gender" id="option-gender-female" unchecked>
                               Female
                             </label>
-                        </div>
+                                </div>
+                            </div>
 
-                        <!-- User gender option: male -->
-                        <div class="form-check">
-                            <label class="form-check-label">
+                            <!-- User gender option: male -->
+                            <div class="col-xs-3">
+                                <div class="form-check">
+                                    <label class="form-check-label">
                               <input type="radio" class="form-check-input" name="user-gender" id="option-gender-male" unchecked>
                               Male
                             </label>
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
 
