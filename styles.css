@@ -1,3 +1,6 @@
+body {
+  margin-top: 90px; }
+
 .navbar {
   background-color: #2B78E4; }
   .navbar label {
@@ -5,6 +8,7 @@
   .navbar .navbar-brand {
     color: white;
     font-size: 36px;
+    height: 80px;
     line-height: 50px; }
   .navbar h1 {
     color: white; }
@@ -22,5 +26,8 @@
 #login-button {
   background-color: #9FC5F8;
   color: black; }
+
+#navbar-brand-container {
+  height: 80px; }
 
 /*# sourceMappingURL=styles.css.map */
