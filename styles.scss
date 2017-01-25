@@ -1,17 +1,29 @@
-body {
-    padding-top: 80px;
-}
-
 .navbar {
     background-color: #2B78E4;
-}
 
-.navbar .navbar-brand {
-    color: white;
-}
-
-.navbar {
     label {
         color: white;
     }
+
+    .navbar-brand {
+        color: white;
+        font-size: 36px;
+        line-height: 55px;
+    }
+
+    h1 {
+        color: white;
+    }
+}
+
+.form-group {
+    h6 {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+#login-button {
+    background-color: #9FC5F8;
+    color: black;
 }
