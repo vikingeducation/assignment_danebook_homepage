@@ -21,30 +21,49 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top justify-content-between">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
         <div class="container">
             <div class="row">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="col-md-4" id="navbar-brand-container">
-                    <a class="navbar-brand">Danebook</a>
+                <div class="col-md-5">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                        <a class="navbar-brand" href="#">Danebook</a>
+                    </div>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="col-md-8">
-                    <form class="navbar-form form-group navbar-right">
-                        <div class="form-group">
-                            <h6>Email</h6>
-                            <input type="email" class="form-control input-sm" id="login-email">
-                        </div>
+                <div class="col-md-7">
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <form class="navbar-form form-group navbar-right">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <div class="form-group">
+                                        <h6>Email</h6>
+                                        <input type="email" class="form-control input-sm" id="login-email">
+                                    </div>
+                                </li>
 
-                        <div class="form-group">
-                            <h6>Password</h6>
-                            <input type="password" class="form-control input-sm" id="login-password">
-                            <button type="button" class="btn btn-primary btn-sm" id="login-button">
+                                <li>
+                                    <div class="form-group">
+                                        <h6>Password</h6>
+                                        <input type="password" class="form-control input-sm" id="login-password">
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="form-group">
+                                        <button type="button" class="btn navbar-btn btn-sm" id="login-button">
                               Log In
                             </button>
-                        </div>
-                    </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -173,8 +192,5 @@
     </main>
 
 </body>
-
-</html>
-
 
 </html>

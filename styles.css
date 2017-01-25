@@ -1,5 +1,5 @@
 body {
-  margin-top: 90px; }
+  margin-top: 81px; }
 
 .navbar {
   background-color: #2B78E4; }
@@ -8,26 +8,31 @@ body {
   .navbar .navbar-brand {
     color: white;
     font-size: 36px;
-    height: 80px;
-    line-height: 50px; }
+    vertical-align: middle;
+    line-height: inherit;
+    height: 90px; }
   .navbar h1 {
     color: white; }
-
-.navbar-form {
-  margin-top: 15px;
-  margin-bottom: 15px; }
 
 .navbar-form .form-group h6 {
   color: white;
   font-size: 14px;
-  margin: 0 0 5px;
   padding: 0; }
+
+#login-email,
+#login-password {
+  margin-right: 10px; }
 
 #login-button {
   background-color: #9FC5F8;
-  color: black; }
+  color: black;
+  margin-top: 35px; }
 
-#navbar-brand-container {
-  height: 80px; }
+#left-panel {
+  padding-top: 50px; }
+
+.navbar-toggle {
+  margin-top: 28px;
+  margin-bottom: 28px; }
 
 /*# sourceMappingURL=styles.css.map */
