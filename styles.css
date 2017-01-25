@@ -5,16 +5,9 @@ body {
   background-color: #2B78E4; }
 
 .navbar .navbar-brand {
-  color: white;
-  font-size: 34px; }
-
-.navbar-default {
-  padding: 15px; }
+  color: white; }
 
 .navbar label {
   color: white; }
-
-#left-panel {
-  padding-top: 40px; }
 
 /*# sourceMappingURL=styles.css.map */
