@@ -11,7 +11,7 @@ body {
 
     .navbar-brand {
         color: white;
-        font-size: 36px;
+        font-size: 44px;
         vertical-align: middle;
         line-height: inherit;
         height: 90px;
@@ -33,16 +33,26 @@ body {
 #login-email,
 #login-password {
     margin-right: 10px;
+    border: 1px black solid;
 }
 
 #login-button {
     background-color: #9FC5F8;
     color: black;
     margin-top: 35px;
+    border: 1px black solid;
 }
 
 #left-panel {
-    padding-top: 50px;
+    padding-top: 65px;
+}
+
+#right-panel {
+    padding-top: 15px;
+}
+
+#signup-button {
+    border: 1px black solid;
 }
 
 .navbar-toggle {
