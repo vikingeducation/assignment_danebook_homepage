@@ -22,11 +22,16 @@ body {
     }
 }
 
-.navbar-form .form-group {
-    h6 {
-        color: white;
-        font-size: 14px;
-        padding: 0;
+.navbar-form {
+    border: none;
+    box-shadow: none;
+
+    .form-group {
+        h6 {
+            color: white;
+            font-size: 14px;
+            padding: 0;
+        }
     }
 }
 
