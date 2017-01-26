@@ -24,6 +24,10 @@ main {
     font-size: 14px;
     padding: 0; }
 
+#myNavbar {
+  border: none;
+  box-shadow: none; }
+
 #login-email,
 #login-password {
   margin-right: 10px;
@@ -50,11 +54,18 @@ main {
   padding-bottom: 20px; }
   #right-panel header {
     padding-bottom: 10px; }
+  #right-panel .form-group .account-info-input {
+    border: 2px #CFCFCF solid; }
   #right-panel #birthday-select {
     padding-top: 2px; }
   #right-panel #gender-select {
     padding-top: 2px;
     padding-bottom: 2px; }
+  #right-panel #option-gender-female,
+  #right-panel #option-gender-male {
+    border: 2px black solid; }
+  #right-panel select {
+    border: 2px black solid; }
 
 #signup-button {
   border: 2px black solid; }
