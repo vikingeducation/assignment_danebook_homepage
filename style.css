@@ -1,0 +1,14 @@
+body {
+  margin: 0; }
+
+.navbar-default {
+  background-color: #3b5998;
+  height: 75px; }
+  .navbar-default .navbar-header .navbar-brand {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
