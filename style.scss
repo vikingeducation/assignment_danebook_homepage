@@ -31,6 +31,8 @@ body {
       margin-top: 23px;
       color: $default;
       font-weight: bold;
+      box-shadow: 5px 5px 5px $default;
+
     }
   }
 }
@@ -46,9 +48,25 @@ main {
   }
 }
 
+#first {
+  margin-right:  60px;
+}
+
+#mail {
+  margin-top: 10px;
+
+}
 .dropdown {
   display: inline-block;
 }
 .radio {
   display: inline-block;
+  line-height: normal;
+}
+
+.btn-success {
+  width: 457px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 5px 5px 5px $default;
 }
