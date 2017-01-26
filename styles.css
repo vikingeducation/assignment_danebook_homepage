@@ -1,5 +1,5 @@
-body {
-  margin-top: 81px; }
+main {
+  margin-top: 97px; }
 
 .navbar {
   background-color: #2B78E4;
@@ -34,6 +34,7 @@ body {
   background-color: #9FC5F8;
   color: black;
   margin-top: 34px;
+  margin-right: 15px;
   border: 2px black solid; }
 
 #left-panel {
@@ -45,7 +46,8 @@ body {
     color: #736866; }
 
 #right-panel {
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
   #right-panel header {
     padding-bottom: 10px; }
   #right-panel #birthday-select {
