@@ -4,16 +4,19 @@ body {
 .navbar-default {
   background-color: #3b5998;
   height: 75px; }
-  .navbar-default h1 {
-    color: white;
-    font-size: 50px;
-    font-family: sans-serif;
-    text-decoration: none;
-    vertical-align: middle; }
+  .navbar-default .navbar-header {
+    float: none; }
+    .navbar-default .navbar-header h1 {
+      display: inline-block;
+      color: white;
+      font-size: 40px;
+      font-family: sans-serif;
+      text-decoration: none;
+      vertical-align: middle; }
 
 main {
   margin-top: 100px;
-  line-height: 2; }
+  line-height: 3; }
   main h2 {
     font-weight: bold; }
   main li {
