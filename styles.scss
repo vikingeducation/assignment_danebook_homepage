@@ -4,6 +4,8 @@ body {
 
 .navbar {
     background-color: #2B78E4;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
 
     label {
         color: white;
@@ -38,26 +40,47 @@ body {
 #login-email,
 #login-password {
     margin-right: 10px;
-    border: 1px black solid;
+    border: 2px black solid;
 }
 
 #login-button {
+    font-weight: bold;
     background-color: #9FC5F8;
     color: black;
-    margin-top: 35px;
-    border: 1px black solid;
+    margin-top: 34px;
+    border: 2px black solid;
 }
 
 #left-panel {
     padding-top: 65px;
+    margin-bottom: 45px;
+    font-size: 20px;
+
+    li {
+        padding: 10px;
+        color: #736866;
+    }
 }
 
 #right-panel {
-    padding-top: 15px;
+    padding-top: 20px;
+
+    header {
+        padding-bottom: 10px;
+    }
+
+    #birthday-select {
+        padding-top: 2px;
+    }
+
+    #gender-select {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
 }
 
 #signup-button {
-    border: 1px black solid;
+    border: 2px black solid;
 }
 
 .navbar-toggle {
