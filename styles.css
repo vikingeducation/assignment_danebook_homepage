@@ -1,3 +1,24 @@
+* {
+  outline: 1px solid gray; }
 
+.navbar-brand {
+  font-size: 24px;
+  margin-top: 0.3em; }
+
+nav.navbar-default {
+  background-color: #4D82EB;
+  color: white; }
+  nav.navbar-default button {
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #F4FEFF; }
+
+#nav-menu form {
+  margin: 1em; }
+  #nav-menu form div[class="col-sm-2 col-md-2"] {
+    margin-top: 25px; }
+    #nav-menu form div[class="col-sm-2 col-md-2"] input {
+      background-color: #a9c2f5;
+      border-radius: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
