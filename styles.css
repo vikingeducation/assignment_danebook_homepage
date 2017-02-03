@@ -8,9 +8,14 @@
 nav.navbar-default {
   background-color: #4D82EB;
   color: white; }
+  nav.navbar-default #logo {
+    color: #F4FEFF;
+    font-size: 40px;
+    margin-left: 0.2em;
+    margin-top: 0.8em; }
   nav.navbar-default button {
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     background-color: #F4FEFF; }
 
 #nav-menu form {

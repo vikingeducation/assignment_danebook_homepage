@@ -13,9 +13,15 @@ $primary-color: #4D82EB;
 nav.navbar-default{
 	background-color: $primary-color;
 	color: white;
+	#logo{
+		color: $white;
+		font-size: 40px;
+		margin-left: 0.2em;
+		margin-top: 0.8em;
+	}
 	button{
 		margin-top: 10px;
-		margin-right: 10px;
+		margin-right: 5px;
 		background-color: $white;
 	}
 }
