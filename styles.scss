@@ -11,14 +11,16 @@ $primary-color: #4D82EB;
 }
 
 nav.navbar-default{
+	//navbar
 	background-color: $primary-color;
-	color: white;
+	color: $white;
 	#logo{
 		color: $white;
 		font-size: 40px;
 		margin-left: 0.2em;
-		margin-top: 0.8em;
+		margin-top: 0.6em;
 	}
+	//collapsed menu button styling
 	button{
 		margin-top: 10px;
 		margin-right: 5px;
@@ -30,7 +32,8 @@ nav.navbar-default{
 #nav-menu{
 	form{
 	margin: 1em;
-		div[class="col-sm-2 col-md-2"]{
+		//nav menu button styling
+		div[class="col-sm-2 col-md-2"]{ 
 			margin-top: 25px;
 			input{
 				background-color: lighten($primary-color, 20%);
