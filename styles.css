@@ -26,4 +26,7 @@ nav.navbar-default {
       background-color: #a9c2f5;
       border-radius: 0px; }
 
+#welcome_message {
+  float: left; }
+
 /*# sourceMappingURL=styles.css.map */
