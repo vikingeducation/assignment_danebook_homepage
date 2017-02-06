@@ -3,8 +3,9 @@
 }
 $white: #F4FEFF;
 $primary-color: #4D82EB;
-
-
+$gray: #636667;
+/****/
+/**Navibation bar**/
 .navbar-brand{
 	font-size: 24px;
 	margin-top: 0.3em;
@@ -28,7 +29,7 @@ nav.navbar-default{
 	}
 }
 
-
+/**nav menu when extended**/
 #nav-menu{
 	form{
 	margin: 1em;
@@ -42,7 +43,25 @@ nav.navbar-default{
 		}
 	}
 }
-
+/**Welcome message**/
 #welcome_message{
-	float: left;
+	margin-top: 5em;
+	h1{
+		margin-left: 1em;
+	}
+	ul{
+		margin-left: 2em;
+		li{
+			margin: 1.5em auto;
+			font-size: 1.2em;
+			letter-spacing:2px;
+			color: $gray;			
+		}
+	}
+}
+
+/**Signup Form**/
+
+#signup-form{
+	
 }

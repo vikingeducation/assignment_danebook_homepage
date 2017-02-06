@@ -1,6 +1,8 @@
 * {
   outline: 1px solid gray; }
 
+/****/
+/**Navibation bar**/
 .navbar-brand {
   font-size: 24px;
   margin-top: 0.3em; }
@@ -18,6 +20,7 @@ nav.navbar-default {
     margin-right: 5px;
     background-color: #F4FEFF; }
 
+/**nav menu when extended**/
 #nav-menu form {
   margin: 1em; }
   #nav-menu form div[class="col-sm-2 col-md-2"] {
@@ -26,7 +29,19 @@ nav.navbar-default {
       background-color: #a9c2f5;
       border-radius: 0px; }
 
+/**Welcome message**/
 #welcome_message {
-  float: left; }
+  margin-top: 5em; }
+  #welcome_message h1 {
+    margin-left: 1em; }
+  #welcome_message ul {
+    margin-left: 2em; }
+    #welcome_message ul li {
+      margin: 1.5em auto;
+      font-size: 1.2em;
+      letter-spacing: 2px;
+      color: #636667; }
+
+/**Signup Form**/
 
 /*# sourceMappingURL=styles.css.map */
