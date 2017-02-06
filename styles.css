@@ -1,0 +1,97 @@
+/**width 768**/
+/**Navibation bar**/
+.navbar-brand {
+  font-size: 24px;
+  margin-top: 0.3em; }
+
+nav.navbar-default {
+  background-color: #4D82EB;
+  color: #F4FEFF; }
+  nav.navbar-default #logo {
+    color: #F4FEFF;
+    font-size: 40px;
+    margin-left: 0.2em;
+    margin-top: 0.6em; }
+  nav.navbar-default button {
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #F4FEFF; }
+
+/**nav menu when extended**/
+#nav-menu form {
+  margin: 1em 1em; }
+  #nav-menu form div[class="col-sm-2 col-md-2"] {
+    margin-top: 25px; }
+    #nav-menu form div[class="col-sm-2 col-md-2"] input {
+      background-color: #a9c2f5;
+      border-radius: 0px; }
+
+/**Welcome message**/
+#welcome_message {
+  margin-top: 5em; }
+  @media screen and (max-width: 768px) {
+    #welcome_message {
+      margin-top: 0; } }
+  #welcome_message h1 {
+    margin-left: 1em; }
+    @media screen and (max-width: 768px) {
+      #welcome_message h1 {
+        font-size: 1em; } }
+  #welcome_message ul {
+    margin-left: 2em; }
+    #welcome_message ul li {
+      margin: 1.5em auto;
+      font-size: 1.2em;
+      letter-spacing: 2px;
+      color: #636667; }
+      @media screen and (max-width: 768px) {
+        #welcome_message ul li {
+          margin: 0;
+          font-size: 1em;
+          letter-spacing: 0px; } }
+
+/**Signup Form**/
+#signup_form {
+  margin-top: 0.5em; }
+  #signup_form > h1 {
+    width: 80%;
+    padding-left: 0px;
+    font-size: 3em; }
+  #signup_form form {
+    margin-top: 1.5em;
+    width: 80%; }
+    #signup_form form div {
+      margin-bottom: 0; }
+      #signup_form form div input {
+        height: 32px;
+        font-size: 1.2em;
+        margin-bottom: 1.5em;
+        border: 1px solid #636667;
+        color: #96999a; }
+        @media screen and (max-width: 488px) {
+          #signup_form form div input {
+            height: 24px;
+            font-size: 1em;
+            margin-bottom: 1em; } }
+
+#gender_menu {
+  margin-top: 1.5em; }
+  #gender_menu label {
+    margin-right: 2em; }
+    #gender_menu label input[type="radio"] {
+      vertical-align: middle;
+      margin-top: -6px; }
+
+#signup_btn {
+  margin-top: 1.5em; }
+  #signup_btn input[type="button"] {
+    color: white;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 4px 4px 0px #888; }
+    @media screen and (max-width: 488px) {
+      #signup_btn input[type="button"] {
+        height: 3.5em;
+        padding-bottom: 1em; } }
+
+/*# sourceMappingURL=styles.css.map */

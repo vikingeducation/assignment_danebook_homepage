@@ -1,0 +1,131 @@
+
+$white: #F4FEFF;
+$primary-color: #4D82EB;
+$gray: #636667;
+
+$break-large: 768px;
+/**width 768**/
+/**Navibation bar**/
+.navbar-brand{
+	font-size: 24px;
+	margin-top: 0.3em;
+}
+
+nav.navbar-default{
+	//navbar
+	background-color: $primary-color;
+	color: $white;
+	#logo{
+		color: $white;
+		font-size: 40px;
+		margin-left: 0.2em;
+		margin-top: 0.6em;
+	}
+	//collapsed menu button styling
+	button{
+		margin-top: 10px;
+		margin-right: 5px;
+		background-color: $white;
+	}
+}
+
+/**nav menu when extended**/
+#nav-menu{
+	form{
+	margin: 1em 1em;
+		//nav menu button styling
+		div[class="col-sm-2 col-md-2"]{ 
+			margin-top: 25px;
+			input{
+				background-color: lighten($primary-color, 20%);
+				border-radius: 0px;
+			}
+		}
+	}
+}
+/**Welcome message**/
+#welcome_message{
+	margin-top: 5em;
+	@media screen and (max-width: $break-large){
+		margin-top: 0;
+	}
+	h1{
+		margin-left: 1em;
+		@media screen and (max-width: $break-large){
+		font-size: 1em;
+	}
+	}
+	ul{
+		margin-left: 2em;
+		li{
+			margin: 1.5em auto;
+			font-size: 1.2em;
+			letter-spacing:2px;
+			color: $gray;		
+			@media screen and (max-width: $break-large)	{
+				margin: 0;
+				font-size: 1em;
+				letter-spacing: 0px;
+			}
+		}
+	}
+}
+
+/**Signup Form**/
+
+#signup_form{
+	margin-top: 0.5em;
+	>h1{
+		width: 80%;
+		padding-left: 0px;
+		font-size: 3em;
+	}
+	form{
+		margin-top: 1.5em;
+		width: 80%;
+		div{
+			margin-bottom: 0;
+			input{
+				height: 32px;
+				font-size: 1.2em;
+				margin-bottom: 1.5em;
+				border: 1px solid $gray;
+				color: lighten($gray, 20);
+				@media screen and (max-width: $break-large - 280){
+					height: 24px;
+				font-size: 1em;
+				margin-bottom: 1em;
+				}
+			}			
+		}		
+	}
+}
+
+#gender_menu{
+	margin-top: 1.5em;
+			label{
+				margin-right: 2em;
+				
+				input[type="radio"]{
+					vertical-align: middle;
+					margin-top: -6px;
+				}
+			}
+		}
+
+#signup_btn{
+	margin-top: 1.5em;
+
+	input[type="button"]{
+		color: white;
+		width: 100%;
+		border-radius: 0;
+		box-shadow: 4px 4px 0px #888;
+		@media screen and (max-width: $break-large - 280){
+			height: 3.5em;
+			padding-bottom: 1em;
+		}
+	}
+}
+
+
