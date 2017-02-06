@@ -49,7 +49,7 @@
     </nav>
     <main class="row">
       <!-- Welcome Message float left? add height.-->
-      <section class="col-xs-12 col-sm-6" id="welcome_message">
+      <section class="col-xs-12 col-sm-5 col-sm-offset-1" id="welcome_message">
         <h1>Connect with all your friends!</h1>
         <ul>
           <li>See photos and updates to your newsfeed.</li>
@@ -60,22 +60,24 @@
       </section>
       <!--Sign up form -->
       <section class="col-xs-12 col-sm-6" id="signup_form">
-      <h1>Sign Up</h1>
+      <h1 class="container">Sign Up</h1>
       <form class="container" action="#" method="post">
         <div class="form-group row">
           <label class="sr-only" for="firstname">First Name</label>
-          <input type="text" name="firstname" value="First Name">
+          <input class="col-xs-5" type="text" name="firstname" value="First Name">
           <label class="sr-only" for="lastname">Last Name</label>
-          <input type="text" name="lastname" value="Last Name">
+          <input class="col-xs-5 col-xs-offset-2" type="text" name="lastname" value="Last Name">
         </div>
-        <div>
+        <div class="form-group row">
+          <label class="sr-only" for="email">Your Email</label>
+          <input class="col-xs-12 " type="email" name="email" placeholder="Your Email"> 
           <label class="sr-only" for="password">Password</label>
-          <input type="password" name="password" placeholder="Your New Password">
+          <input class="col-xs-12" type="password" name="password" placeholder="Your New Password">
           <label class="sr-only" for="password-check">Check Password</label>
-          <input type="password" name="password-check" placeholder="Confirm Your Password">
+          <input class="col-xs-12 col-md-12" type="password" name="password-check" placeholder="Confirm Your Password">
         </div>
-        <div>
-          <h1>Birthday</h1>
+        <div class="form-group row">
+          <h4>Birthday</h4>
           <label class="sr-only" for="birth-month">Birth Month</label>
           <select name="birth-month" id="birth-month">
             <option value="Jan">Jan</option>
@@ -237,7 +239,7 @@
             <option value="1900">1900</option>
           </select>
         </div>
-        <div>          
+        <div class="form-group row" id="gender_menu">  
           <label class="radio-inline">
             <input type="radio" name="male" value="male">Male
           </label>          
@@ -245,8 +247,9 @@
             <input type="radio" name="female" value="female">Female
           </label>
         </div>
-        <div>
-          <button>Sign Up</button>
+        <div class="form-group row" id="signup_btn">
+          <label class="sr-only" for="signup_btn">Sign Up</label>
+          <input type="button" name="signup-btn" class="btn btn-success" value="Sign Up!">
         </div>
       </form>  
       </section>
