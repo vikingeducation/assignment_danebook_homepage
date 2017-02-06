@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+.navbar {
+
+    background: #252ddf;
+}
+
+.navbar-brand {
+    color: #fff;
+
+}
+
+.icon-bar {
+    background: #fff;
+}
+.input {
+    color: #fff;
+}
+
+.left-area {
+    padding: 200px 50px;
+}
+
+.right-area {
+    padding: 120px 50px;
+    input {
+        margin-top: 15px;
+    }
+    .sign-up {
+        margin-top: 25px;
+        padding: 5px;
+    }
+    .bday {
+        margin-top: 10px;
+    }
+    .gender {
+        margin-top: 10px;
+    }
+    .log-in {
+        color: #000;
+    }
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .left-area {
+    padding: 100px 15px 15px;
+}
+
+.right-area {
+    padding: 20px 15px 15px;
+    input {
+        margin-top: 10px;
+    }
+    .sign-up {
+        margin-top: 15px;
+    }
+}
+}
+
+@media screen and (max-width: 767px) {
+
+    .left-area {
+        padding: 80px 15px 10px;
+    }
+
+    .right-area {
+        padding: 15px;
+        input {
+            margin-top: 10px;
+        }
+        .sign-up {
+            margin-top: 15px;
+        }
+        .dropdown {
+            margin-top: 10px;
+        }
+    }
+    .log-in {
+        margin-top: 15px;
+    }
+
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    select {
+        margin-top: 15px;
+    }
+}
+
