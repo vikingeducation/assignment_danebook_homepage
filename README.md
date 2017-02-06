@@ -2,4 +2,4 @@
 
 *[A Bootstrap, HTML5, CSS3 and SASS project from the Viking Code School](http://www.vikingcodeschool.com)*
 
-Worked on by [Roy Chen](https://github.com/roychen5)
+Worked on by [Roy Chen](https://github.com/roychen25)
