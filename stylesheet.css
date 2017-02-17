@@ -1,0 +1,15 @@
+.navbar {
+	background-color: royalblue;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+.jumbotron {
+	background-color: white;
+}
