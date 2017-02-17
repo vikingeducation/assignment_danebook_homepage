@@ -1,15 +1,27 @@
 .navbar {
-	background-color: royalblue;
-}
+  background-color: royalblue; }
+  .navbar button {
+    background-color: lightskyblue;
+    margin-right: 15px; }
 
 .navbar-brand {
-	color: white;
-}
-
-h2 {
-	font-weight: bold;
-}
+  color: white;
+  margin-left: 10px; }
+  .navbar-brand p {
+    font-size: 24px; }
 
 .jumbotron {
-	background-color: white;
-}
+  background-color: white;
+  font-size: 20px; }
+  .jumbotron h2 {
+    font-weight: bold;
+    font-size: 36px; }
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+li {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=stylesheet.css.map */
