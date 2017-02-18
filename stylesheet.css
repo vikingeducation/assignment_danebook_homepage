@@ -1,14 +1,21 @@
 .navbar {
-  background-color: royalblue; }
+  background-color: royalblue;
+  border-bottom: solid black 2px; }
   .navbar button {
     background-color: lightskyblue;
     margin-right: 15px; }
 
 .navbar-brand {
   color: white;
-  margin-left: 10px; }
-  .navbar-brand p {
-    font-size: 24px; }
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bold; }
+
+.first-name {
+  padding-left: 0; }
+
+.last-name {
+  padding-right: 0; }
 
 .jumbotron {
   background-color: white;
@@ -21,7 +28,16 @@ h1 {
   margin-bottom: 20px;
   font-weight: bold; }
 
+h3 {
+  margin-bottom: 15px; }
+
 li {
   margin-top: 20px; }
+
+.radio-inline {
+  margin-bottom: 15px; }
+
+select {
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
