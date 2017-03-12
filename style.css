@@ -1,5 +1,6 @@
 .navbar {
   background-color: blue;
+  border: solid black 1px;
   height: 70px; }
 
 .navbar-header .navbar-brand {
@@ -9,7 +10,7 @@
   padding-left: -5px; }
 
 .navbar-form {
-  height: 15px;
+  height: 5px;
   padding-top: 14px; }
 
 .form-control {
@@ -19,7 +20,10 @@
   height: 30px; }
 
 .btn-success {
-  color: white;
+  color: black;
   background-color: lightblue; }
+
+input {
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */

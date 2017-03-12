@@ -2,6 +2,7 @@
 
 .navbar {
 	background-color: blue;
+	border: solid black 1px;
 	height: 70px;
 }
 
@@ -13,7 +14,7 @@
 }
 
 .navbar-form {
-	height: 15px;
+	height: 5px;
 	padding-top: 14px;
 }
 
@@ -27,6 +28,10 @@
 }
 
 .btn-success {
-	color: white;
+	color: black;
 	background-color: lightblue;
+}
+
+input {
+	display: block;
 }
