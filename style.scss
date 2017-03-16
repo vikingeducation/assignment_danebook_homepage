@@ -32,15 +32,67 @@
 	background-color: lightblue;
 }
 
+h1 {
+	padding-bottom: 10px;
+
+}
+
+h2 {
+	display: inline-block;
+}
+
 input {
 	display: block;
 }
 
 .list-section {
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-left: 85px;
 }
 
 li {
 	margin: 15px 0;
+}
+
+h1 {
+	position: absolute;
+	right: 0;
+	top: 60px;
+	left: 790px;
+	font-size: 45px;
+}
+
+.first-name {
+	position: absolute;
+	top: 145px;
+	left: 790px;
+	width: 165px;
+}
+
+.last-name {
+	position: absolute;
+	left: 975px;
+	top: 145px;
+	width: 165px;
+}
+
+.Email {
+	position: absolute;
+	left: 790px;
+	top: 200px;
+	width: 350px;
+}
+
+.password {
+	position: absolute;
+	left: 790px;
+	width: 350px;
+	top: 260px;
+}
+
+.confirm-password {
+	position: absolute;
+	left: 790px;
+	width: 350px;
+	top: 320px;
 }
