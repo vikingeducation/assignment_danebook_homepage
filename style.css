@@ -76,4 +76,23 @@ h1 {
   width: 350px;
   top: 320px; }
 
+h3 {
+  position: absolute;
+  left: 790px; }
+
+.month {
+  position: absolute;
+  left: 790px;
+  top: 425px; }
+
+.day {
+  position: absolute;
+  left: 905px;
+  top: 425px; }
+
+.year {
+  position: absolute;
+  left: 975px;
+  top: 425px; }
+
 /*# sourceMappingURL=style.css.map */
