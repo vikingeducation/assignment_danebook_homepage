@@ -43,7 +43,7 @@ h2 {
 
 
 .list-section {
-	margin-top: 150px;
+	margin-top: 115px;
 	margin-left: 85px;
 }
 
@@ -64,6 +64,7 @@ h1 {
 	top: 145px;
 	left: 790px;
 	width: 165px;
+	border: solid 2px grey;
 }
 
 .last-name {
@@ -71,6 +72,7 @@ h1 {
 	left: 975px;
 	top: 145px;
 	width: 165px;
+	border: solid 2px grey;
 }
 
 .Email {
@@ -78,6 +80,7 @@ h1 {
 	left: 790px;
 	top: 200px;
 	width: 350px;
+	border: solid 2px grey;
 }
 
 .password {
@@ -85,6 +88,7 @@ h1 {
 	left: 790px;
 	width: 350px;
 	top: 260px;
+	border: solid 2px grey;
 }
 
 .confirm-password {
@@ -92,37 +96,58 @@ h1 {
 	left: 790px;
 	width: 350px;
 	top: 320px;
+	border: solid 2px grey;
 }
 
 h3 {
 	position: absolute;
 	left: 790px;
+	top:345px;
 }
 
 .month {
 	position: absolute;
 	left: 790px;
-	top: 425px;
+	top: 405px;
 }
 
 .day {
 	position: absolute;
 	left: 905px;
-	top: 425px;
+	top: 405px;
 }
 
 .year {
 	position: absolute;
 	left: 975px;
-	top: 425px;
+	top: 405px;
 }
 
 .gender-select {
 	position: absolute;
-	top: 500px;
-	left: 790px;
+	top: 450px;
+	left: 785px;
 }
 
 input[type="radio"]{
   margin: 0 10px 0 10px;
+}
+
+.sign-up {
+	position: absolute;
+	top: 490px;
+	left:790px;
+	width: 350px;
+	
+}
+
+.sign-up-button {
+	background-color: green;
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 3px;
+	box-shadow: 3px 3px black;
+	border: solid 1px black
 }
