@@ -41,9 +41,6 @@ h2 {
 	display: inline-block;
 }
 
-input {
-	display: block;
-}
 
 .list-section {
 	margin-top: 150px;
@@ -118,4 +115,14 @@ h3 {
 	position: absolute;
 	left: 975px;
 	top: 425px;
+}
+
+.gender-select {
+	position: absolute;
+	top: 500px;
+	left: 790px;
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
 }
