@@ -1,0 +1,52 @@
+.form-row {
+  [class*="col-"] {
+    margin-bottom: 15px;
+  }
+}
+
+.navbar-danebook {
+    background-color: #2B78E4;
+    border-color: #000;
+}
+
+.login-label {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.form-control {
+  &.login {
+    display: block;
+  }
+}
+
+.btn-login {
+  vertical-align:bottom;
+  color: #000;
+}
+
+.navbar-brand {
+  &.logo {
+    color: #fff;
+    font-size: 3em;
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.content {
+  padding-top: 80px;
+}
+
+.features {
+  li {
+    padding: 5px 0;
+  }
+}
+
+.info {
+  padding-top: 40px;
+}
