@@ -1,0 +1,16 @@
+/* Keep overrides minimal to avoid fighting Bootstrap */
+/* color of the main header background*/
+.navbar-default {
+  background-color: #2b78e4;
+  color: #fff;
+  border-bottom: 3px solid #333;
+  min-height: 96px;
+  padding-top: 20px; }
+  .navbar-default .navbar-header a {
+    color: #fff;
+    font-size: 36px; }
+
+/* space out these forms
+Sometimes need deep specificity to override Bootstrap*/
+#sign-up-forms form input, #sign-up-forms form select {
+  margin-bottom: 8px; }
